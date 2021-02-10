@@ -13,7 +13,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    音乐剧Hamilton剧本（全） |  SHIKAMARU
+    音乐剧Hamilton剧本 |  SHIKAMARU
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -55,7 +55,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  音乐剧Hamilton剧本（全）
+  音乐剧Hamilton剧本
 </h1>
  
 
@@ -74,7 +74,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">14</span>
+            <span class="post-count">25</span>
         </span>
     </span>
 
@@ -98,25 +98,26 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="Hamilton剧本"><a href="#Hamilton剧本" class="headerlink" title="Hamilton剧本"></a>Hamilton剧本</h2><blockquote>
+  <h2 id="音乐剧Hamilton剧本"><a href="#音乐剧Hamilton剧本" class="headerlink" title="音乐剧Hamilton剧本"></a>音乐剧Hamilton剧本</h2><blockquote>
 <p>Hamilton的剧本，我自己做的标注</p>
 </blockquote>
 <a id="more"></a>
 
-<object data="/hamilton/Hamilton.pdf" type="application/pdf" width="100%" height="1000px">
+<br/>
 
-<object data="./hamilton/Hamilton.pdf" type="application/pdf" width="100%" height="1000px">
-
-<object data="./Hamilton.pdf" type="application/pdf" width="100%" height="1000px">
-
-
+<h4 id="在线预览："><a href="#在线预览：" class="headerlink" title="在线预览："></a>在线预览：</h4>
 
 	<div class="row">
-    <embed src="./hamilton/Hamilton.pdf" width="100%" height="550" type="application/pdf">
+    <embed src="../../../resource/hamilton.pdf" width="100%" height="550" type="application/pdf">
 	</div>
 
 
 
+
+
+<br/>
+
+<h4 id="下载："><a href="#下载：" class="headerlink" title="下载："></a>下载：</h4><p><a href="https://shikamaru-go.gitee.io/resource/hamilton.pdf">Hamilton.pdf</a></p>
  
       <!-- reward -->
       
@@ -208,57 +209,86 @@
     
   </nav>
 
+  
    
-<!-- valine评论 -->
-<div id="vcomments-box">
-  <div id="vcomments"></div>
+   
+<!-- minivaline评论 -->
+<div id="mvcomments-box">
+  <div id="mvcomments"></div>
 </div>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/minivaline@latest"></script>
 <script>
-  new Valine({
-    el: "#vcomments",
-    app_id: "byIYeR5Wrc9joDc8Xxr0E5ux-gzGzoHsz",
-    app_key: "0tl8L4qNWiOpdBIkmBTbpzm9",
-    path: window.location.pathname,
-    avatar: "robohash",
-    placeholder: "给我的文章加点评论吧~",
-    recordIP: true,
-  });
-  const infoEle = document.querySelector("#vcomments .info");
+    new MiniValine(Object.assign({"enable":true,"mode":"DesertsP","placeholder":"给我的文章加点评论吧~","math":false,"md":true,"enableQQ":false,"NoRecordIP":false,"visitor":false,"maxNest":6,"pageSize":6,"adminEmailMd5":"de8a7aa53d07e6b6bceb45c64027763d","tagMeta":["管理员","小伙伴","访客"],"master":["de8a7aa53d07e6b6bceb45c64027763d"],"friends":["b5bd5d836c7a0091aa8473e79ed4c25e","adb7d1cd192658a55c0ad22a3309cecf","3ce1e6c77b4910f1871106cb30dc62b0","cfce8dc43725cc14ffcd9fb4892d5bfc"],"lang":null,"emoticonUrl":["https://cdn.jsdelivr.net/npm/alus@latest","https://cdn.jsdelivr.net/gh/MiniValine/qq@latest","https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest","https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest","https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest","https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest"]}, {
+	  el: '#mvcomments',
+    }));
+  const infoEle = document.querySelector('#mvcomments .info');
   if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
-    infoEle.childNodes.forEach(function (item) {
-      item.parentNode.removeChild(item);
-    });
+      infoEle.childNodes.forEach(function (item) {
+          item.parentNode.removeChild(item);
+      });
   }
 </script>
 <style>
-  #vcomments-box {
-    padding: 5px 30px;
-  }
-
-  @media screen and (max-width: 800px) {
-    #vcomments-box {
-      padding: 5px 0px;
-    }
-  }
-
-  #vcomments-box #vcomments {
-    background-color: #fff;
-  }
-
-  .v .vlist .vcard .vh {
-    padding-right: 20px;
-  }
-
-  .v .vlist .vcard {
-    padding-left: 10px;
-  }
+	#mvcomments-box {
+		padding: 5px 30px;
+	}
+	@media screen and (max-width: 800px) {
+		#mvcomments-box {
+		  padding: 5px 0px;
+		}
+	}
+	.darkmode .MiniValine *{
+		color: #f1f1f1!important;
+	}
+	.darkmode .commentTrigger{
+		background-color: #403e3e !important;
+	  }
+	.darkmode .MiniValine .vpage .more{
+		background: #21232F
+	}
+	.darkmode img{
+		filter: brightness(30%)
+	}
+	.darkmode .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:before{
+		background: linear-gradient(180deg, rgba(246,246,246,0), rgba(0,0,0,0.9))
+	}
+	.darkmode .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:after{
+		background: rgba(0,0,0,0.9)
+	}
+	.darkmode .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment pre{
+		background: #282c34
+		border: 1px solid #282c34
+	}
+	.darkmode .MiniValine .vinputs-area .textarea-wrapper textarea{
+		color: #000;
+	}
+	.darkmode .MiniValine .vinputs-area .auth-section .input-wrapper input{
+		color: #000;
+	}
+	.darkmode .MiniValine .vinputs-area .vextra-area .vsmile-icons{
+		background: transparent;
+	}
+	.darkmode .MiniValine .vinputs-wrap{
+		border-color: #b2b2b5;
+	}
+	.darkmode .MiniValine .vinputs-wrap:hover{
+		border: 1px dashed #2196f3;
+	}
+	.darkmode .MiniValine .vinputs-area .auth-section .input-wrapper{
+		border-bottom: 1px dashed #b2b2b5;
+	}
+	.darkmode .MiniValine .vinputs-area .auth-section .input-wrapper:hover{
+		border-bottom: 1px dashed #2196f3;
+	}
+	.darkmode .MiniValine .vbtn{
+		background-color: transparent!important;
+	}
+	.darkmode .MiniValine .vbtn:hover{
+		border: 1px dashed #2196f3;
+	}
 </style>
 
- 
-   
-     
+    
 </article>
 
 </section>

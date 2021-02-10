@@ -4,10 +4,30 @@
     <title>About Me</title>
     <url>/2020/about/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><blockquote>
-<p>A backend developer, reside in Beijing.</p>
+<p>现居北京。</p>
 </blockquote>
-<p>nickname： shikamaru<br>city： 北京<br>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a><br>微信： vic18765951058</p>
+<blockquote>
+<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点React。</p>
+</blockquote>
 <a id="more"></a>
+
+<blockquote>
+<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
+</blockquote>
+<blockquote>
+<p>电影发烧友。</p>
+</blockquote>
+<blockquote>
+<p>爱听 Hiphop 和 R&amp;B。</p>
+</blockquote>
+<blockquote>
+<p>喜欢一切美好的事物。</p>
+</blockquote>
+<br/>
+
+<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
+<br/>
+
 
 <!-- ![avatar.jpg](https://i.loli.net/2019/12/02/Hw5WJIMKzi1YrU8.jpg) -->
 
@@ -19,7 +39,9 @@
   <entry>
     <title>Day01 - 初识Python</title>
     <url>/2021/python00/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="初识Python"><a href="#初识Python" class="headerlink" title="初识Python"></a>初识Python</h2><center>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+<h2 id="初识Python"><a href="#初识Python" class="headerlink" title="初识Python"></a>初识Python</h2><center>
     <img style="border-radius: 0.3125em;zoom: 80%;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkhtk5rq3cj30dw04474e.jpg">
@@ -107,7 +129,9 @@
   <entry>
     <title>Day01 - 本地安装Python</title>
     <url>/2021/python01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="Day-1-Python-的安装"><a href="#Day-1-Python-的安装" class="headerlink" title="Day 1   Python 的安装"></a>Day 1   Python 的安装</h2><p>因为Python是跨平台的，也就是说它可以运行在Windows、Mac和各种Linux/Unix系统上。在Windows上写的Python程序，放到Linux上也是能够运行的。要开始学习Python编程，首先就得把Python安装到你的电脑里。安装后，你会得到Python解释器（就是负责运行Python程序的），一个命令行交互环境，还有一个简单的集成开发环境。这里我们安装的是 3.9.0 版本的Python。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+<h2 id="Day-1-Python-的安装"><a href="#Day-1-Python-的安装" class="headerlink" title="Day 1   Python 的安装"></a>Day 1   Python 的安装</h2><p>因为Python是跨平台的，也就是说它可以运行在Windows、Mac和各种Linux/Unix系统上。在Windows上写的Python程序，放到Linux上也是能够运行的。要开始学习Python编程，首先就得把Python安装到你的电脑里。安装后，你会得到Python解释器（就是负责运行Python程序的），一个命令行交互环境，还有一个简单的集成开发环境。这里我们安装的是 3.9.0 版本的Python。</p>
 <a id="more"></a>
 
 <p>建议大家直接去官网下载最新版本的安装包，官网地址：<a href="https://www.python.org/">https://www.python.org/</a>。也可以用我提供给大家的安装包，安装包的位置：tools/necessary。</p>
@@ -141,9 +165,44 @@
       </tags>
   </entry>
   <entry>
-    <title>音乐剧Hamilton剧本punchlines</title>
-    <url>/2021/Hamilton/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="读Hamilton剧本笔记"><a href="#读Hamilton剧本笔记" class="headerlink" title="读Hamilton剧本笔记"></a>读Hamilton剧本笔记</h2><hr>
+    <title>音乐剧Hamilton剧本</title>
+    <url>/2021/HamiltonPlay/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="音乐剧Hamilton剧本"><a href="#音乐剧Hamilton剧本" class="headerlink" title="音乐剧Hamilton剧本"></a>音乐剧Hamilton剧本</h2><blockquote>
+<p>Hamilton的剧本，我自己做的标注</p>
+</blockquote>
+<a id="more"></a>
+
+<br/>
+
+<h4 id="在线预览："><a href="#在线预览：" class="headerlink" title="在线预览："></a>在线预览：</h4>
+
+	<div class="row">
+    <embed src="../../../resource/hamilton.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+
+<br/>
+
+<h4 id="下载："><a href="#下载：" class="headerlink" title="下载："></a>下载：</h4><p><a href="https://shikamaru-go.gitee.io/resource/hamilton.pdf">Hamilton.pdf</a></p>
+]]></content>
+      <categories>
+        <category>艺术</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>音乐剧</tag>
+        <tag>艺术</tag>
+        <tag>文学</tag>
+        <tag>收藏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>音乐剧 Hamilton punchlines</title>
+    <url>/2020/HamiltonPunchlines/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="读Hamilton剧本的摘录"><a href="#读Hamilton剧本的摘录" class="headerlink" title="读Hamilton剧本的摘录"></a>读Hamilton剧本的摘录</h2><hr>
 <blockquote>
 <p>A voice saying<br>“Alex, you gotta fend for yourself.”</p>
 </blockquote>
@@ -228,40 +287,6 @@
 <blockquote>
 <p>Best of wives and best of women</p>
 </blockquote>
-]]></content>
-      <categories>
-        <category>艺术</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
-        <tag>音乐剧</tag>
-        <tag>艺术</tag>
-        <tag>文学</tag>
-        <tag>收藏</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>音乐剧Hamilton剧本（全）</title>
-    <url>/2021/HamiltonPlay/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="Hamilton剧本"><a href="#Hamilton剧本" class="headerlink" title="Hamilton剧本"></a>Hamilton剧本</h2><blockquote>
-<p>Hamilton的剧本，我自己做的标注</p>
-</blockquote>
-<a id="more"></a>
-
-<object data="/hamilton/Hamilton.pdf" type="application/pdf" width="100%" height="1000px">
-
-<object data="./hamilton/Hamilton.pdf" type="application/pdf" width="100%" height="1000px">
-
-<object data="./Hamilton.pdf" type="application/pdf" width="100%" height="1000px">
-
-
-
-	<div class="row">
-    <embed src="./hamilton/Hamilton.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
 ]]></content>
       <categories>
         <category>艺术</category>
