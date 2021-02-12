@@ -123,7 +123,7 @@
     <title>2019 年度精选歌单</title>
     <url>/2020/music2019/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="2019-年度精选歌单"><a href="#2019-年度精选歌单" class="headerlink" title="2019 年度精选歌单"></a>2019 年度精选歌单</h3>
-    <div id="aplayer-mVqRrAHa" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-UYDdeCba" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="3159878612" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -329,8 +329,157 @@
       </tags>
   </entry>
   <entry>
-    <title>Day00 - 初识Python</title>
-    <url>/2021/python00/</url>
+    <title>Day 01 - 本地安装Python</title>
+    <url>/2021/python01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+<p>因为Python是跨平台的，也就是说它可以运行在Windows、Mac和各种Linux/Unix系统上。在Windows上写的Python程序，放到Linux上也是能够运行的。要开始学习Python编程，首先就得把Python安装到你的电脑里。安装后，你会得到Python解释器（就是负责运行Python程序的），一个命令行交互环境，还有一个简单的集成开发环境。这里我们安装的是 3.9.0 版本的Python。</p>
+<a id="more"></a>
+
+<p>建议大家直接去官网下载最新版本的安装包，官网地址：<a href="https://www.python.org/">https://www.python.org/</a>。也可以用我提供给大家的安装包，安装包的位置：tools/necessary。</p>
+<hr>
+<br/>
+
+
+<h3 id="一-Windows-系统下的安装配置"><a href="#一-Windows-系统下的安装配置" class="headerlink" title="一. Windows 系统下的安装配置"></a>一. Windows 系统下的安装配置</h3><p>windows 系统对应的安装包名字为python-3.9.0.exe，下载完后，双击进入下图安装页面，记得勾上Add Python 3.9 to PATH，然后点 「Install Now」 即可完成安装。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2136918-2bf6591f0a12e80b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Python安装.png"></p>
+<h4 id="验证是否安装成功"><a href="#验证是否安装成功" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开命令提示符（即cmd.exe），敲入 python ，出现Python版本信息，证明 Python 安装成功了。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2136918-817c22f802e8cfce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="运行python.png"></p>
+<p>命令提示符最后一行 <code>&gt;&gt;&gt;</code> 表示我们已经在 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (100 / 3.1415926)</span><br></pre></td></tr></table></figure>
+<hr>
+<br/>
+
+
+<h3 id="二-macOS下的安装配置"><a href="#二-macOS下的安装配置" class="headerlink" title="二. macOS下的安装配置"></a>二. macOS下的安装配置</h3><p>Mac系统安装Python就更简单了，安装包名字为python-3.9.0-macosx10.9.pkg，双击安装即可。</p>
+<p>这里还有另外一种方法，如果你安装了Homebrew，直接通过命令<code>brew install python3</code>安装即可。（如果你没有读懂这句话，说明你不需要它）</p>
+<h4 id="验证是否安装成功-1"><a href="#验证是否安装成功-1" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开终端.app（或者iTerm），敲入 <code>python3</code> ，出现Python版本信息，证明 Python 安装成功了。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpi1g3dlj31ky0ciacn.jpg" alt="运行python.png"></p>
+<p>注意：终端里输入<code>python</code>得到的是macOS系统预装的Python 2.7.16 版本，输入<code>python3</code>才会进入我们安装的版本。</p>
+<p>Python2已经是过时的版本，而macOS之所以预装了这个版本，是为了兼容一些历史软件。我们一般使用Python3。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpcw31i7j31ky0l2tcr.jpg" alt="macOS 预装了 Python2"></p>
+<p>这样我们输入<code>python3</code>后就进入 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (&quot;玉在椟中求善价，钗于奁内待时飞。&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>这样我们的Python环境就搭建完成了，第一个 Python 程序也成功运行了，是不是很简单。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 02 - Python 基础之基础</title>
+    <url>/2021/python02/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+<h3 id="一-Python书写规范"><a href="#一-Python书写规范" class="headerlink" title="一. Python书写规范"></a>一. Python书写规范</h3><h4 id="大小写敏感"><a href="#大小写敏感" class="headerlink" title="大小写敏感"></a>大小写敏感</h4><p>首先要注意的是 Python 语言是大小写敏感的，如果写错了大小写，程序会报错。</p>
+<h4 id="每行一个语句"><a href="#每行一个语句" class="headerlink" title="每行一个语句"></a>每行一个语句</h4><p>Python 鼓励每一行使用一句独立语句从而使得代码更加可读。<br>不同于C、Java等其他语言使用分号（；）区分多条语句，Python中利用换行区分多条语句。<br>举个例子：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span></span><br><span class="line">print(i)</span><br></pre></td></tr></table></figure>
+<p>上面的两条语句必须写在两行里，若写成下面这样，程序是无法识别的：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span>  print(i)</span><br></pre></td></tr></table></figure>
+<p>当然写在一行里用分号分隔也可以，但Python中一般不建议出现分号。实际上，我<em>从未</em>在 Python 程序中见过一个分号。</p>
+<h4 id="缩进"><a href="#缩进" class="headerlink" title="缩进"></a>缩进</h4><p>放置在一起的语句<em>必须</em>拥有相同的缩进。每一组这样的语句被称为 <em>块（block）</em>。我们将会在后文章节的案例中了解块这一概念是多么重要。</p>
+<p>现在只需要记住一件事：错误的缩进可能会导致错误。下面是一个例子：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span></span><br><span class="line"><span class="comment"># 下面行首有一个空格，运行的话会报错</span></span><br><span class="line">print(<span class="string">&#x27;Value is&#x27;</span>, i)</span><br><span class="line">print(<span class="string">&#x27;I repeat, the value is&#x27;</span>, i)</span><br></pre></td></tr></table></figure>
+<p>当你运行这一程序时，你将得到如下错误：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">  File <span class="string">&quot;whitespace.py&quot;</span>, line <span class="number">3</span></span><br><span class="line">    print(<span class="string">&#x27;Value is&#x27;</span>, i)</span><br><span class="line">    ^</span><br><span class="line">IndentationError: unexpected indent</span><br><span class="line"><span class="comment"># 缩进错误：意外缩进</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>如何缩进</strong></p>
+<p>使用四个空格来缩进，这是来自 Python 语言官方的建议。好的编辑器会<strong>自动为你完成这一工作</strong>。请确保你在缩进中使用数量一致的空格，否则你的程序将不会运行，或引发不期望的行为。</p>
+</blockquote>
+<h4 id="Python-标识符"><a href="#Python-标识符" class="headerlink" title="Python 标识符"></a>Python 标识符</h4><p>标识符是语言中允许作为名字的有效字符串集合。</p>
+<p>合法的 Python 标识符，需要遵守如下规定：</p>
+<ul>
+<li>第一个字符必须是字母或下划线（_）</li>
+<li>剩下的字符可以是字母和数字或下划线</li>
+<li>大小写敏感</li>
+<li>不能是 Python 的关键字，例如 def、class 就不能作为标识符</li>
+</ul>
+<p>以下划线开头的标识符是有特殊意义的。以单下划线开头 <code>_foo</code> 的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用 <code>from xxx import *</code> 而导入。</p>
+<p>以双下划线开头的 <code>__foo</code> 代表类的私有成员，以双下划线开头和结尾的 <code>__foo__</code> 代表 Python 里特殊方法专用的标识，如 <code>__init__()</code> 代表类的构造函数。</p>
+<h4 id="多行语句"><a href="#多行语句" class="headerlink" title="多行语句"></a>多行语句</h4><p>Python 语句中一般以新行作为为语句的结束符。但是我们可以使用斜杠（ \）将一行的语句分为多行显示，如下所示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">total = item_one + \</span><br><span class="line">        item_two + \</span><br><span class="line">        item_three</span><br></pre></td></tr></table></figure>
+<p>等价于：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">total = item_one + item_two + item_three</span><br></pre></td></tr></table></figure>
+
+<p>语句中包含[], {} 或 () 括号就不需要使用多行连接符。如下实例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">days = [<span class="string">&#x27;Monday&#x27;</span>, <span class="string">&#x27;Tuesday&#x27;</span>, <span class="string">&#x27;Wednesday&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;Thursday&#x27;</span>, <span class="string">&#x27;Friday&#x27;</span>]</span><br></pre></td></tr></table></figure>
+
+<h4 id="注释（comment）"><a href="#注释（comment）" class="headerlink" title="注释（comment）"></a>注释（comment）</h4><p><em>注释</em> 是一行以 <code>#</code> 号开头的文字，其主要用作写给程序读者看的说明性文字。</p>
+<p>举个例子：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;hello world&#x27;</span>)  <span class="comment"># 使用 print 函数输出字符串</span></span><br></pre></td></tr></table></figure>
+<p>或者：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 使用 print 函数输出字符串</span></span><br><span class="line">print(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>你应该在你的程序中尽可能多地写注释，这样做对你的程序的读者来说非常有用，他们可以很容易地理解你的每条语句的用意。这个人可以是六个月后的你！</p>
+<hr>
+<br/>
+
+<h3 id="二-输入和输出"><a href="#二-输入和输出" class="headerlink" title="二. 输入和输出"></a>二. 输入和输出</h3><h4 id="输出-print"><a href="#输出-print" class="headerlink" title="输出: print()"></a>输出: print()</h4><p>我们在前面已经学习了，用<code>print()</code>在括号中加上字符串，就可以向屏幕上输出指定的文字。<code>print()</code>函数也可以接受多个字符串，用逗号隔开，就可以连成一串输出：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;好风频借力，&#x27;</span>, <span class="string">&#x27;送我上青云。&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><code>print()</code>会依次打印每个字符串，遇到逗号“,”会输出一个空格。</p>
+<p>如果想一次输出多行，怎么办呢？可以这样：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;好风频借力，\n送我上青云。&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><code>\n</code>是转义字符，表示换行。常用的转义字符还有：</p>
+<table>
+<thead>
+<tr>
+<th>转义字符</th>
+<th>意义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>\\</code></td>
+<td>代表一个反斜线字符<code>\</code></td>
+</tr>
+<tr>
+<td><code>\&#39;</code></td>
+<td>代表一个单引号字符<code>&#39;</code></td>
+</tr>
+<tr>
+<td><code>\&quot;</code></td>
+<td>代表一个双引号字符<code>&quot;</code></td>
+</tr>
+</tbody></table>
+<h4 id="输入-input"><a href="#输入-input" class="headerlink" title="输入: input()"></a>输入: input()</h4><p>现在，你已经可以用<code>print()</code>输出你想要的结果了。但是，如果要让用户从电脑输入一些字符怎么办？Python提供了一个<code>input()</code>方法，可以让用户输入字符串，并存放到一个变量里。比如输入用户的名字：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">name = <span class="built_in">input</span>(<span class="string">&#x27;请输入用户名:&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>程序运行到<code>input()</code>时会停下来等待用户输入，这时，你可以输入任意字符，然后按回车后完成输入。输入完成后，不会有任何提示，Python交互式命令行又回到<code>&gt;&gt;&gt;</code>状态了。那我们刚才输入的内容到哪去了？答案是存放到<code>name</code>变量里了。我们可以打印出<code>name</code>查看变量内容：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;Hello&#x27;</span>, name)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<br/>
+
+
+<h3 id="三-如何编写和运行-Python-程序"><a href="#三-如何编写和运行-Python-程序" class="headerlink" title="三. 如何编写和运行 Python 程序"></a>三. 如何编写和运行 Python 程序</h3><h4 id="使用文本编辑器"><a href="#使用文本编辑器" class="headerlink" title="使用文本编辑器"></a>使用文本编辑器</h4><p>编写和运行 Python 程序的标准步骤如下：</p>
+<ol>
+<li>打开你的编辑器（例如Sublime Text）</li>
+<li>输入案例中给出的代码</li>
+<li>以给定的文件名将其保存成文件</li>
+<li>在命令行中通过命令 <code>python xxx.py</code> 来运行程序。（macOS使用命令<code>python3 xxx.py</code>）</li>
+</ol>
+<h4 id="使用集成开发环境（IDE）"><a href="#使用集成开发环境（IDE）" class="headerlink" title="使用集成开发环境（IDE）"></a>使用集成开发环境（IDE）</h4><ol>
+<li>在Pycharm中编写代码</li>
+<li>检查没有语法错误后点击鼠标右键 -&gt; Run，运行程序（有语法错误的话相应代码会标红）</li>
+</ol>
+<p>推荐使用Pycharm编写Python代码，会令你的开发工作轻松许多。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 0 - 初识Python</title>
+    <url>/2021/python0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
 
 <br/>
@@ -499,156 +648,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Day01 - 本地安装Python</title>
-    <url>/2021/python01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
-
-<p>因为Python是跨平台的，也就是说它可以运行在Windows、Mac和各种Linux/Unix系统上。在Windows上写的Python程序，放到Linux上也是能够运行的。要开始学习Python编程，首先就得把Python安装到你的电脑里。安装后，你会得到Python解释器（就是负责运行Python程序的），一个命令行交互环境，还有一个简单的集成开发环境。这里我们安装的是 3.9.0 版本的Python。</p>
-<a id="more"></a>
-
-<p>建议大家直接去官网下载最新版本的安装包，官网地址：<a href="https://www.python.org/">https://www.python.org/</a>。也可以用我提供给大家的安装包，安装包的位置：tools/necessary。</p>
-<hr>
-<br/>
-
-
-<h3 id="一-Windows-系统下的安装配置"><a href="#一-Windows-系统下的安装配置" class="headerlink" title="一. Windows 系统下的安装配置"></a>一. Windows 系统下的安装配置</h3><p>windows 系统对应的安装包名字为python-3.9.0.exe，下载完后，双击进入下图安装页面，记得勾上Add Python 3.9 to PATH，然后点 「Install Now」 即可完成安装。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2136918-2bf6591f0a12e80b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Python安装.png"></p>
-<h4 id="验证是否安装成功"><a href="#验证是否安装成功" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开命令提示符（即cmd.exe），敲入 python ，出现Python版本信息，证明 Python 安装成功了。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2136918-817c22f802e8cfce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="运行python.png"></p>
-<p>命令提示符最后一行 <code>&gt;&gt;&gt;</code> 表示我们已经在 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (100 / 3.1415926)</span><br></pre></td></tr></table></figure>
-<hr>
-<br/>
-
-
-<h3 id="二-macOS下的安装配置"><a href="#二-macOS下的安装配置" class="headerlink" title="二. macOS下的安装配置"></a>二. macOS下的安装配置</h3><p>Mac系统安装Python就更简单了，安装包名字为python-3.9.0-macosx10.9.pkg，双击安装即可。</p>
-<p>这里还有另外一种方法，如果你安装了Homebrew，直接通过命令<code>brew install python3</code>安装即可。（如果你没有读懂这句话，说明你不需要它）</p>
-<h4 id="验证是否安装成功-1"><a href="#验证是否安装成功-1" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开终端.app（或者iTerm），敲入 <code>python3</code> ，出现Python版本信息，证明 Python 安装成功了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpi1g3dlj31ky0ciacn.jpg" alt="运行python.png"></p>
-<p>注意：终端里输入<code>python</code>得到的是macOS系统预装的Python 2.7.16 版本，输入<code>python3</code>才会进入我们安装的版本。</p>
-<p>Python2已经是过时的版本，而macOS之所以预装了这个版本，是为了兼容一些历史软件。我们一般使用Python3。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpcw31i7j31ky0l2tcr.jpg" alt="macOS 预装了 Python2"></p>
-<p>这样我们输入<code>python3</code>后就进入 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (&quot;玉在椟中求善价，钗于奁内待时飞。&quot;)</span><br></pre></td></tr></table></figure>
-
-<p>这样我们的Python环境就搭建完成了，第一个 Python 程序也成功运行了，是不是很简单。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>学习</tag>
-        <tag>编程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Day02 - Python 基础之基础</title>
-    <url>/2021/python02/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
-
-
-<h3 id="一-Python书写规范"><a href="#一-Python书写规范" class="headerlink" title="一. Python书写规范"></a>一. Python书写规范</h3><h4 id="大小写敏感"><a href="#大小写敏感" class="headerlink" title="大小写敏感"></a>大小写敏感</h4><p>首先要注意的是 Python 语言是大小写敏感的，如果写错了大小写，程序会报错。</p>
-<h4 id="每行一个语句"><a href="#每行一个语句" class="headerlink" title="每行一个语句"></a>每行一个语句</h4><p>Python 鼓励每一行使用一句独立语句从而使得代码更加可读。<br>不同于C、Java等其他语言使用分号（；）区分多条语句，Python中利用换行区分多条语句。<br>举个例子：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span></span><br><span class="line">print(i)</span><br></pre></td></tr></table></figure>
-<p>上面的两条语句必须写在两行里，若写成下面这样，程序是无法识别的：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span>  print(i)</span><br></pre></td></tr></table></figure>
-<p>当然写在一行里用分号分隔也可以，但Python中一般不建议出现分号。实际上，我<em>从未</em>在 Python 程序中见过一个分号。</p>
-<h4 id="缩进"><a href="#缩进" class="headerlink" title="缩进"></a>缩进</h4><p>放置在一起的语句<em>必须</em>拥有相同的缩进。每一组这样的语句被称为 <em>块（block）</em>。我们将会在后文章节的案例中了解块这一概念是多么重要。</p>
-<p>现在只需要记住一件事：错误的缩进可能会导致错误。下面是一个例子：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span></span><br><span class="line"><span class="comment"># 下面行首有一个空格，运行的话会报错</span></span><br><span class="line">print(<span class="string">&#x27;Value is&#x27;</span>, i)</span><br><span class="line">print(<span class="string">&#x27;I repeat, the value is&#x27;</span>, i)</span><br></pre></td></tr></table></figure>
-<p>当你运行这一程序时，你将得到如下错误：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">  File <span class="string">&quot;whitespace.py&quot;</span>, line <span class="number">3</span></span><br><span class="line">    print(<span class="string">&#x27;Value is&#x27;</span>, i)</span><br><span class="line">    ^</span><br><span class="line">IndentationError: unexpected indent</span><br><span class="line"><span class="comment"># 缩进错误：意外缩进</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>如何缩进</strong></p>
-<p>使用四个空格来缩进，这是来自 Python 语言官方的建议。好的编辑器会<strong>自动为你完成这一工作</strong>。请确保你在缩进中使用数量一致的空格，否则你的程序将不会运行，或引发不期望的行为。</p>
-</blockquote>
-<h4 id="Python-标识符"><a href="#Python-标识符" class="headerlink" title="Python 标识符"></a>Python 标识符</h4><p>标识符是语言中允许作为名字的有效字符串集合。</p>
-<p>合法的 Python 标识符，需要遵守如下规定：</p>
-<ul>
-<li>第一个字符必须是字母或下划线（_）</li>
-<li>剩下的字符可以是字母和数字或下划线</li>
-<li>大小写敏感</li>
-<li>不能是 Python 的关键字，例如 def、class 就不能作为标识符</li>
-</ul>
-<p>以下划线开头的标识符是有特殊意义的。以单下划线开头 <code>_foo</code> 的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用 <code>from xxx import *</code> 而导入。</p>
-<p>以双下划线开头的 <code>__foo</code> 代表类的私有成员，以双下划线开头和结尾的 <code>__foo__</code> 代表 Python 里特殊方法专用的标识，如 <code>__init__()</code> 代表类的构造函数。</p>
-<h4 id="多行语句"><a href="#多行语句" class="headerlink" title="多行语句"></a>多行语句</h4><p>Python 语句中一般以新行作为为语句的结束符。但是我们可以使用斜杠（ \）将一行的语句分为多行显示，如下所示：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">total = item_one + \</span><br><span class="line">        item_two + \</span><br><span class="line">        item_three</span><br></pre></td></tr></table></figure>
-<p>等价于：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">total = item_one + item_two + item_three</span><br></pre></td></tr></table></figure>
-
-<p>语句中包含[], {} 或 () 括号就不需要使用多行连接符。如下实例：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">days = [<span class="string">&#x27;Monday&#x27;</span>, <span class="string">&#x27;Tuesday&#x27;</span>, <span class="string">&#x27;Wednesday&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;Thursday&#x27;</span>, <span class="string">&#x27;Friday&#x27;</span>]</span><br></pre></td></tr></table></figure>
-
-<h4 id="注释（comment）"><a href="#注释（comment）" class="headerlink" title="注释（comment）"></a>注释（comment）</h4><p><em>注释</em> 是一行以 <code>#</code> 号开头的文字，其主要用作写给程序读者看的说明性文字。</p>
-<p>举个例子：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;hello world&#x27;</span>)  <span class="comment"># 使用 print 函数输出字符串</span></span><br></pre></td></tr></table></figure>
-<p>或者：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 使用 print 函数输出字符串</span></span><br><span class="line">print(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>你应该在你的程序中尽可能多地写注释，这样做对你的程序的读者来说非常有用，他们可以很容易地理解你的每条语句的用意。这个人可以是六个月后的你！</p>
-<hr>
-<br/>
-
-<h3 id="二-输入和输出"><a href="#二-输入和输出" class="headerlink" title="二. 输入和输出"></a>二. 输入和输出</h3><h4 id="输出-print"><a href="#输出-print" class="headerlink" title="输出: print()"></a>输出: print()</h4><p>我们在前面已经学习了，用<code>print()</code>在括号中加上字符串，就可以向屏幕上输出指定的文字。<code>print()</code>函数也可以接受多个字符串，用逗号隔开，就可以连成一串输出：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;好风频借力，&#x27;</span>, <span class="string">&#x27;送我上青云。&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p><code>print()</code>会依次打印每个字符串，遇到逗号“,”会输出一个空格。</p>
-<p>如果想一次输出多行，怎么办呢？可以这样：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;好风频借力，\n送我上青云。&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p><code>\n</code>是转义字符，表示换行。常用的转义字符还有：</p>
-<table>
-<thead>
-<tr>
-<th>转义字符</th>
-<th>意义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>\\</code></td>
-<td>代表一个反斜线字符<code>\</code></td>
-</tr>
-<tr>
-<td><code>\&#39;</code></td>
-<td>代表一个单引号字符<code>&#39;</code></td>
-</tr>
-<tr>
-<td><code>\&quot;</code></td>
-<td>代表一个双引号字符<code>&quot;</code></td>
-</tr>
-</tbody></table>
-<h4 id="输入-input"><a href="#输入-input" class="headerlink" title="输入: input()"></a>输入: input()</h4><p>现在，你已经可以用<code>print()</code>输出你想要的结果了。但是，如果要让用户从电脑输入一些字符怎么办？Python提供了一个<code>input()</code>方法，可以让用户输入字符串，并存放到一个变量里。比如输入用户的名字：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">name = <span class="built_in">input</span>(<span class="string">&#x27;请输入用户名:&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>程序运行到<code>input()</code>时会停下来等待用户输入，这时，你可以输入任意字符，然后按回车后完成输入。输入完成后，不会有任何提示，Python交互式命令行又回到<code>&gt;&gt;&gt;</code>状态了。那我们刚才输入的内容到哪去了？答案是存放到<code>name</code>变量里了。我们可以打印出<code>name</code>查看变量内容：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;Hello&#x27;</span>, name)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<hr>
-<br/>
-
-
-<h3 id="三-如何编写和运行-Python-程序"><a href="#三-如何编写和运行-Python-程序" class="headerlink" title="三. 如何编写和运行 Python 程序"></a>三. 如何编写和运行 Python 程序</h3><h4 id="使用文本编辑器"><a href="#使用文本编辑器" class="headerlink" title="使用文本编辑器"></a>使用文本编辑器</h4><p>编写和运行 Python 程序的标准步骤如下：</p>
-<ol>
-<li>打开你的编辑器（例如Sublime Text）</li>
-<li>输入案例中给出的代码</li>
-<li>以给定的文件名将其保存成文件</li>
-<li>在命令行中通过命令 <code>python xxx.py</code> 来运行程序。（macOS使用命令<code>python3 xxx.py</code>）</li>
-</ol>
-<h4 id="使用集成开发环境（IDE）"><a href="#使用集成开发环境（IDE）" class="headerlink" title="使用集成开发环境（IDE）"></a>使用集成开发环境（IDE）</h4><ol>
-<li>在Pycharm中编写代码</li>
-<li>检查没有语法错误后点击鼠标右键 -&gt; Run，运行程序（有语法错误的话相应代码会标红）</li>
-</ol>
-<p>推荐使用Pycharm编写Python代码，会令你的开发工作轻松许多。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>学习</tag>
-        <tag>编程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Day03 - Python 变量与数据类型</title>
+    <title>Day 03 - Python 变量与数据类型</title>
     <url>/2021/python03-2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
 
@@ -727,7 +727,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Day03 - Python 运算符</title>
+    <title>Day 03 - Python 运算符</title>
     <url>/2021/python03-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
 
@@ -758,76 +758,11 @@
       </tags>
   </entry>
   <entry>
-    <title>Day04 - Python 流程控制</title>
-    <url>/2021/python04/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
-
-
-
-<p>在编程的世界中，流程控制决定了程序中语句执行的先后顺序，是程序员编程的基础，本节给大家介绍 Python 流程控制相关语法。</p>
-<h3 id="if-语句"><a href="#if-语句" class="headerlink" title="if 语句"></a>if 语句</h3><p>if 语句用来进行条件判断。计算机之所以能做很多自动化任务，因为它可以自己做条件判断。</p>
-<p>语法：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> &lt;条件判断<span class="number">1</span>&gt;:</span><br><span class="line">    &lt;执行<span class="number">1</span>&gt;</span><br><span class="line"><span class="keyword">elif</span> &lt;条件判断<span class="number">2</span>&gt;:</span><br><span class="line">    &lt;执行<span class="number">2</span>&gt;</span><br><span class="line"><span class="keyword">elif</span> &lt;条件判断<span class="number">3</span>&gt;:</span><br><span class="line">    &lt;执行<span class="number">3</span>&gt;</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    &lt;执行<span class="number">4</span>&gt;</span><br></pre></td></tr></table></figure>
-<p>关键字 <code>&#39;elif&#39;</code> 是 <code>&#39;else if&#39;</code> 的缩写，上述结构中可以有0到多个 elif 部分，可以有0或1个else。</p>
-<p>示例：BMI计算器</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">height = <span class="built_in">input</span>(<span class="string">&quot;请输入你的身高（米）：&quot;</span>)</span><br><span class="line">weight = <span class="built_in">input</span>(<span class="string">&quot;请输入你的体重（千克）：&quot;</span>)</span><br><span class="line"></span><br><span class="line">bmi = <span class="built_in">float</span>(weight) / (<span class="built_in">float</span>(height) * <span class="built_in">float</span>(height))</span><br><span class="line">print(<span class="string">&quot;你的BMI指数：&quot;</span> + <span class="built_in">str</span>(bmi))</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> bmi &lt; <span class="number">18.5</span>:</span><br><span class="line">    print(<span class="string">&quot;过轻&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">18.5</span> &lt;= bmi &lt; <span class="number">25</span>:</span><br><span class="line">    print(<span class="string">&quot;正常&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">25</span> &lt;= bmi &lt; <span class="number">28</span>:</span><br><span class="line">    print(<span class="string">&quot;过重&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">28</span> &lt;= bmi &lt; <span class="number">32</span>:</span><br><span class="line">    print(<span class="string">&quot;肥胖&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">32</span> &lt;= bmi:</span><br><span class="line">    print(<span class="string">&quot;严重肥胖&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><p>试想，要计算1+2+3+…+10000，怎么样让计算机去完成这样的工作呢？</p>
-<p>答案是，循环语句。</p>
-<p>Python的循环有两种，一种是for…in循环，依次把list或tuple中的每个元素迭代出来，看例子：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">names = [<span class="string">&#x27;Michael&#x27;</span>, <span class="string">&#x27;Bob&#x27;</span>, <span class="string">&#x27;Tracy&#x27;</span>]</span><br><span class="line"><span class="keyword">for</span> name <span class="keyword">in</span> names:</span><br><span class="line">    print(name)</span><br></pre></td></tr></table></figure>
-<p>执行这段代码，会依次打印<code>names</code>的每一个元素：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Michael</span><br><span class="line">Bob</span><br><span class="line">Tracy</span><br></pre></td></tr></table></figure>
-<p>所以<code>for x in ...</code>循环就是把每个元素代入变量<code>x</code>，然后执行缩进块的语句。</p>
-<p>回到计算1+2+3+…+10000的问题，以下代码即可实现：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sum</span> = <span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">10001</span>):</span><br><span class="line">    <span class="built_in">sum</span> = <span class="built_in">sum</span> + x</span><br><span class="line">print(<span class="built_in">sum</span>)</span><br></pre></td></tr></table></figure>
-<p>Python3 <code>range() </code>函数返回的是一个可迭代对象（类型是对象），<code> list()</code> 函数可以把<code>range()</code>返回的可迭代对象转为一个列表。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">0</span>, <span class="number">5</span>))</span><br><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h3><p>第二种循环是while循环，只要条件满足，就不断循环，条件不满足时退出循环。其基本形式为：</p>
-<p>语法：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> 判断条件：</span><br><span class="line">    执行语句……</span><br></pre></td></tr></table></figure>
-<p>示例：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">count = <span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> (count &lt; <span class="number">9</span>):</span><br><span class="line">   print( <span class="string">&#x27;The count is:&#x27;</span>, count)</span><br><span class="line">   count = count + <span class="number">1</span></span><br><span class="line"> </span><br><span class="line">print(<span class="string">&quot;Good bye!&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="break-用法"><a href="#break-用法" class="headerlink" title="break 用法"></a>break 用法</h3><p>break 语句可以跳出 for 和 while 循环。</p>
-<p>示例：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> letter <span class="keyword">in</span> <span class="string">&#x27;Alexander Hamilton&#x27;</span>:     </span><br><span class="line">   <span class="keyword">if</span> letter == <span class="string">&#x27;i&#x27;</span>:        <span class="comment"># 字母为 i 时结束循环</span></span><br><span class="line">      <span class="keyword">break</span></span><br><span class="line">   <span class="built_in">print</span> (<span class="string">&#x27;当前字母 :&#x27;</span>, letter)</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="continue-用法"><a href="#continue-用法" class="headerlink" title="continue 用法"></a>continue 用法</h3><p>continue 语句被用来结束当前一轮循环，进行下一轮循环。</p>
-<p>示例：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> letter <span class="keyword">in</span> <span class="string">&#x27;Alexander Hamilton&#x27;</span>:     </span><br><span class="line">   <span class="keyword">if</span> letter == <span class="string">&#x27;i&#x27;</span>:        <span class="comment"># 字母为 i 时直接进入下一轮循环</span></span><br><span class="line">      <span class="keyword">continue</span></span><br><span class="line">   <span class="built_in">print</span> (<span class="string">&#x27;当前字母 :&#x27;</span>, letter)</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="pass-语句"><a href="#pass-语句" class="headerlink" title="pass 语句"></a>pass 语句</h3><p>Python pass 是空语句，是为了保持程序结构的完整性。它用于那些语法上必须要有什么语句，但程序什么也不做的场合。</p>
-<p>示例：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这通常用于创建最小结构的类:</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyEmptyClass</span>:</span></span><br><span class="line">  <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
-
-
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>本节给大家介绍了 Python 语法中的流程控制相关语法，方便后期在代码逻辑中进行条件控制。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>学习</tag>
-        <tag>编程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Day 05 - Python 数据结构之 list 与 tuple</title>
     <url>/2021/python05/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
 
 
-
-<p>[TOC]</p>
 <h2 id="list和tuple"><a href="#list和tuple" class="headerlink" title="list和tuple"></a>list和tuple</h2><p>sequence(序列)是一组有顺序的元素的集合。</p>
 <p>序列有两种：tuple（元组） 和 list (列表)，tuple和list的主要区别在于，tuple的各个元素一旦建立便不可再变更，而list的各个元素可以随意变更。 </p>
 <p>序列可以包含一个或多个元素，也可以没有任何元素。</p>
@@ -895,17 +830,77 @@
       </tags>
   </entry>
   <entry>
-    <title>Day06 - Python 数据结构之 dict 与 set</title>
-    <url>/2021/python06/</url>
+    <title>Day 04 - Python 流程控制</title>
+    <url>/2021/python04/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
 
 
 
-<p>[TOC]</p>
+<p>在编程的世界中，流程控制决定了程序中语句执行的先后顺序，是程序员编程的基础，本节给大家介绍 Python 流程控制相关语法。</p>
+<h3 id="if-语句"><a href="#if-语句" class="headerlink" title="if 语句"></a>if 语句</h3><p>if 语句用来进行条件判断。计算机之所以能做很多自动化任务，因为它可以自己做条件判断。</p>
+<p>语法：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> &lt;条件判断<span class="number">1</span>&gt;:</span><br><span class="line">    &lt;执行<span class="number">1</span>&gt;</span><br><span class="line"><span class="keyword">elif</span> &lt;条件判断<span class="number">2</span>&gt;:</span><br><span class="line">    &lt;执行<span class="number">2</span>&gt;</span><br><span class="line"><span class="keyword">elif</span> &lt;条件判断<span class="number">3</span>&gt;:</span><br><span class="line">    &lt;执行<span class="number">3</span>&gt;</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    &lt;执行<span class="number">4</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>关键字 <code>&#39;elif&#39;</code> 是 <code>&#39;else if&#39;</code> 的缩写，上述结构中可以有0到多个 elif 部分，可以有0或1个else。</p>
+<p>示例：BMI计算器</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">height = <span class="built_in">input</span>(<span class="string">&quot;请输入你的身高（米）：&quot;</span>)</span><br><span class="line">weight = <span class="built_in">input</span>(<span class="string">&quot;请输入你的体重（千克）：&quot;</span>)</span><br><span class="line"></span><br><span class="line">bmi = <span class="built_in">float</span>(weight) / (<span class="built_in">float</span>(height) * <span class="built_in">float</span>(height))</span><br><span class="line">print(<span class="string">&quot;你的BMI指数：&quot;</span> + <span class="built_in">str</span>(bmi))</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> bmi &lt; <span class="number">18.5</span>:</span><br><span class="line">    print(<span class="string">&quot;过轻&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">18.5</span> &lt;= bmi &lt; <span class="number">25</span>:</span><br><span class="line">    print(<span class="string">&quot;正常&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">25</span> &lt;= bmi &lt; <span class="number">28</span>:</span><br><span class="line">    print(<span class="string">&quot;过重&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">28</span> &lt;= bmi &lt; <span class="number">32</span>:</span><br><span class="line">    print(<span class="string">&quot;肥胖&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">32</span> &lt;= bmi:</span><br><span class="line">    print(<span class="string">&quot;严重肥胖&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><p>试想，要计算1+2+3+…+10000，怎么样让计算机去完成这样的工作呢？</p>
+<p>答案是，循环语句。</p>
+<p>Python的循环有两种，一种是for…in循环，依次把list或tuple中的每个元素迭代出来，看例子：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">names = [<span class="string">&#x27;Michael&#x27;</span>, <span class="string">&#x27;Bob&#x27;</span>, <span class="string">&#x27;Tracy&#x27;</span>]</span><br><span class="line"><span class="keyword">for</span> name <span class="keyword">in</span> names:</span><br><span class="line">    print(name)</span><br></pre></td></tr></table></figure>
+<p>执行这段代码，会依次打印<code>names</code>的每一个元素：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Michael</span><br><span class="line">Bob</span><br><span class="line">Tracy</span><br></pre></td></tr></table></figure>
+<p>所以<code>for x in ...</code>循环就是把每个元素代入变量<code>x</code>，然后执行缩进块的语句。</p>
+<p>回到计算1+2+3+…+10000的问题，以下代码即可实现：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sum</span> = <span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">10001</span>):</span><br><span class="line">    <span class="built_in">sum</span> = <span class="built_in">sum</span> + x</span><br><span class="line">print(<span class="built_in">sum</span>)</span><br></pre></td></tr></table></figure>
+<p>Python3 <code>range() </code>函数返回的是一个可迭代对象（类型是对象），<code> list()</code> 函数可以把<code>range()</code>返回的可迭代对象转为一个列表。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">0</span>, <span class="number">5</span>))</span><br><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h3><p>第二种循环是while循环，只要条件满足，就不断循环，条件不满足时退出循环。其基本形式为：</p>
+<p>语法：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> 判断条件：</span><br><span class="line">    执行语句……</span><br></pre></td></tr></table></figure>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">count = <span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> (count &lt; <span class="number">9</span>):</span><br><span class="line">   print( <span class="string">&#x27;The count is:&#x27;</span>, count)</span><br><span class="line">   count = count + <span class="number">1</span></span><br><span class="line"> </span><br><span class="line">print(<span class="string">&quot;Good bye!&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="break-用法"><a href="#break-用法" class="headerlink" title="break 用法"></a>break 用法</h3><p>break 语句可以跳出 for 和 while 循环。</p>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> letter <span class="keyword">in</span> <span class="string">&#x27;Alexander Hamilton&#x27;</span>:     </span><br><span class="line">   <span class="keyword">if</span> letter == <span class="string">&#x27;i&#x27;</span>:        <span class="comment"># 字母为 i 时结束循环</span></span><br><span class="line">      <span class="keyword">break</span></span><br><span class="line">   <span class="built_in">print</span> (<span class="string">&#x27;当前字母 :&#x27;</span>, letter)</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="continue-用法"><a href="#continue-用法" class="headerlink" title="continue 用法"></a>continue 用法</h3><p>continue 语句被用来结束当前一轮循环，进行下一轮循环。</p>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> letter <span class="keyword">in</span> <span class="string">&#x27;Alexander Hamilton&#x27;</span>:     </span><br><span class="line">   <span class="keyword">if</span> letter == <span class="string">&#x27;i&#x27;</span>:        <span class="comment"># 字母为 i 时直接进入下一轮循环</span></span><br><span class="line">      <span class="keyword">continue</span></span><br><span class="line">   <span class="built_in">print</span> (<span class="string">&#x27;当前字母 :&#x27;</span>, letter)</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="pass-语句"><a href="#pass-语句" class="headerlink" title="pass 语句"></a>pass 语句</h3><p>Python pass 是空语句，是为了保持程序结构的完整性。它用于那些语法上必须要有什么语句，但程序什么也不做的场合。</p>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这通常用于创建最小结构的类:</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyEmptyClass</span>:</span></span><br><span class="line">  <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>本节给大家介绍了 Python 语法中的流程控制相关语法，方便后期在代码逻辑中进行条件控制。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 06 - Python 数据结构之 dict 与 set</title>
+    <url>/2021/python06/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
 <h2 id="dict-字典-和-set-集合"><a href="#dict-字典-和-set-集合" class="headerlink" title="dict(字典) 和 set(集合)"></a>dict(字典) 和 set(集合)</h2><h3 id="dict-字典"><a href="#dict-字典" class="headerlink" title="dict 字典"></a>dict 字典</h3><p>dict全称dictionary，在其他语言中也称为map，使用键-值（key-value）存储，具有极快的查找速度。词典和list列表类似的地方，是包含有多个元素，每个元素以逗号分隔。但词典的元素包含有两部分，键和值，常见的是以字符串来表示键，值可以是任意对象。键和值两者一一对应。</p>
 <p>举个例子，用dict实现一个<code>“名字”-“成绩”</code>的对照表，直接根据名字查找成绩：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d = &#123;<span class="string">&#x27;Michael&#x27;</span>: <span class="number">95</span>, <span class="string">&#x27;Bob&#x27;</span>: <span class="number">75</span>, <span class="string">&#x27;Tracy&#x27;</span>: <span class="number">85</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Michael&#x27;</span>]</span><br><span class="line"><span class="number">95</span></span><br></pre></td></tr></table></figure>
-
 
 <p>把数据放入dict的方法，除了初始化时指定外，还可以后续通过key放入：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Adam&#x27;</span>] = <span class="number">67</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Adam&#x27;</span>]</span><br><span class="line"><span class="number">67</span></span><br></pre></td></tr></table></figure>
@@ -1033,6 +1028,473 @@
 <p>耐心等待下载并安装后，就可以使用Pillow了。</p>
 <h4 id="使用Anaconda"><a href="#使用Anaconda" class="headerlink" title="使用Anaconda"></a>使用Anaconda</h4><p>如果开发中需要用到很多第三方库，例如，上面提到的Pillow，以及MySQL驱动程序，Web框架Flask，科学计算Numpy等。用pip一个一个安装费时费力，还需要考虑兼容性。可以直接使用<a href="https://www.anaconda.com/">Anaconda</a>，这是一个基于Python的数据处理和科学计算平台，它已经内置了许多非常有用的第三方库，我们装上Anaconda，就相当于把数十个第三方模块自动安装好了，非常简单易用，缺点是占用磁盘空间大。</p>
 <p>可以从<a href="https://www.anaconda.com/download/">Anaconda官网</a>下载GUI安装包，安装包有500~600M，所以需要耐心等待下载。下载后直接安装，Anaconda会把系统Path中的python指向自己自带的Python，并且，Anaconda安装的第三方模块会安装在Anaconda自己的路径下，不影响系统已安装的Python目录。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 09 - Python 面向对象：内置函数</title>
+    <url>/2021/python09-4/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+
+<p>当我们拿到一个对象的引用时，如何知道这个对象是什么类型、有哪些方法呢？</p>
+<h3 id="使用type"><a href="#使用type" class="headerlink" title="使用type()"></a>使用type()</h3><p><code>type()</code>函数返回对象的Class类型。</p>
+<p>基本类型都可以用<code>type()</code>判断：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; type(123)</span><br><span class="line">&lt;class &#39;int&#39;&gt;</span><br><span class="line">&gt;&gt;&gt; type(&#39;str&#39;)</span><br><span class="line">&lt;class &#39;str&#39;&gt;</span><br><span class="line">&gt;&gt;&gt; type(None)</span><br><span class="line">&lt;type(None) &#39;NoneType&#39;&gt;</span><br></pre></td></tr></table></figure>
+<p>如果一个变量指向函数或者类，也可以用<code>type()</code>判断：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; type(abs)</span><br><span class="line">&lt;class &#39;builtin_function_or_method&#39;&gt;</span><br><span class="line">&gt;&gt;&gt; type(a)</span><br><span class="line">&lt;class &#39;__main__.Animal&#39;&gt;</span><br></pre></td></tr></table></figure>
+<p>如果我们要在<code>if</code>语句中判断，就需要比较两个变量的type类型是否相同：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; type(123)&#x3D;&#x3D;type(456)</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; type(123)&#x3D;&#x3D;int</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; type(&#39;abc&#39;)&#x3D;&#x3D;type(&#39;123&#39;)</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; type(&#39;abc&#39;)&#x3D;&#x3D;str</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; type(&#39;abc&#39;)&#x3D;&#x3D;type(123)</span><br><span class="line">False</span><br></pre></td></tr></table></figure>
+<p>判断基本数据类型可以直接写<code>int</code>，<code>str</code>等，但如果要判断一个对象是否是函数怎么办？可以使用<code>types</code>模块中定义的常量：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; import types</span><br><span class="line">&gt;&gt;&gt; def fn():</span><br><span class="line">...     pass</span><br><span class="line">...</span><br><span class="line">&gt;&gt;&gt; type(fn)&#x3D;&#x3D;types.FunctionType</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; type(abs)&#x3D;&#x3D;types.BuiltinFunctionType</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; type(lambda x: x)&#x3D;&#x3D;types.LambdaType</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; type((x for x in range(10)))&#x3D;&#x3D;types.GeneratorType</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="使用isinstance"><a href="#使用isinstance" class="headerlink" title="使用isinstance()"></a>使用isinstance()</h3><p>我们要判断对象所属的class的类型，可以使用<code>isinstance()</code>函数。</p>
+<p>我们回顾上次的例子，如果继承关系是：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">object -&gt; Animal -&gt; Dog -&gt; Husky</span><br></pre></td></tr></table></figure>
+<p>那么，<code>isinstance()</code>就可以告诉我们，一个对象是否是某种类型。先创建3种类型的对象：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; a &#x3D; Animal()</span><br><span class="line">&gt;&gt;&gt; d &#x3D; Dog()</span><br><span class="line">&gt;&gt;&gt; h &#x3D; Husky()</span><br></pre></td></tr></table></figure>
+<p>然后，判断：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; isinstance(h, Husky)</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+<p>没有问题，因为<code>h</code>变量指向的就是Husky对象。</p>
+<p>再判断：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; isinstance(h, Dog)</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+<p><code>h</code>虽然自身是Husky类型，但由于Husky是从Dog继承下来的，所以，<code>h</code>也还是Dog类型。换句话说，<code>isinstance()</code>判断的是一个对象是否是该类型本身，或者位于该类型的父继承链上。</p>
+<p>因此，我们可以确信，<code>h</code>还是Animal类型：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; isinstance(h, Animal)</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+<p>同理，实际类型是Dog的<code>d</code>也是Animal类型：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; isinstance(d, Dog) and isinstance(d, Animal)</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+<p>但是，<code>d</code>不是Husky类型：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; isinstance(d, Husky)</span><br><span class="line">False</span><br></pre></td></tr></table></figure>
+<p>能用<code>type()</code>判断的基本类型也可以用<code>isinstance()</code>判断：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; isinstance(&#39;a&#39;, str)</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; isinstance(123, int)</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; isinstance(b&#39;a&#39;, bytes)</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+<p>并且还可以判断一个变量是否是某些类型中的一种，比如下面的代码就可以判断是否是list或者tuple：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; isinstance([1, 2, 3], (list, tuple))</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; isinstance((1, 2, 3), (list, tuple))</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+<p> 总是优先使用isinstance()判断类型，可以将指定类型及其子类“一网打尽”。</p>
+<h3 id="使用dir"><a href="#使用dir" class="headerlink" title="使用dir()"></a>使用dir()</h3><p>如果要获得一个对象的所有属性和方法，可以使用<code>dir()</code>函数，它返回一个包含字符串的list，比如，获得一个str对象的所有属性和方法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; dir(&#39;ABC&#39;)</span><br><span class="line">[&#39;__add__&#39;, &#39;__class__&#39;,..., &#39;__subclasshook__&#39;, &#39;capitalize&#39;, &#39;casefold&#39;,..., &#39;zfill&#39;]</span><br></pre></td></tr></table></figure>
+<p>类似<code>__xxx__</code>的属性和方法在Python中都是有特殊用途的，比如<code>__len__</code>方法返回长度。在Python中，如果你调用<code>len()</code>函数试图获取一个对象的长度，实际上，在<code>len()</code>函数内部，它自动去调用该对象的<code>__len__()</code>方法，所以，下面的代码是等价的：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; len(&#39;ABC&#39;)</span><br><span class="line">3</span><br><span class="line">&gt;&gt;&gt; &#39;ABC&#39;.__len__()</span><br><span class="line">3</span><br></pre></td></tr></table></figure>
+<p>我们自己写的类，如果也想用<code>len(myObj)</code>的话，就自己写一个<code>__len__()</code>方法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; class MyDog(object):</span><br><span class="line">...     def __len__(self):</span><br><span class="line">...         return 100</span><br><span class="line">...</span><br><span class="line">&gt;&gt;&gt; dog &#x3D; MyDog()</span><br><span class="line">&gt;&gt;&gt; len(dog)</span><br><span class="line">100</span><br></pre></td></tr></table></figure>
+<p>剩下的都是普通属性或方法，比如<code>lower()</code>返回小写的字符串：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; &#39;ABC&#39;.lower()</span><br><span class="line">&#39;abc&#39;</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="使用getattr-、setattr-以及hasattr"><a href="#使用getattr-、setattr-以及hasattr" class="headerlink" title="使用getattr()、setattr()以及hasattr()"></a>使用getattr()、setattr()以及hasattr()</h3><p>仅仅把属性和方法列出来是不够的，配合<code>getattr()</code>、<code>setattr()</code>以及<code>hasattr()</code>，我们可以直接操作一个对象的状态：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; class MyObject(object):</span><br><span class="line">...     def __init__(self):</span><br><span class="line">...         self.x &#x3D; 9</span><br><span class="line">...     def power(self):</span><br><span class="line">...         return self.x * self.x</span><br><span class="line">...</span><br><span class="line">&gt;&gt;&gt; obj &#x3D; MyObject()</span><br></pre></td></tr></table></figure>
+<p>紧接着，可以测试该对象的属性：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; hasattr(obj, &#39;x&#39;) # 有属性&#39;x&#39;吗？</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; obj.x</span><br><span class="line">9</span><br><span class="line">&gt;&gt;&gt; hasattr(obj, &#39;y&#39;) # 有属性&#39;y&#39;吗？</span><br><span class="line">False</span><br><span class="line">&gt;&gt;&gt; setattr(obj, &#39;y&#39;, 19) # 设置一个属性&#39;y&#39;</span><br><span class="line">&gt;&gt;&gt; hasattr(obj, &#39;y&#39;) # 有属性&#39;y&#39;吗？</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; getattr(obj, &#39;y&#39;) # 获取属性&#39;y&#39;</span><br><span class="line">19</span><br><span class="line">&gt;&gt;&gt; obj.y # 获取属性&#39;y&#39;</span><br><span class="line">19</span><br></pre></td></tr></table></figure>
+<p>如果试图获取不存在的属性，会抛出AttributeError的错误：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; getattr(obj, &#39;z&#39;) # 获取属性&#39;z&#39;</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">AttributeError: &#39;MyObject&#39; object has no attribute &#39;z&#39;</span><br></pre></td></tr></table></figure>
+<p>可以传入一个default参数，如果属性不存在，就返回默认值：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; getattr(obj, &#39;z&#39;, 404) # 获取属性&#39;z&#39;，如果不存在，返回默认值404</span><br><span class="line">404</span><br></pre></td></tr></table></figure>
+<p>也可以获得对象的方法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; hasattr(obj, &#39;power&#39;) # 有属性&#39;power&#39;吗？</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; getattr(obj, &#39;power&#39;) # 获取属性&#39;power&#39;</span><br><span class="line">&lt;bound method MyObject.power of &lt;__main__.MyObject object at 0x10077a6a0&gt;&gt;</span><br><span class="line">&gt;&gt;&gt; fn &#x3D; getattr(obj, &#39;power&#39;) # 获取属性&#39;power&#39;并赋值到变量fn</span><br><span class="line">&gt;&gt;&gt; fn # fn指向obj.power</span><br><span class="line">&lt;bound method MyObject.power of &lt;__main__.MyObject object at 0x10077a6a0&gt;&gt;</span><br><span class="line">&gt;&gt;&gt; fn() # 调用fn()与调用obj.power()是一样的</span><br><span class="line">81</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>通过Python内置的一系列函数，我们可以对任意一个Python对象进行剖析，拿到其内部的数据。要注意的是，只有在不知道对象信息的时候，我们才会去获取对象信息。如果可以直接写：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sum &#x3D; obj.x + obj.y</span><br></pre></td></tr></table></figure>
+<p>就不要写：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sum &#x3D; getattr(obj, &#39;x&#39;) + getattr(obj, &#39;y&#39;)</span><br></pre></td></tr></table></figure>
+<p>一个正确的用法的例子如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">def readImage(fp):</span><br><span class="line">    if hasattr(fp, &#39;read&#39;):</span><br><span class="line">        return readData(fp)</span><br><span class="line">    return None</span><br></pre></td></tr></table></figure>
+<p>假设我们希望从文件流fp中读取图像，我们首先要判断该fp对象是否存在read方法，如果存在，则该对象是一个流，如果不存在，则无法读取。<code>hasattr()</code>就派上了用场。</p>
+<p>请注意，在Python这类动态语言中，根据鸭子类型，有<code>read()</code>方法，不代表该fp对象就是一个文件流，它也可能是网络流，也可能是内存中的一个字节流，但只要<code>read()</code>方法返回的是有效的图像数据，就不影响读取图像的功能。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 09 - Python 面向对象：实例属性和类属性</title>
+    <url>/2021/python09-5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<p>由于Python是动态语言，类的实例可以任意绑定属性。</p>
+<p>给实例绑定属性的方法是通过实例变量，或者通过<code>self</code>变量：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    def __init__(self, name):</span><br><span class="line">        self.name &#x3D; name</span><br><span class="line"></span><br><span class="line">s &#x3D; Student(&#39;Bob&#39;)</span><br><span class="line">s.score &#x3D; 90</span><br></pre></td></tr></table></figure>
+<p>但是，如果<code>Student</code>类本身需要绑定一个属性呢？可以直接在class中定义属性，这种属性是类属性，归<code>Student</code>类所有：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    name &#x3D; &#39;Student&#39;</span><br></pre></td></tr></table></figure>
+<p>当我们定义了一个类属性后，这个属性虽然归类所有，但类的所有实例都可以访问到。来测试一下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; class Student(object):</span><br><span class="line">...     name &#x3D; &#39;Student&#39;</span><br><span class="line">...</span><br><span class="line">&gt;&gt;&gt; s &#x3D; Student() # 创建实例s</span><br><span class="line">&gt;&gt;&gt; print(s.name) # 打印name属性，因为实例并没有name属性，所以会继续查找class的name属性</span><br><span class="line">Student</span><br><span class="line">&gt;&gt;&gt; print(Student.name) # 打印类的name属性</span><br><span class="line">Student</span><br><span class="line">&gt;&gt;&gt; s.name &#x3D; &#39;Michael&#39; # 给实例绑定name属性</span><br><span class="line">&gt;&gt;&gt; print(s.name) # 由于实例属性优先级比类属性高，因此，它会屏蔽掉类的name属性</span><br><span class="line">Michael</span><br><span class="line">&gt;&gt;&gt; print(Student.name) # 但是类属性并未消失，用Student.name仍然可以访问</span><br><span class="line">Student</span><br><span class="line">&gt;&gt;&gt; del s.name # 如果删除实例的name属性</span><br><span class="line">&gt;&gt;&gt; print(s.name) # 再次调用s.name，由于实例的name属性没有找到，类的name属性就显示出来了</span><br><span class="line">Student</span><br></pre></td></tr></table></figure>
+<p>从上面的例子可以看出，在编写程序的时候，千万不要对实例属性和类属性使用相同的名字，因为相同名称的实例属性将屏蔽掉类属性，但是当你删除实例属性后，再使用相同的名称，访问到的将是类属性。</p>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>实例属性属于各个实例所有，互不干扰；</p>
+<p>类属性属于类所有，所有实例共享一个属性；</p>
+<p>不要对实例属性和类属性使用相同的名字，否则将产生难以发现的错误。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 09 - Python 面向对象：基础知识</title>
+    <url>/2021/python09-0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><h4 id="OOP"><a href="#OOP" class="headerlink" title="OOP"></a>OOP</h4><p>面向对象编程——Object Oriented Programming，简称OOP，是一种<strong>程序设计思想</strong>。OOP把对象作为程序的基本单元，一个对象包含了数据和操作数据的函数。</p>
+<p>面向对象的编程思想是基于面向过程的思想发展而来的。</p>
+<p>面向过程的程序设计把计算机程序视为一系列的命令集合，即一组函数的顺序执行。面向过程通常会把函数继续切分为子函数，即把大块函数通过切割成小块函数来降低系统的复杂度。而面向对象的程序设计把计算机程序视为一组对象的集合，每个对象都可以接收其他对象发过来的消息，并处理这些消息，计算机程序的执行就是一系列消息在各个对象之间传递。</p>
+<p>在单体程序逻辑比较简单的时候，用面向过程的方法设计会更简单，但当系统趋于复杂时，面向过程的设计就会捉襟见肘了，此时利用面向对象的设计思想会更清晰明了，容易维护。</p>
+<h4 id="一切皆对象"><a href="#一切皆对象" class="headerlink" title="一切皆对象"></a>一切皆对象</h4><p>在Python中，所有数据类型都可以视为对象。</p>
+<p>我们以一个例子来说明面向过程和面向对象在程序流程上的不同之处。</p>
+<p>假设我们要处理学生的成绩表，为了表示一个学生的成绩，面向过程的程序可以用一个dict表示：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">std1 &#x3D; &#123; &#39;name&#39;: &#39;Michael&#39;, &#39;score&#39;: 98 &#125;</span><br><span class="line">std2 &#x3D; &#123; &#39;name&#39;: &#39;Bob&#39;, &#39;score&#39;: 81 &#125;</span><br></pre></td></tr></table></figure>
+<p>而处理学生成绩可以通过函数实现，比如打印学生的成绩：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">def print_score(std):</span><br><span class="line">    print(&#39;%s: %s&#39; % (std[&#39;name&#39;], std[&#39;score&#39;]))</span><br></pre></td></tr></table></figure>
+<p>如果采用面向对象的程序设计思想，我们首选思考的不是程序的执行流程，而是<code>Student</code>这种数据类型应该被视为一个对象，这个对象拥有<code>name</code>和<code>score</code>这两个属性（Property）。如果要打印一个学生的成绩，首先必须创建出这个学生对应的对象，然后，给对象发一个<code>print_score</code>消息，让对象自己把自己的数据打印出来。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    def __init__(self, name, score):</span><br><span class="line">        self.name &#x3D; name</span><br><span class="line">        self.score &#x3D; score</span><br><span class="line"></span><br><span class="line">    def print_score(self):    # 类中定义的方法第一个参数必须是self，无论是否用到</span><br><span class="line">        print(&#39;%s: %s&#39; % (self.name, self.score))</span><br></pre></td></tr></table></figure>
+<p>给对象发消息实际上就是调用对象的函数，我们称之为对象的方法（Method）。面向对象的程序写出来就像这样：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">bart &#x3D; Student(&#39;Bart Simpson&#39;, 59)</span><br><span class="line">lisa &#x3D; Student(&#39;Lisa Simpson&#39;, 87)</span><br><span class="line">bart.print_score()</span><br><span class="line">lisa.print_score()</span><br></pre></td></tr></table></figure>
+<p>面向对象的设计思想是从自然界中来的，因为在自然界中，类（Class）和实例（Instance）的概念是很自然的。Class是一种抽象概念，比如我们定义的Class——Student，是指学生这个概念，而实例（Instance）则是一个个具体的Student，比如，Bart Simpson和Lisa Simpson是两个具体的Student。</p>
+<p>所以，面向对象的设计思想是<strong>抽象出Class，根据Class创建Instance</strong>。</p>
+<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>数据封装、继承和多态(Encapsulation, Inheritance, Polymorphism)是面向对象的三大特点，我们后面会详细讲解。</p>
+<p>将各种各样的东西分类，从而了解世界，从人类祖先开始，我们就在练习了这个认知过程，面向对象是符合人类思维习惯的。</p>
+<p>所谓面向过程，也就是执行完一个语句再执行下一个，更多的是机器思维。通过面向对象的编程，我们可以更方便的表达思维中的复杂想法。当然，面向对象和面向过程并不是完全独立的，在面向对象的程序内部，比如一个方法的实现，依然是面向过程的。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 09 - Python 面向对象：类和实例</title>
+    <url>/2021/python09-1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<p>面向对象最重要的概念就是类（Class）和实例（Instance），必须牢记类是抽象的模板，而实例是根据类创建出来的一个个具体的对象。</p>
+<h3 id="定义一个类"><a href="#定义一个类" class="headerlink" title="定义一个类"></a>定义一个类</h3><p>仍以Student类为例，在Python中，定义类是通过<code>class</code>关键字：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    pass</span><br></pre></td></tr></table></figure>
+<p><code>class</code>后面紧接着是类名，即<code>Student</code>，类名以大写字母开头，紧接着是<code>(object)</code>，表示该类是从哪个类继承下来的，继承的概念我们后面再讲，通常，如果没有合适的继承类，就使用<code>object</code>类，这是所有类最终都会继承的类。</p>
+<p>定义好了<code>Student</code>类，就可以根据<code>Student</code>类创建出<code>Student</code>的实例，创建实例是通过类名+()实现的：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; bart &#x3D; Student()</span><br><span class="line">&gt;&gt;&gt; bart</span><br><span class="line">&lt;__main__.Student object at 0x10a67a590&gt;</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; Student</span><br><span class="line">&lt;class &#39;__main__.Student&#39;&gt;</span><br></pre></td></tr></table></figure>
+<p>可以看到，变量<code>bart</code>指向的就是一个<code>Student</code>的实例，后面的<code>0x10a67a590</code>是内存地址，每个object的地址都不一样，而<code>Student</code>本身则是一个类。</p>
+<p>可以自由地给一个实例变量绑定属性，比如，给实例<code>bart</code>绑定一个<code>name</code>属性：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; bart.name &#x3D; &#39;Bart Simpson&#39;</span><br><span class="line">&gt;&gt;&gt; bart.name</span><br><span class="line">&#39;Bart Simpson&#39;</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="init方法"><a href="#init方法" class="headerlink" title="init方法"></a>init方法</h3><p>由于类可以起到模板的作用，因此，可以在创建实例的时候，把一些我们认为必须绑定的属性强制填写进去。通过定义一个特殊的<code>__init__</code>方法，在创建实例的时候，就把<code>name</code>，<code>score</code>等属性绑上去：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, score):</span><br><span class="line">        self.name &#x3D; name</span><br><span class="line">        self.score &#x3D; score</span><br></pre></td></tr></table></figure>
+<p> 注意：特殊方法“__init__”前后分别有两个下划线！！！</p>
+<p><code>__init__</code>方法的<strong>第一个参数永远是<code>self</code>，表示创建的实例本身</strong>，因此，在<code>__init__</code>方法内部，就可以把各种属性绑定到<code>self</code>，因为<code>self</code>就指向创建的实例本身。</p>
+<p>有了<code>__init__</code>方法，在创建实例的时候，就不能传入空的参数了，必须传入与<code>__init__</code>方法匹配的参数，但<code>self</code>不需要传，Python解释器自己会把实例变量传进去：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; bart &#x3D; Student(&#39;Bart Simpson&#39;, 59)</span><br><span class="line">&gt;&gt;&gt; bart.name</span><br><span class="line">&#39;Bart Simpson&#39;</span><br><span class="line">&gt;&gt;&gt; bart.score</span><br><span class="line">59</span><br></pre></td></tr></table></figure>
+<p>和普通的函数相比，在类中定义的函数只有一点不同，就是第一个参数永远是实例变量<code>self</code>。</p>
+<h3 id="数据封装（Encapsulation）"><a href="#数据封装（Encapsulation）" class="headerlink" title="数据封装（Encapsulation）"></a>数据封装（Encapsulation）</h3><p>面向对象编程的一个重要特点就是数据封装（Encapsulation）。在上面的<code>Student</code>类中，每个实例就拥有各自的<code>name</code>和<code>score</code>这些数据。我们可以通过函数来访问这些数据，比如打印一个学生的成绩：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; def print_score(std):</span><br><span class="line">...     print(&#39;%s: %s&#39; % (std.name, std.score))</span><br><span class="line">...</span><br><span class="line">&gt;&gt;&gt; print_score(bart)</span><br><span class="line">Bart Simpson: 59</span><br></pre></td></tr></table></figure>
+<p>但是，既然<code>Student</code>实例本身就拥有这些数据，要访问这些数据，就没有必要从外面的函数去访问，可以直接在<code>Student</code>类的内部定义访问数据的函数，这样，就把“数据”给封装起来了。这些封装数据的函数是和<code>Student</code>类本身是关联起来的，我们称之为类的方法（method）：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, score):</span><br><span class="line">        self.name &#x3D; name</span><br><span class="line">        self.score &#x3D; score</span><br><span class="line"></span><br><span class="line">    def print_score(self):</span><br><span class="line">        print(&#39;%s: %s&#39; % (self.name, self.score))</span><br></pre></td></tr></table></figure>
+<p>要定义一个方法，除了第一个参数是<code>self</code>外，其他和普通函数一样。要调用一个方法，只需要在实例变量上直接调用，除了<code>self</code>不用传递，其他参数正常传入：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; bart.print_score()</span><br><span class="line">Bart Simpson: 59</span><br></pre></td></tr></table></figure>
+<p>由此可以看出，类其实就是将数据和功能组合起来的一种结构。我们从外部看<code>Student</code>类，就只需要知道，创建实例时给出<code>name</code>和<code>score</code>，而如何打印，都是在<code>Student</code>类的内部定义的，这些数据和逻辑被“封装”起来了，调用很容易，不用知道内部实现的细节。</p>
+<p>我们可以继续给<code>Student</code>类增加新的方法，比如<code>get_grade</code>：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    ...</span><br><span class="line"></span><br><span class="line">    def get_grade(self):</span><br><span class="line">        if self.score &gt;&#x3D; 90:</span><br><span class="line">            return &#39;A&#39;</span><br><span class="line">        elif self.score &gt;&#x3D; 60:</span><br><span class="line">            return &#39;B&#39;</span><br><span class="line">        else:</span><br><span class="line">            return &#39;C&#39;</span><br></pre></td></tr></table></figure>
+<p>同样的，<code>get_grade</code>方法可以直接在实例变量上调用，不需要知道内部实现细节：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">lisa &#x3D; Student(&#39;Lisa&#39;, 99) </span><br><span class="line">bart &#x3D; Student(&#39;Bart&#39;, 59) </span><br><span class="line">print(lisa.name, lisa.get_grade()) </span><br><span class="line">print(bart.name, bart.get_grade())</span><br></pre></td></tr></table></figure>
+
+
+<p>需要<strong>注意</strong>的是，和Java、C++等静态语言不同，Python允许对实例变量动态绑定任何数据，也就是说，同一个类的两个实例可能拥有的不同名称的属性：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; bart &#x3D; Student(&#39;Bart Simpson&#39;, 59)</span><br><span class="line">&gt;&gt;&gt; lisa &#x3D; Student(&#39;Lisa Simpson&#39;, 87)</span><br><span class="line">&gt;&gt;&gt; bart.age &#x3D; 8</span><br><span class="line">&gt;&gt;&gt; bart.age</span><br><span class="line">8</span><br><span class="line">&gt;&gt;&gt; lisa.age</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">AttributeError: &#39;Student&#39; object has no attribute &#39;age&#39;</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>类是创建实例的模板，而实例则是一个一个具体的对象，各个实例拥有的数据都互相独立，互不影响；</p>
+<p>通过在实例上调用方法，我们就直接操作了对象内部的数据，但无需知道方法内部的实现细节。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 09 - Python 面向对象：继承和多态</title>
+    <url>/2021/python09-3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+
+<h3 id="继承（Inheritance）"><a href="#继承（Inheritance）" class="headerlink" title="继承（Inheritance）"></a>继承（Inheritance）</h3><p>在OOP程序设计中，当我们定义一个class的时候，可以从某个现有的class继承，新的class称为子类（Subclass），而被继承的class称为父类（Super class）。</p>
+<p>比如，我们已经编写了一个名为<code>Animal</code>的class，有一个<code>run()</code>方法可以直接打印：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Animal(object):</span><br><span class="line">    def run(self):</span><br><span class="line">        print(&#39;Animal is running...&#39;)</span><br></pre></td></tr></table></figure>
+<p>当我们需要编写<code>Dog</code>和<code>Cat</code>类时，就可以直接从<code>Animal</code>类继承：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Dog(Animal):</span><br><span class="line">    pass</span><br><span class="line"></span><br><span class="line">class Cat(Animal):</span><br><span class="line">    pass</span><br></pre></td></tr></table></figure>
+<p>对于<code>Dog</code>来说，<code>Animal</code>就是它的父类，对于<code>Animal</code>来说，<code>Dog</code>就是它的子类。<code>Cat</code>和<code>Dog</code>类似。</p>
+<p>继承有什么好处？最大的好处是子类获得了父类的全部功能。由于<code>Animial</code>实现了<code>run()</code>方法，因此，<code>Dog</code>和<code>Cat</code>作为它的子类，什么事也没干，就自动拥有了<code>run()</code>方法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">dog &#x3D; Dog()</span><br><span class="line">dog.run()</span><br><span class="line"></span><br><span class="line">cat &#x3D; Cat()</span><br><span class="line">cat.run()</span><br></pre></td></tr></table></figure>
+<p>运行结果如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Animal is running...</span><br><span class="line">Animal is running...</span><br></pre></td></tr></table></figure>
+<p>当然，也可以对子类增加一些方法，比如Dog类：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Dog(Animal):</span><br><span class="line"></span><br><span class="line">    def run(self):</span><br><span class="line">        print(&#39;Dog is running...&#39;)</span><br><span class="line"></span><br><span class="line">    def eat(self):</span><br><span class="line">        print(&#39;Eating meat...&#39;)</span><br></pre></td></tr></table></figure>
+
+
+<p>继承的第二个好处需要我们对代码做一点改进。你看到了，无论是<code>Dog</code>还是<code>Cat</code>，它们<code>run()</code>的时候，显示的都是<code>Animal is running...</code>，符合逻辑的做法是分别显示<code>Dog is running...</code>和<code>Cat is running...</code>，因此，对<code>Dog</code>和<code>Cat</code>类改进如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Dog(Animal):</span><br><span class="line"></span><br><span class="line">    def run(self):</span><br><span class="line">        print(&#39;Dog is running...&#39;)</span><br><span class="line"></span><br><span class="line">class Cat(Animal):</span><br><span class="line"></span><br><span class="line">    def run(self):</span><br><span class="line">        print(&#39;Cat is running...&#39;)</span><br></pre></td></tr></table></figure>
+<p>再次运行，结果如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Dog is running...</span><br><span class="line">Cat is running...</span><br></pre></td></tr></table></figure>
+
+
+<p>当子类和父类都存在相同的<code>run()</code>方法时，我们说，子类的<code>run()</code>覆盖（override）了父类的<code>run()</code>，在代码运行的时候，总是会调用子类的<code>run()</code>。这样，我们就获得了继承的另一个好处：<strong>多态</strong>。</p>
+<h3 id="多态（Polymorphism）"><a href="#多态（Polymorphism）" class="headerlink" title="多态（Polymorphism）"></a>多态（Polymorphism）</h3><p>要理解什么是多态，我们首先要对数据类型再作一点说明。当我们定义一个class的时候，我们实际上就定义了一种数据类型。我们定义的数据类型和Python自带的数据类型，比如str、list、dict没什么两样：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">a &#x3D; list() # a是list类型</span><br><span class="line">b &#x3D; Animal() # b是Animal类型</span><br><span class="line">c &#x3D; Dog() # c是Dog类型</span><br></pre></td></tr></table></figure>
+<p>判断一个变量是否是某个类型可以用<code>isinstance()</code>判断：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; isinstance(a, list)</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; isinstance(b, Animal)</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; isinstance(c, Dog)</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+<p>看来<code>a</code>、<code>b</code>、<code>c</code>确实对应着<code>list</code>、<code>Animal</code>、<code>Dog</code>这3种类型。</p>
+<p>但是等等，试试：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; isinstance(c, Animal)</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+<p>看来<code>c</code>不仅仅是<code>Dog</code>，<code>c</code>还是<code>Animal</code>！</p>
+<p>不过仔细想想，这是有道理的，因为<code>Dog</code>是从<code>Animal</code>继承下来的，当我们创建了一个<code>Dog</code>的实例<code>c</code>时，我们认为<code>c</code>的数据类型是<code>Dog</code>没错，但<code>c</code>同时也是<code>Animal</code>也没错。</p>
+<p>所以，在继承关系中，如果一个实例的数据类型是某个子类，那它的数据类型也可以被看做是父类。但是，反过来就不行：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; b &#x3D; Animal()</span><br><span class="line">&gt;&gt;&gt; isinstance(b, Dog)</span><br><span class="line">False</span><br></pre></td></tr></table></figure>
+<p><code>Dog</code>可以看成<code>Animal</code>，但<code>Animal</code>不可以看成<code>Dog</code>。</p>
+<p>要理解多态的好处，我们还需要再编写一个函数，这个函数接受一个<code>Animal</code>类型的变量：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">def run_twice(animal):</span><br><span class="line">    animal.run()</span><br><span class="line">    animal.run()</span><br></pre></td></tr></table></figure>
+<p>当我们传入<code>Animal</code>的实例时，<code>run_twice()</code>就打印出：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; run_twice(Animal())</span><br><span class="line">Animal is running...</span><br><span class="line">Animal is running...</span><br></pre></td></tr></table></figure>
+<p>当我们传入<code>Dog</code>的实例时，<code>run_twice()</code>就打印出：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; run_twice(Dog())</span><br><span class="line">Dog is running...</span><br><span class="line">Dog is running...</span><br></pre></td></tr></table></figure>
+<p>当我们传入<code>Cat</code>的实例时，<code>run_twice()</code>就打印出：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; run_twice(Cat())</span><br><span class="line">Cat is running...</span><br><span class="line">Cat is running...</span><br></pre></td></tr></table></figure>
+<p>看上去没啥意思，但是仔细想想，现在，如果我们再定义一个<code>Tortoise</code>类型，也从<code>Animal</code>派生：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Tortoise(Animal):</span><br><span class="line">    def run(self):</span><br><span class="line">        print(&#39;Tortoise is running slowly...&#39;)</span><br></pre></td></tr></table></figure>
+<p>当我们调用<code>run_twice()</code>时，传入<code>Tortoise</code>的实例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; run_twice(Tortoise())</span><br><span class="line">Tortoise is running slowly...</span><br><span class="line">Tortoise is running slowly...</span><br></pre></td></tr></table></figure>
+<p>你会发现，新增一个<code>Animal</code>的子类，不必对<code>run_twice()</code>做任何修改，实际上，任何依赖<code>Animal</code>作为参数的函数或者方法都可以不加修改地正常运行，原因就在于多态。</p>
+<p>多态的好处就是，当我们需要传入<code>Dog</code>、<code>Cat</code>、<code>Tortoise</code>……时，我们只需要接收<code>Animal</code>类型就可以了，因为<code>Dog</code>、<code>Cat</code>、<code>Tortoise</code>……都是<code>Animal</code>类型，然后，按照<code>Animal</code>类型进行操作即可。由于<code>Animal</code>类型有<code>run()</code>方法，因此，传入的任意类型，只要是<code>Animal</code>类或者子类，就会自动调用实际类型的<code>run()</code>方法，这就是多态的意思：</p>
+<p>对于一个变量，我们只需要知道它是<code>Animal</code>类型，无需确切地知道它的子类型，就可以放心地调用<code>run()</code>方法，而具体调用的<code>run()</code>方法是作用在<code>Animal</code>、<code>Dog</code>、<code>Cat</code>还是<code>Tortoise</code>对象上，由<strong>运行时该对象的确切类型决定</strong>，这就是多态真正的威力：调用方只管调用，不管细节，而当我们新增一种<code>Animal</code>的子类时，只要确保<code>run()</code>方法编写正确，不用管原来的代码是如何调用的。这就是著名的“开闭”原则：</p>
+<p>对扩展开放：允许新增<code>Animal</code>子类；</p>
+<p>对修改封闭：不需要修改依赖<code>Animal</code>类型的<code>run_twice()</code>等函数。</p>
+<p>继承还可以一级一级地继承下来，就好比从爷爷到爸爸、再到儿子这样的关系。而任何类，最终都可以追溯到<strong>根类object</strong>，这些继承关系看上去就像一颗树。比如如下的继承树：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">                ┌───────────────┐</span><br><span class="line">                │    object     │</span><br><span class="line">                └───────────────┘</span><br><span class="line">                        │</span><br><span class="line">           ┌────────────┴────────────┐</span><br><span class="line">           │                         │</span><br><span class="line">           ▼                         ▼</span><br><span class="line">    ┌─────────────┐           ┌─────────────┐</span><br><span class="line">    │   Animal    │           │    Plant    │</span><br><span class="line">    └─────────────┘           └─────────────┘</span><br><span class="line">           │                         │</span><br><span class="line">     ┌─────┴──────┐            ┌─────┴──────┐</span><br><span class="line">     │            │            │            │</span><br><span class="line">     ▼            ▼            ▼            ▼</span><br><span class="line">┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐</span><br><span class="line">│   Dog   │  │   Cat   │  │  Tree   │  │ Flower  │</span><br><span class="line">└─────────┘  └─────────┘  └─────────┘  └─────────┘</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="静态语言-vs-动态语言"><a href="#静态语言-vs-动态语言" class="headerlink" title="静态语言 vs 动态语言"></a>静态语言 vs 动态语言</h4><p>对于静态语言（例如Java）来说，如果需要传入<code>Animal</code>类型，则传入的对象必须是<code>Animal</code>类型或者它的子类，否则，将无法调用<code>run()</code>方法。</p>
+<p>对于Python这样的动态语言来说，则不一定需要传入<code>Animal</code>类型。我们只需要保证传入的对象有一个<code>run()</code>方法就可以了：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Timer(object):</span><br><span class="line">    def run(self):</span><br><span class="line">        print(&#39;Start...&#39;)</span><br></pre></td></tr></table></figure>
+<p><strong>这就是动态语言的“鸭子类型”，它并不要求严格的继承体系，一个对象只要“看起来像鸭子，走起路来像鸭子”，那它就可以被看做是鸭子。</strong></p>
+<p>Python的“file-like object”就是一种鸭子类型。对真正的文件对象，它有一个<code>read()</code>方法，返回其内容。但是，许多对象，只要有<code>read()</code>方法，都被视为“file-like object”。许多函数接收的参数就是“file-like object“，你不一定要传入真正的文件对象，完全可以传入任何实现了<code>read()</code>方法的对象。</p>
+<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>继承可以把父类的所有功能都直接拿过来，这样就不必从零做起，子类只需要新增自己特有的方法，也可以把父类不适合的方法覆盖。</p>
+<p>动态语言的鸭子类型特点决定了继承不像静态语言那样是必须的。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 09 - Python 面向对象：访问限制</title>
+    <url>/2021/python09-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+<p>在Class内部，可以有属性和方法，而外部代码可以通过直接调用实例变量的方法来操作数据，这样，就隐藏了内部的复杂逻辑。</p>
+<p>但是，从前面Student类的定义来看，外部代码还是可以自由地修改一个实例的<code>name</code>、<code>score</code>属性：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; bart &#x3D; Student(&#39;Bart Simpson&#39;, 59)</span><br><span class="line">&gt;&gt;&gt; bart.score</span><br><span class="line">59</span><br><span class="line">&gt;&gt;&gt; bart.score &#x3D; 99</span><br><span class="line">&gt;&gt;&gt; bart.score</span><br><span class="line">99</span><br></pre></td></tr></table></figure>
+
+<h3 id="实例的私有变量（private）"><a href="#实例的私有变量（private）" class="headerlink" title="实例的私有变量（private）"></a>实例的私有变量（private）</h3><p>在Python中，实例的变量名如果以<code>__</code>开头，就变成了一个私有变量（private），只有内部可以访问，外部不能访问。</p>
+<p>所以，我们把Student类改一改：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, score):</span><br><span class="line">        self.__name &#x3D; name</span><br><span class="line">        self.__score &#x3D; score</span><br><span class="line"></span><br><span class="line">    def print_score(self):</span><br><span class="line">        print(&#39;%s: %s&#39; % (self.__name, self.__score))</span><br></pre></td></tr></table></figure>
+<p>改完后，对于外部代码来说，没什么变动，但是已经无法从外部访问<code>实例变量.__name</code>和<code>实例变量.__score</code>了：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; bart &#x3D; Student(&#39;Bart Simpson&#39;, 59)</span><br><span class="line">&gt;&gt;&gt; bart.__name</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">AttributeError: &#39;Student&#39; object has no attribute &#39;__name&#39;</span><br></pre></td></tr></table></figure>
+<p>这样就确保了外部代码不能随意修改对象内部的状态，代码更加健壮。</p>
+<p>但是如果外部代码要获取name和score怎么办？可以给Student类增加<code>get_name</code>和<code>get_score</code>这样的方法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    ...</span><br><span class="line"></span><br><span class="line">    def get_name(self):</span><br><span class="line">        return self.__name</span><br><span class="line"></span><br><span class="line">    def get_score(self):</span><br><span class="line">        return self.__score</span><br></pre></td></tr></table></figure>
+<p>如果又要允许外部代码修改score怎么办？可以再给Student类增加<code>set_score</code>方法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    ...</span><br><span class="line"></span><br><span class="line">    def set_score(self, score):</span><br><span class="line">        self.__score &#x3D; score</span><br></pre></td></tr></table></figure>
+<p>你也许会问，原先那种直接通过<code>bart.score = 99</code>也可以修改啊，为什么要定义一个方法大费周折？因为在方法中，可以对参数做检查，避免传入无效的参数：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    ...</span><br><span class="line"></span><br><span class="line">    def set_score(self, score):</span><br><span class="line">        if 0 &lt;&#x3D; score &lt;&#x3D; 100:</span><br><span class="line">            self.__score &#x3D; score</span><br><span class="line">        else:</span><br><span class="line">            raise ValueError(&#39;bad score&#39;)</span><br></pre></td></tr></table></figure>
+
+
+<p>需要注意的是，在Python中，变量名类似<code>__xxx__</code>的，也就是以双下划线开头，并且以双下划线结尾的，是特殊变量，特殊变量是可以直接访问的，不是private变量，所以，不能用<code>__name__</code>、<code>__score__</code>这样的变量名。</p>
+<p>有些时候，你会看到以一个下划线开头的实例变量名，比如<code>_name</code>，这样的实例变量外部是可以访问的，但是，按照约定俗成的规定，当你看到这样的变量时，意思就是，“虽然我可以被访问，但是，请把我视为私有变量，不要随意访问”。</p>
+<p>双下划线开头的实例变量是不是一定不能从外部访问呢？其实也不是。不能直接访问<code>__name</code>是因为Python解释器对外把<code>__name</code>变量改成了<code>_Student__name</code>，所以，仍然可以通过<code>_Student__name</code>来访问<code>__name</code>变量：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; bart._Student__name</span><br><span class="line">&#39;Bart Simpson&#39;</span><br></pre></td></tr></table></figure>
+<p>但是强烈建议你不要这么干，因为不同版本的Python解释器可能会把<code>__name</code>改成不同的变量名。</p>
+<p>总的来说就是，Python本身没有任何机制阻止你干坏事，一切全靠自觉。</p>
+<p>最后注意下面的这种<em>错误写法</em>：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; bart &#x3D; Student(&#39;Bart Simpson&#39;, 59)</span><br><span class="line">&gt;&gt;&gt; bart.get_name()</span><br><span class="line">&#39;Bart Simpson&#39;</span><br><span class="line">&gt;&gt;&gt; bart.__name &#x3D; &#39;New Name&#39; # 设置__name变量！</span><br><span class="line">&gt;&gt;&gt; bart.__name</span><br><span class="line">&#39;New Name&#39;</span><br></pre></td></tr></table></figure>
+<p>表面上看，外部代码“成功”地设置了<code>__name</code>变量，但实际上这个<code>__name</code>变量和class内部的<code>__name</code>变量<em>不是</em>一个变量！内部的<code>__name</code>变量已经被Python解释器自动改成了<code>_Student__name</code>，而外部代码给<code>bart</code>新增了一个<code>__name</code>变量。不信试试：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; bart.get_name() # get_name()内部返回self.__name</span><br><span class="line">&#39;Bart Simpson&#39;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 10 - Python 常用模块：os模块与shutil模块</title>
+    <url>/2021/python10-1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<h3 id="os模块"><a href="#os模块" class="headerlink" title="os模块"></a>os模块</h3><p>Python内置的<code>os</code>模块可以直接调用操作系统提供的接口。</p>
+<p>打开Python交互式命令行，我们来看看如何使用<code>os</code>模块的基本功能：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; import os</span><br><span class="line">&gt;&gt;&gt; os.name # 操作系统类型</span><br><span class="line">&#39;posix&#39;</span><br></pre></td></tr></table></figure>
+<p>如果是<code>posix</code>，说明系统是<code>Linux</code>、<code>Unix</code>或<code>Mac OS X</code>，如果是<code>nt</code>，就是<code>Windows</code>系统。</p>
+<p>要获取详细的系统信息，可以调用<code>uname()</code>函数：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; os.uname()</span><br><span class="line">posix.uname_result(sysname&#x3D;&#39;Darwin&#39;, nodename&#x3D;&#39;MichaelMacPro.local&#39;, release&#x3D;&#39;14.3.0&#39;, version&#x3D;&#39;Darwin Kernel Version 14.3.0: Mon Mar 23 11:59:05 PDT 2015; root:xnu-2782.20.48~5&#x2F;RELEASE_X86_64&#39;, machine&#x3D;&#39;x86_64&#39;)</span><br></pre></td></tr></table></figure>
+<p>注意<code>uname()</code>函数在Windows上不提供，也就是说，<code>os</code>模块的某些函数是跟操作系统相关的。</p>
+<p>在操作系统中定义的环境变量，全部保存在<code>os.environ</code>这个变量中，可以直接查看：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; os.environ</span><br><span class="line">environ(&#123;&#39;VERSIONER_PYTHON_PREFER_32_BIT&#39;: &#39;no&#39;, &#39;TERM_PROGRAM_VERSION&#39;: &#39;326&#39;, &#39;LOGNAME&#39;: &#39;michael&#39;, &#39;USER&#39;: &#39;michael&#39;, &#39;PATH&#39;: &#39;&#x2F;usr&#x2F;bin:&#x2F;bin:&#x2F;usr&#x2F;sbin:&#x2F;sbin:&#x2F;usr&#x2F;local&#x2F;bin:&#x2F;opt&#x2F;X11&#x2F;bin:&#x2F;usr&#x2F;local&#x2F;mysql&#x2F;bin&#39;, ...&#125;)</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="操作文件和目录"><a href="#操作文件和目录" class="headerlink" title="操作文件和目录"></a>操作文件和目录</h4><p>操作文件和目录的函数一部分放在<code>os</code>模块中，一部分放在<code>os.path</code>模块中，这一点要注意一下。查看、创建和删除目录可以这么调用：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 查看当前目录的绝对路径:</span><br><span class="line">&gt;&gt;&gt; os.path.abspath(&#39;.&#39;)</span><br><span class="line">&#39;&#x2F;Users&#x2F;michael&#39;</span><br><span class="line"># 在某个目录下创建一个新目录，首先把新目录的完整路径表示出来:</span><br><span class="line">&gt;&gt;&gt; os.path.join(&#39;&#x2F;Users&#x2F;michael&#39;, &#39;testdir&#39;)</span><br><span class="line">&#39;&#x2F;Users&#x2F;michael&#x2F;testdir&#39;</span><br><span class="line"># 然后创建一个目录:</span><br><span class="line">&gt;&gt;&gt; os.mkdir(&#39;&#x2F;Users&#x2F;michael&#x2F;testdir&#39;)</span><br><span class="line"># 删掉一个目录:</span><br><span class="line">&gt;&gt;&gt; os.rmdir(&#39;&#x2F;Users&#x2F;michael&#x2F;testdir&#39;)</span><br></pre></td></tr></table></figure>
+<p>把两个路径合成一个时，不要直接拼字符串，而要通过<code>os.path.join()</code>函数，这样可以正确处理不同操作系统的路径分隔符。在Linux/Unix/Mac下，<code>os.path.join()</code>返回这样的字符串：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">part-1&#x2F;part-2</span><br></pre></td></tr></table></figure>
+<p>而Windows下会返回这样的字符串：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">part-1\part-2</span><br></pre></td></tr></table></figure>
+<p>同样的道理，要拆分路径时，也不要直接去拆字符串，而要通过<code>os.path.split()</code>函数，这样可以把一个路径拆分为两部分，后一部分总是最后级别的目录或文件名：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; os.path.split(&#39;&#x2F;Users&#x2F;michael&#x2F;testdir&#x2F;file.txt&#39;)</span><br><span class="line">(&#39;&#x2F;Users&#x2F;michael&#x2F;testdir&#39;, &#39;file.txt&#39;)</span><br></pre></td></tr></table></figure>
+<p><code>os.path.splitext()</code>可以直接让你得到文件扩展名，很多时候非常方便：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; os.path.splitext(&#39;&#x2F;path&#x2F;to&#x2F;file.txt&#39;)</span><br><span class="line">(&#39;&#x2F;path&#x2F;to&#x2F;file&#39;, &#39;.txt&#39;)</span><br></pre></td></tr></table></figure>
+<p>这些合并、拆分路径的函数并不要求目录和文件要真实存在，它们只对字符串进行操作。</p>
+<p>文件操作使用下面的函数。假定当前目录下有一个<code>test.txt</code>文件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 对文件重命名:</span><br><span class="line">&gt;&gt;&gt; os.rename(&#39;test.txt&#39;, &#39;test.py&#39;)</span><br><span class="line"># 删掉文件:</span><br><span class="line">&gt;&gt;&gt; os.remove(&#39;test.py&#39;)</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="shutil模块"><a href="#shutil模块" class="headerlink" title="shutil模块"></a>shutil模块</h3><p>但是复制文件的函数居然在<code>os</code>模块中不存在！原因是复制文件并非由操作系统提供的系统调用。理论上讲，我们通过上一节的读写文件可以完成文件复制，只不过要多写很多代码。</p>
+<p>幸运的是<code>shutil</code>模块提供了<code>copyfile()</code>的函数，你还可以在<code>shutil</code>模块中找到很多实用函数，它们可以看做是<code>os</code>模块的补充。</p>
+<p>最后看看如何利用Python的特性来过滤文件。比如我们要列出当前目录下的所有目录，只需要一行代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; [x for x in os.listdir(&#39;.&#39;) if os.path.isdir(x)]</span><br><span class="line">[&#39;.lein&#39;, &#39;.local&#39;, &#39;.m2&#39;, &#39;.npm&#39;, &#39;.ssh&#39;, &#39;.Trash&#39;, &#39;.vim&#39;, &#39;Applications&#39;, &#39;Desktop&#39;, ...]</span><br></pre></td></tr></table></figure>
+<p>要列出所有的<code>.py</code>文件，也只需一行代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; [x for x in os.listdir(&#39;.&#39;) if os.path.isfile(x) and os.path.splitext(x)[1]&#x3D;&#x3D;&#39;.py&#39;]</span><br><span class="line">[&#39;apis.py&#39;, &#39;config.py&#39;, &#39;models.py&#39;, &#39;pymonitor.py&#39;, &#39;test_db.py&#39;, &#39;urls.py&#39;, &#39;wsgiapp.py&#39;]</span><br></pre></td></tr></table></figure>
+<p>是不是非常简洁？</p>
+<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>Python的<code>os</code>模块封装了操作系统的目录和文件操作，要注意这些函数有的在<code>os</code>模块中，有的在<code>os.path</code>模块中。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 10 - Python 操作文件和目录</title>
+    <url>/2021/python10-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+<p>读写文件是最常见的操作之一，Python内置了读写文件的函数，用法和C语言是类似的。</p>
+<p>读写文件前，我们先必须了解一下，在磁盘上读写文件的功能都是由操作系统提供的，现代操作系统不允许普通的程序直接操作磁盘，所以，读写文件就是请求操作系统打开一个文件对象（通常称为文件描述符），然后，通过操作系统提供的接口从这个文件对象中读取数据（读文件），或者把数据写入这个文件对象（写文件）。</p>
+<h3 id="open-函数"><a href="#open-函数" class="headerlink" title="open()函数"></a>open()函数</h3><h4 id="读文件"><a href="#读文件" class="headerlink" title="读文件"></a>读文件</h4><p>要以读文件的模式打开一个文件对象，使用Python内置的<code>open()</code>函数，传入文件名和标示符：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; f &#x3D; open(&#39;&#x2F;Users&#x2F;michael&#x2F;test.txt&#39;, &#39;r&#39;)</span><br></pre></td></tr></table></figure>
+<p>标示符’r’表示读，这样，我们就成功地打开了一个文件。</p>
+<p>如果文件不存在，<code>open()</code>函数就会抛出一个<code>IOError</code>的错误，并且给出错误码和详细的信息告诉你文件不存在：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; f&#x3D;open(&#39;&#x2F;Users&#x2F;michael&#x2F;notfound.txt&#39;, &#39;r&#39;)</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">FileNotFoundError: [Errno 2] No such file or directory: &#39;&#x2F;Users&#x2F;michael&#x2F;notfound.txt&#39;</span><br></pre></td></tr></table></figure>
+<p>如果文件打开成功，接下来，调用<code>read()</code>方法可以一次读取文件的全部内容，Python把内容读到内存，用一个<code>str</code>对象表示：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; f.read()</span><br><span class="line">&#39;Hello, world!&#39;</span><br></pre></td></tr></table></figure>
+<p>最后一步是调用<code>close()</code>方法关闭文件。文件使用完毕后必须关闭，因为文件对象会占用操作系统的资源，并且操作系统同一时间能打开的文件数量也是有限的：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; f.close()</span><br></pre></td></tr></table></figure>
+<p>由于文件读写时都有可能产生<code>IOError</code>，一旦出错，后面的<code>f.close()</code>就不会调用。所以，为了保证无论是否出错都能正确地关闭文件，我们可以使用<code>try ... finally</code>来实现：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">try:</span><br><span class="line">    f &#x3D; open(&#39;&#x2F;path&#x2F;to&#x2F;file&#39;, &#39;r&#39;)</span><br><span class="line">    print(f.read())</span><br><span class="line">finally:</span><br><span class="line">    if f:</span><br><span class="line">        f.close()</span><br></pre></td></tr></table></figure>
+<p>但是每次都这么写实在太繁琐，所以，Python引入了<code>with</code>语句来自动帮我们调用<code>close()</code>方法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">with open(&#39;&#x2F;path&#x2F;to&#x2F;file&#39;, &#39;r&#39;) as f:</span><br><span class="line">    print(f.read())</span><br></pre></td></tr></table></figure>
+<p>这和前面的<code>try ... finally</code>是一样的，但是代码更简洁，并且不必手动调用<code>f.close()</code>方法。</p>
+<p>调用<code>read()</code>会一次性读取文件的全部内容，如果文件有10G，内存就爆了，所以，要保险起见，可以反复调用<code>read(size)</code>方法，每次最多读取size个字节的内容。另外，调用<code>readline()</code>可以每次读取一行内容，调用<code>readlines()</code>一次读取所有内容并按行返回<code>list</code>。因此，要根据需要决定怎么调用。</p>
+<p>如果文件很小，<code>read()</code>一次性读取最方便；如果不能确定文件大小，反复调用<code>read(size)</code>比较保险；如果是配置文件，调用<code>readlines()</code>最方便：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">for line in f.readlines():</span><br><span class="line">    print(line.strip()) # 把末尾的&#39;\n&#39;删掉</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="写文件"><a href="#写文件" class="headerlink" title="写文件"></a>写文件</h4><p>写文件和读文件是一样的，唯一区别是调用<code>open()</code>函数时，传入标识符<code>&#39;w&#39;</code>或者<code>&#39;wb&#39;</code>表示写文本文件或写二进制文件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; f &#x3D; open(&#39;&#x2F;Users&#x2F;michael&#x2F;test.txt&#39;, &#39;w&#39;)</span><br><span class="line">&gt;&gt;&gt; f.write(&#39;Hello, world!&#39;)</span><br><span class="line">&gt;&gt;&gt; f.close()</span><br></pre></td></tr></table></figure>
+<p>你可以反复调用<code>write()</code>来写入文件，但是最后务必调用<code>f.close()</code>来关闭文件对象。当我们写文件时，操作系统往往不会立刻把数据写入磁盘，而是放到内存缓存起来，空闲的时候再慢慢写入。只有调用<code>close()</code>方法时，操作系统才保证把没有写入的数据全部写入磁盘。忘记调用<code>close()</code>的后果是数据可能只写了一部分到磁盘，剩下的丢失了。所以，还是用<code>with</code>语句来得保险：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">with open(&#39;&#x2F;Users&#x2F;michael&#x2F;test.txt&#39;, &#39;w&#39;) as f:</span><br><span class="line">    f.write(&#39;Hello, world!&#39;)</span><br></pre></td></tr></table></figure>
+<p>要写入特定编码的文本文件，请给<code>open()</code>函数传入<code>encoding</code>参数，将字符串自动转换成指定编码。</p>
+<p>细心的同学会发现，以<code>&#39;w&#39;</code>模式写入文件时，如果文件已存在，会直接覆盖（相当于删掉后新建一个文件）。如果我们希望追加到原文件末尾怎么办？可以传入<code>&#39;a&#39;</code>以追加（append）模式写入。</p>
+<p>除<code>&#39;r&#39;</code>、<code>&#39;w&#39;</code>、<code>&#39;a&#39;</code>外还有其他的操作模式，这里所说的操作模式是指要以什么方式打开文件（文本模式或二进制模式）以及做什么样的操作（读、写或追加），具体如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th>操作模式</th>
+<th>具体含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>&#39;r&#39;</code></td>
+<td>读取 （默认，文件不存在则抛出一个<code>IOError</code>的错误）</td>
+</tr>
+<tr>
+<td><code>&#39;w&#39;</code></td>
+<td>写入（文件已存在则覆盖）</td>
+</tr>
+<tr>
+<td><code>&#39;x&#39;</code></td>
+<td>写入（文件已存在则抛出异常）</td>
+</tr>
+<tr>
+<td><code>&#39;a&#39;</code></td>
+<td>写入（文件已存在则在文件末尾追加新的内容）</td>
+</tr>
+<tr>
+<td><code>&#39;b&#39;</code></td>
+<td>二进制模式</td>
+</tr>
+<tr>
+<td><code>&#39;t&#39;</code></td>
+<td>文本模式（默认）</td>
+</tr>
+<tr>
+<td><code>&#39;+&#39;</code></td>
+<td>更新（既可以读又可以写）</td>
+</tr>
+</tbody></table>
+<h3 id="file-like-Object"><a href="#file-like-Object" class="headerlink" title="file-like Object"></a>file-like Object</h3><p>像<code>open()</code>函数返回的这种有个<code>read()</code>方法的对象，在Python中统称为file-like Object。除了file外，还可以是内存的字节流，网络流，自定义流等等。file-like Object不要求从特定类继承，只要有<code>read()</code>方法就行。</p>
+<p><code>StringIO</code>就是在内存中创建的file-like Object，常用作临时缓冲。</p>
+<h3 id="打开二进制文件"><a href="#打开二进制文件" class="headerlink" title="打开二进制文件"></a>打开二进制文件</h3><p>前面讲的默认都是读取文本文件，并且是UTF-8编码的文本文件。要读取二进制文件，比如图片、视频等等，用<code>&#39;rb&#39;</code>模式打开文件即可：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; f &#x3D; open(&#39;&#x2F;Users&#x2F;michael&#x2F;test.jpg&#39;, &#39;rb&#39;)</span><br><span class="line">&gt;&gt;&gt; f.read()</span><br><span class="line">b&#39;\xff\xd8\xff\xe1\x00\x18Exif\x00\x00...&#39; # 十六进制表示的字节</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="字符编码问题"><a href="#字符编码问题" class="headerlink" title="字符编码问题"></a>字符编码问题</h3><p>要读取非UTF-8编码的文本文件，需要给<code>open()</code>函数传入<code>encoding</code>参数，例如，读取GBK编码的文件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; f &#x3D; open(&#39;&#x2F;Users&#x2F;michael&#x2F;gbk.txt&#39;, &#39;r&#39;, encoding&#x3D;&#39;gbk&#39;)</span><br><span class="line">&gt;&gt;&gt; f.read()</span><br><span class="line">&#39;测试&#39;</span><br></pre></td></tr></table></figure>
+<p>遇到有些编码不规范的文件，你可能会遇到<code>UnicodeDecodeError</code>，因为在文本文件中可能夹杂了一些非法编码的字符。遇到这种情况，<code>open()</code>函数还接收一个<code>errors</code>参数，表示如果遇到编码错误后如何处理。最简单的方式是直接忽略：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; f &#x3D; open(&#39;&#x2F;Users&#x2F;michael&#x2F;gbk.txt&#39;, &#39;r&#39;, encoding&#x3D;&#39;gbk&#39;, errors&#x3D;&#39;ignore&#39;)</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>在Python中，文件读写是通过<code>open()</code>函数打开的文件对象完成的。使用<code>with</code>语句操作文件IO是个好习惯。</p>
 ]]></content>
       <categories>
         <category>Python</category>

@@ -13,7 +13,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    Day00 - 初识Python |  $HIKAMARU
+    Day 09 - Python 面向对象：访问限制 |  $HIKAMARU
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -44,7 +44,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-python/Day0-Preface"
+  id="post-python/Day09-Python面向对象：访问限制"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -55,15 +55,15 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  Day00 - 初识Python
+  Day 09 - Python 面向对象：访问限制
 </h1>
  
 
     </header>
      
     <div class="article-meta">
-      <a href="/2021/python00/" class="article-date">
-  <time datetime="2021-02-09T13:21:28.000Z" itemprop="datePublished">2021-02-09</time>
+      <a href="/2021/python09-2/" class="article-date">
+  <time datetime="2021-02-09T13:33:57.000Z" itemprop="datePublished">2021-02-09</time>
 </a> 
   <div class="article-category">
     <a class="article-category-link" href="/categories/Python/">Python</a>
@@ -81,161 +81,35 @@
        
   <meta name="referrer" content="no-referrer" />
 
-<br/>
-<div align="center">    
-    <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkhtk5rq3cj30dw04474e.jpg"
-    width="500px">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;color: #999;padding: 2px;">
-    Python 的双头蛇 logo
-    </div>
-</div>
-<br/>
 
-<a id="more"></a>
+<p>在Class内部，可以有属性和方法，而外部代码可以通过直接调用实例变量的方法来操作数据，这样，就隐藏了内部的复杂逻辑。</p>
+<p>但是，从前面Student类的定义来看，外部代码还是可以自由地修改一个实例的<code>name</code>、<code>score</code>属性：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; bart &#x3D; Student(&#39;Bart Simpson&#39;, 59)</span><br><span class="line">&gt;&gt;&gt; bart.score</span><br><span class="line">59</span><br><span class="line">&gt;&gt;&gt; bart.score &#x3D; 99</span><br><span class="line">&gt;&gt;&gt; bart.score</span><br><span class="line">99</span><br></pre></td></tr></table></figure>
+
+<h3 id="实例的私有变量（private）"><a href="#实例的私有变量（private）" class="headerlink" title="实例的私有变量（private）"></a>实例的私有变量（private）</h3><p>在Python中，实例的变量名如果以<code>__</code>开头，就变成了一个私有变量（private），只有内部可以访问，外部不能访问。</p>
+<p>所以，我们把Student类改一改：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line"></span><br><span class="line">    def __init__(self, name, score):</span><br><span class="line">        self.__name &#x3D; name</span><br><span class="line">        self.__score &#x3D; score</span><br><span class="line"></span><br><span class="line">    def print_score(self):</span><br><span class="line">        print(&#39;%s: %s&#39; % (self.__name, self.__score))</span><br></pre></td></tr></table></figure>
+<p>改完后，对于外部代码来说，没什么变动，但是已经无法从外部访问<code>实例变量.__name</code>和<code>实例变量.__score</code>了：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; bart &#x3D; Student(&#39;Bart Simpson&#39;, 59)</span><br><span class="line">&gt;&gt;&gt; bart.__name</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">AttributeError: &#39;Student&#39; object has no attribute &#39;__name&#39;</span><br></pre></td></tr></table></figure>
+<p>这样就确保了外部代码不能随意修改对象内部的状态，代码更加健壮。</p>
+<p>但是如果外部代码要获取name和score怎么办？可以给Student类增加<code>get_name</code>和<code>get_score</code>这样的方法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    ...</span><br><span class="line"></span><br><span class="line">    def get_name(self):</span><br><span class="line">        return self.__name</span><br><span class="line"></span><br><span class="line">    def get_score(self):</span><br><span class="line">        return self.__score</span><br></pre></td></tr></table></figure>
+<p>如果又要允许外部代码修改score怎么办？可以再给Student类增加<code>set_score</code>方法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    ...</span><br><span class="line"></span><br><span class="line">    def set_score(self, score):</span><br><span class="line">        self.__score &#x3D; score</span><br></pre></td></tr></table></figure>
+<p>你也许会问，原先那种直接通过<code>bart.score = 99</code>也可以修改啊，为什么要定义一个方法大费周折？因为在方法中，可以对参数做检查，避免传入无效的参数：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">class Student(object):</span><br><span class="line">    ...</span><br><span class="line"></span><br><span class="line">    def set_score(self, score):</span><br><span class="line">        if 0 &lt;&#x3D; score &lt;&#x3D; 100:</span><br><span class="line">            self.__score &#x3D; score</span><br><span class="line">        else:</span><br><span class="line">            raise ValueError(&#39;bad score&#39;)</span><br></pre></td></tr></table></figure>
 
 
-<hr>
-<br/>
-
-<h3 id="谁创造了Python？"><a href="#谁创造了Python？" class="headerlink" title="谁创造了Python？"></a>谁创造了Python？</h3><p>Python的创始人为Guido van Rossum，当时他在阿姆斯特丹的荷兰数学和计算机科学研究学会工作。1989年的圣诞节期间，Guido为了打发时间而创造了Python。新编程语言之所以命名为Python，是因为他是BBC电视剧——<a target="_blank" rel="noopener" href="https://movie.douban.com/subject/1485976/"><code>Monty Python&#39;s Flying Circus</code></a>的忠实粉丝。</p>
-<div class="douban-card-block">
-	<a class="douban-card" target="_blank" rel="noopener" href="https://movie.douban.com/subject/1485976">
-		<div class="douban-card-bgimg" style="background-image: url('https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2254037897.jpg');"></div>
-		<div class="douban-card-left">
-			<div class="douban-card-img" style="background-image: url('https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2254037897.jpg');"></div>
-		</div>
-		<div class="douban-card-right">
-			<div class="douban-card-item"><span>电影名: </span><strong>巨蟒剧团之飞翔的马戏团第一季MontyPython&#39;sFlyingCircusSeason1(1969)</strong></div>
-			<div class="douban-card-item"><span>导演: </span><span>约翰·霍华德·戴维斯/伊恩·迈克纳顿</span></div>
-			<div class="douban-card-item"><span>主演: </span><span>格雷厄姆·查普曼/约翰·克立斯</span></div>
-			<div class="douban-card-item"><span>上映时间: </span><span></span></div>
-			<div class="douban-card-item"><span>评分: </span><span>9.4</span></div>
-		</div>
-	</a>
-</div>
-<style>
-	.douban-card-block {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		max-height: 400px;
-	}
-	.douban-card {
-		display: flex;
-		margin: 30px 10px;
-		padding: 15px;
-		border-radius: 10px;
-		position: relative;
-		justify-content: center;
-		align-items: center;
-		overflow: hidden;
-		color: antiquewhite;
-		text-decoration: none;
-	}
-	.douban-card:hover {
-		text-decoration: none;
-	}
-	.douban-card-bgimg {
-		position: absolute;
-		width: 115%;
-		height: 115%;
-		filter: blur(15px) brightness(0.6);
-		background-size: 100%;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-	.douban-card-img {
-		position: relative;
-		height: 130px;
-		width: 80px;
-		background-size: 100%;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-	.douban-card-img {
-		position: relative;
-		height: 130px;
-		width: 80px;
-	}
-	.douban-card-left {
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.douban-card-right {
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		margin-left: 12px;
-		font-size: 16px;
-		font-family: 'Courier New', Courier, monospace;
-		line-height: 1.3;
-		color: antiquewhite;
-	}
-	.douban-card-item {
-		margin-top: 4px;
-	}
-</style>
-<br/>
-
-<div  align="center">    
-    <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://tva1.sinaimg.cn/large/008eGmZEly1gnjntwxibuj30z20lsb29.jpg"
-    width="700px">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;color: #999;padding: 2px;">
-    荷兰人Guido
-    </div>
-</div>
-<br/>
-
-<p>Python 第一个公开版发行于 1991 年。Python 3.0于2008年12月3日发布，它对语言做了较大修订而不能完全后向兼容。</p>
-<p>2020 年 1 月 1 日，官方宣布 停止 Python 2 的更新，Python2会逐步被Python3替代。</p>
-<p><strong>Python 越来越火爆</strong></p>
-<p>在2007年、2010年和2018年Python三次被选为年度编程语言。自从2003年，Python始终位列<a target="_blank" rel="noopener" href="https://www.wikiwand.com/en/TIOBE_Programming_Community_Index">TIOBE </a>前十最流行编程语言榜单。最新的排名（2020年11月），Python已冲到第二名的位置（居于C之后，Java之前）。</p>
-<hr>
-<br/>
-
-<h3 id="Life-is-short-use-Python-…-for-what"><a href="#Life-is-short-use-Python-…-for-what" class="headerlink" title="Life is short, use Python … for what?"></a>Life is short, use Python … for what?</h3><ol>
-<li><strong>Web 应用开发</strong></li>
-</ol>
-<p>Python 在 Web 开发领域被广泛使用，产生了 <strong>Django</strong>、<strong>Flask</strong>、<strong>Tornado</strong> 等 Web 开发框架。得益于其简洁的语法和动态语言特性，Python 的开发效率很高，因而深受创业团队的青睐。</p>
-<p>一些将 Python 作为主要开发语言的知名互联网企业：</p>
-<ul>
-<li>豆瓣</li>
-<li>知乎</li>
-<li>Instagram</li>
-</ul>
-<ol start="2">
-<li><strong>网络爬虫</strong></li>
-</ol>
-<p>泛指从互联网采集数据。尽管很多语言都可以编写爬虫，但灵活的 Python 无疑也是当前的首选。基于 Python 的爬虫框架 <strong>Scrapy</strong> 也很受欢迎。</p>
-<p>这个星球上最大的“爬虫”公司 – <strong>Google</strong> 一直力推 Python，不仅在公司内部大量使用 Python，也为开发社区做了巨大贡献。就连 Python 之父 <strong>Guido van Rossum</strong> 也曾在 Google 工作七年。</p>
-<ol start="3">
-<li><strong>数据分析</strong></li>
-</ol>
-<p>当通过爬虫获取了海量数据之后，需要对数据进行清洗、去重、存储、展示、分析，在这方面 Python 有许多优秀的类库：<strong>NumPy</strong>、<strong>Pandas</strong>、<strong>Matplotlib</strong>， 可以让你的数据分析工作事半功倍。</p>
-<ol start="4">
-<li><strong>人工智能</strong></li>
-</ol>
-<p>Python 在人工智能领域内的<strong>数据挖掘</strong>、<strong>机器学习</strong>、<strong>神经网络</strong>、<strong>深度学习</strong>等方面都是主流的编程语言，得到广泛的支持和应用。</p>
-<hr>
-<br/>
-
-<h3 id="Python好在哪？"><a href="#Python好在哪？" class="headerlink" title="Python好在哪？"></a>Python好在哪？</h3><p>Python 是一种兼具 <em>简单</em> 与 <em>功能强大</em> 的编程语言。Guido给Python的定位是<strong>优雅</strong>、<strong>明确</strong>、<strong>简单</strong>，所以Python程序看上去总是简单易懂，初学者学Python，不但入门容易，而且将来深入下去，可以编写那些非常复杂的程序。</p>
-<ul>
-<li>简单、易学 – Python 是一种代表极简主义思想的语言。它使你专注于解决问题而非拘泥于语法与结构。</li>
-<li>免费、开源 – 这是为什么 Python 如此优秀的原因之一——它是由一群希望看到一个更加优秀的 Python 的人创造并经常改进着的。</li>
-<li>丰富的类库 – Python 标准库已经很庞大，但除了标准库以外，还有许多其他高质量的第三方库，如 wxPython、Twisted 和 Python 图像库等等。</li>
-<li>规范的代码 – Python 采用强制缩进的方式使得代码具有极佳的可读性。</li>
-</ul>
-<p>总的来说，Python的哲学就是简单优雅，尽量写容易看明白的代码，尽量写少的代码。如果一个资深程序员向你炫耀他写的晦涩难懂、动不动就几万行的代码，你可以尽情地嘲笑他。</p>
+<p>需要注意的是，在Python中，变量名类似<code>__xxx__</code>的，也就是以双下划线开头，并且以双下划线结尾的，是特殊变量，特殊变量是可以直接访问的，不是private变量，所以，不能用<code>__name__</code>、<code>__score__</code>这样的变量名。</p>
+<p>有些时候，你会看到以一个下划线开头的实例变量名，比如<code>_name</code>，这样的实例变量外部是可以访问的，但是，按照约定俗成的规定，当你看到这样的变量时，意思就是，“虽然我可以被访问，但是，请把我视为私有变量，不要随意访问”。</p>
+<p>双下划线开头的实例变量是不是一定不能从外部访问呢？其实也不是。不能直接访问<code>__name</code>是因为Python解释器对外把<code>__name</code>变量改成了<code>_Student__name</code>，所以，仍然可以通过<code>_Student__name</code>来访问<code>__name</code>变量：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; bart._Student__name</span><br><span class="line">&#39;Bart Simpson&#39;</span><br></pre></td></tr></table></figure>
+<p>但是强烈建议你不要这么干，因为不同版本的Python解释器可能会把<code>__name</code>改成不同的变量名。</p>
+<p>总的来说就是，Python本身没有任何机制阻止你干坏事，一切全靠自觉。</p>
+<p>最后注意下面的这种<em>错误写法</em>：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; bart &#x3D; Student(&#39;Bart Simpson&#39;, 59)</span><br><span class="line">&gt;&gt;&gt; bart.get_name()</span><br><span class="line">&#39;Bart Simpson&#39;</span><br><span class="line">&gt;&gt;&gt; bart.__name &#x3D; &#39;New Name&#39; # 设置__name变量！</span><br><span class="line">&gt;&gt;&gt; bart.__name</span><br><span class="line">&#39;New Name&#39;</span><br></pre></td></tr></table></figure>
+<p>表面上看，外部代码“成功”地设置了<code>__name</code>变量，但实际上这个<code>__name</code>变量和class内部的<code>__name</code>变量<em>不是</em>一个变量！内部的<code>__name</code>变量已经被Python解释器自动改成了<code>_Student__name</code>，而外部代码给<code>bart</code>新增了一个<code>__name</code>变量。不信试试：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; bart.get_name() # get_name()内部返回self.__name</span><br><span class="line">&#39;Bart Simpson&#39;</span><br></pre></td></tr></table></figure>
  
       <!-- reward -->
       
@@ -306,7 +180,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shikamaru-go.gitee.io/2021/python00/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shikamaru-go.gitee.io/2021/python09-2/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -319,19 +193,19 @@
    
   <nav class="article-nav">
     
-      <a href="/2021/python08-2/" class="article-nav-link">
+      <a href="/2021/python09-3/" class="article-nav-link">
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            Day 08 - Python 模块
+            Day 09 - Python 面向对象：继承和多态
           
         </div>
       </a>
     
     
-      <a href="/2020/about/" class="article-nav-link">
+      <a href="/2021/python10-1/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">Something True</div>
+        <div class="article-nav-title">Day 10 - Python 常用模块：os模块与shutil模块</div>
       </a>
     
   </nav>
