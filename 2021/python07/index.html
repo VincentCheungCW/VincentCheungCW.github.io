@@ -13,7 +13,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    Day03 - Python 运算符 |  $HIKAMARU
+    Day 07 - Python 函数 |  $HIKAMARU
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -44,7 +44,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-python/Day03-Python运算符"
+  id="post-python/Day07-Python函数"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -55,14 +55,14 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  Day03 - Python 运算符
+  Day 07 - Python 函数
 </h1>
  
 
     </header>
      
     <div class="article-meta">
-      <a href="/2021/python03-1/" class="article-date">
+      <a href="/2021/python07/" class="article-date">
   <time datetime="2021-02-09T13:33:57.000Z" itemprop="datePublished">2021-02-09</time>
 </a> 
   <div class="article-category">
@@ -82,21 +82,28 @@
   <meta name="referrer" content="no-referrer" />
 
 
-<p>Python的运算符和其他语言类似，这里我们只做简单介绍，因为很多高级功能基本用不到，真正用到时再去Google一下也不迟，实际上现在程序员的工作大多是<code>面向Google</code>的编程，因为知识爆炸性增长，脑袋是记不下的。</p>
-<h3 id="数学运算"><a href="#数学运算" class="headerlink" title="数学运算"></a>数学运算</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="number">1</span>+<span class="number">9</span>)      <span class="comment"># 加法</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">1.3</span>-<span class="number">4</span>)    <span class="comment"># 减法</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">3</span>*<span class="number">5</span>)      <span class="comment"># 乘法</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">4.5</span>/<span class="number">1.5</span>)  <span class="comment"># 除法</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">10</span>%<span class="number">3</span>)     <span class="comment"># 求余数</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">3</span>**<span class="number">2</span>)     <span class="comment"># 乘方   </span></span><br></pre></td></tr></table></figure>
+
+<h3 id="定义函数"><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h3><p>在Python中，定义一个函数要使用<code>def</code>语句，依次写出函数名、括号、括号中的参数和冒号<code>:</code>，然后，在缩进块中编写函数体，函数的返回值用<code>return</code>语句返回。</p>
+<h4 id="简单示例"><a href="#简单示例" class="headerlink" title="简单示例"></a>简单示例</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#定义一个函数</span><br><span class="line">def hello() :</span><br><span class="line">   print(&quot;Hello World!&quot;)</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">hello()</span><br></pre></td></tr></table></figure>
 
 
-<h3 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h3><p>判断是真还是假，返回True/False</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="number">5</span>==<span class="number">6</span>)            <span class="comment"># ==， 相等</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">8.0</span>!=<span class="number">8.0</span>)        <span class="comment"># !=, 不等</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">3</span>&lt;<span class="number">3</span>, <span class="number">3</span>&lt;=<span class="number">3</span>)       <span class="comment"># &lt;, 小于; &lt;=, 小于等于</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">4</span>&gt;<span class="number">5</span>, <span class="number">4</span>&gt;=<span class="number">0</span>)       <span class="comment"># &gt;, 大于; &gt;=, 大于等于</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">5</span> <span class="keyword">in</span> [<span class="number">1</span>,<span class="number">3</span>,<span class="number">5</span>])    <span class="comment"># 5是list [1,3,5]的一个元素</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>Attention</strong></p>
-<p>这里对计算机小白来说有一道鸿沟需要跨越，编程语言中的<code>=</code>是赋值，表示把右边的值赋予左边的变量。而数学概念里的<code>=</code>在编程语言中用<code>==</code>表示。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a &#x3D; 1       # 把整数1赋值给变量a，此时a&#x3D;&#x3D;1</span><br><span class="line">a &#x3D; a + 1   # 把a+1也就是2赋值给变量a，此时a&#x3D;&#x3D;2</span><br></pre></td></tr></table></figure>
-
-</blockquote>
-<h3 id="逻辑运算"><a href="#逻辑运算" class="headerlink" title="逻辑运算"></a>逻辑运算</h3><p>True/False之间的运算</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="number">1</span>+<span class="number">1</span>==<span class="number">2</span> <span class="keyword">and</span> <span class="number">10</span>==<span class="number">2</span>*<span class="number">5</span>)       <span class="comment"># and, “与”运算，两者都为真才是真</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">1</span>+<span class="number">1</span>!=<span class="number">2</span> <span class="keyword">or</span> <span class="number">3</span>&gt;=<span class="number">3</span>)           <span class="comment"># or, &quot;或&quot;运算， 其中之一为真即为真</span></span><br><span class="line"></span><br><span class="line">print(<span class="keyword">not</span> <span class="number">1</span>+<span class="number">1</span>==<span class="number">2</span>)               <span class="comment"># not, “非”运算， 取反</span></span><br></pre></td></tr></table></figure>
-<p>需要说明一下，Python不同于其他编程语言的一点，在Python中是没有<code>&amp;&amp;</code>及<code>||</code>这两个运算符的，取而代之的是英文<code>and</code>和<code>or</code>。</p>
+<h4 id="带参数和返回值的函数"><a href="#带参数和返回值的函数" class="headerlink" title="带参数和返回值的函数"></a>带参数和返回值的函数</h4><p>我们以自定义一个求绝对值的<code>my_abs</code>函数为例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def my_abs(x):</span><br><span class="line">    if x &gt;&#x3D; 0:</span><br><span class="line">        return x</span><br><span class="line">    else:</span><br><span class="line">        return -x</span><br></pre></td></tr></table></figure>
+<p>请自行测试并调用<code>my_abs</code>看看返回结果是否正确。</p>
+<p>请注意，函数体内部的语句在执行时，一旦执行到<code>return</code>时，函数就执行完毕，并将结果返回。</p>
+<p>return并不是必须的，当没有return, 或者return后面没有返回值时，函数将自动返回None。None是Python中的一个特别的数据类型，用来表示什么都没有，相当于C中的NULL。None多用于关键字参数传递的默认值。</p>
+<h4 id="返回多个值"><a href="#返回多个值" class="headerlink" title="返回多个值"></a>返回多个值</h4><p>函数可以返回多个值吗？答案是肯定的。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">#定义多个返回值的函数</span><br><span class="line">def more(x, y):</span><br><span class="line">    nx &#x3D; x + 2</span><br><span class="line">    ny &#x3D; y - 2</span><br><span class="line">    return nx, ny</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">x, y &#x3D; more(10, 10)</span><br><span class="line">print(x, y)</span><br></pre></td></tr></table></figure>
+<p>但其实这只是一种假象，Python函数返回的仍然是单一值：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; r &#x3D; more(10, 10)</span><br><span class="line">&gt;&gt;&gt; print(r)</span><br><span class="line">(12, 8)</span><br></pre></td></tr></table></figure>
+<p>原来返回值是一个tuple！但是，在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，但写起来更方便。</p>
+<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>定义函数时，需要确定函数名和参数个数；</p>
+<p>函数体内部可以用<code>return</code>随时返回函数结果；</p>
+<p>函数执行完毕也没有<code>return</code>语句时，自动<code>return None</code>。</p>
+<p>函数可以同时返回多个值，但其实就是一个tuple。</p>
+<h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>$$<br>请定义一个函数quadratic(a, b, c)，接收3个参数，返回一元二次方程 ax^2+bx+c=0的两个解。<br>提示：</p>
+<p>一元二次方程的求根公式为：</p>
+<p>x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}。<br>$$</p>
  
       <!-- reward -->
       
@@ -167,7 +174,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shikamaru-go.gitee.io/2021/python03-1/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shikamaru-go.gitee.io/2021/python07/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -180,19 +187,19 @@
    
   <nav class="article-nav">
     
-      <a href="/2021/python03-2/" class="article-nav-link">
+      <a href="/2021/python06/" class="article-nav-link">
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            Day03 - Python 变量与数据类型
+            Day06 - Python 数据结构之 dict 与 set
           
         </div>
       </a>
     
     
-      <a href="/2021/python04/" class="article-nav-link">
+      <a href="/2021/python08-2/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">Day04 - Python 流程控制</div>
+        <div class="article-nav-title">Day 08 - Python 模块</div>
       </a>
     
   </nav>

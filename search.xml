@@ -123,7 +123,7 @@
     <title>2019 年度精选歌单</title>
     <url>/2020/music2019/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="2019-年度精选歌单"><a href="#2019-年度精选歌单" class="headerlink" title="2019 年度精选歌单"></a>2019 年度精选歌单</h3>
-    <div id="aplayer-OOMPRMlV" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-mVqRrAHa" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="3159878612" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -136,42 +136,6 @@
         <tag>歌单</tag>
         <tag>音乐</tag>
         <tag>收藏</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>音乐剧Hamilton剧本</title>
-    <url>/2021/HamiltonPlay/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="音乐剧-Hamilton-剧本"><a href="#音乐剧-Hamilton-剧本" class="headerlink" title="音乐剧 Hamilton 剧本"></a>音乐剧 Hamilton 剧本</h2><br/>
-
-<blockquote>
-<p>Hamilton 的剧本，我自己做的标注</p>
-</blockquote>
-<a id="more"></a>
-
-<br/>
-
-<h4 id="在线预览："><a href="#在线预览：" class="headerlink" title="在线预览："></a>在线预览：</h4>
-
-	<div class="row">
-    <embed src="../../../resource/hamilton.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-
-
-<br/>
-
-<h4 id="下载："><a href="#下载：" class="headerlink" title="下载："></a>下载：</h4><p><a href="https://shikamaru-go.gitee.io/resource/hamilton.pdf">Hamilton.pdf</a></p>
-]]></content>
-      <categories>
-        <category>音乐</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
-        <tag>收藏</tag>
-        <tag>音乐剧</tag>
-        <tag>艺术</tag>
       </tags>
   </entry>
   <entry>
@@ -329,47 +293,39 @@
       </tags>
   </entry>
   <entry>
-    <title>Day01 - 本地安装Python</title>
-    <url>/2021/python01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+    <title>音乐剧Hamilton剧本</title>
+    <url>/2021/HamiltonPlay/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="音乐剧-Hamilton-剧本"><a href="#音乐剧-Hamilton-剧本" class="headerlink" title="音乐剧 Hamilton 剧本"></a>音乐剧 Hamilton 剧本</h2><br/>
 
-<h2 id="Day-1-Python-的安装"><a href="#Day-1-Python-的安装" class="headerlink" title="Day 1   Python 的安装"></a>Day 1   Python 的安装</h2><p>因为Python是跨平台的，也就是说它可以运行在Windows、Mac和各种Linux/Unix系统上。在Windows上写的Python程序，放到Linux上也是能够运行的。要开始学习Python编程，首先就得把Python安装到你的电脑里。安装后，你会得到Python解释器（就是负责运行Python程序的），一个命令行交互环境，还有一个简单的集成开发环境。这里我们安装的是 3.9.0 版本的Python。</p>
+<blockquote>
+<p>Hamilton 的剧本，我自己做的标注</p>
+</blockquote>
 <a id="more"></a>
 
-<p>建议大家直接去官网下载最新版本的安装包，官网地址：<a href="https://www.python.org/">https://www.python.org/</a>。也可以用我提供给大家的安装包，安装包的位置：tools/necessary。</p>
-<hr>
 <br/>
 
+<h4 id="在线预览："><a href="#在线预览：" class="headerlink" title="在线预览："></a>在线预览：</h4>
 
-<h3 id="1、windows-系统下安装配置"><a href="#1、windows-系统下安装配置" class="headerlink" title="1、windows 系统下安装配置"></a>1、windows 系统下安装配置</h3><p>windows 系统对应的安装包名字为python-3.9.0.exe，下载完后，双击进入下图安装页面，记得勾上Add Python 3.9 to PATH，然后点 「Install Now」 即可完成安装。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2136918-2bf6591f0a12e80b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Python安装.png"></p>
-<h4 id="验证是否安装成功"><a href="#验证是否安装成功" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开命令提示符（即cmd.exe），敲入 python ，出现Python版本信息，证明 Python 安装成功了。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2136918-817c22f802e8cfce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="运行python.png"></p>
-<p>命令提示符最后一行 <code>&gt;&gt;&gt;</code> 表示我们已经在 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (100 / 3.1415926)</span><br></pre></td></tr></table></figure>
-<hr>
+	<div class="row">
+    <embed src="../../../resource/hamilton.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+
 <br/>
 
-
-<h3 id="2、Mac-系统下安装配置"><a href="#2、Mac-系统下安装配置" class="headerlink" title="2、Mac 系统下安装配置"></a>2、Mac 系统下安装配置</h3><p>Mac系统安装Python就更简单了，安装包名字为python-3.9.0-macosx10.9.pkg，双击安装即可。</p>
-<p>这里还有另外一种方法，如果你安装了Homebrew，直接通过命令<code>brew install python3</code>安装即可。（如果你没有读懂这句话，说明你不需要它）</p>
-<h4 id="验证是否安装成功-1"><a href="#验证是否安装成功-1" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开终端.app（或者iTerm），敲入 <code>python3</code> ，出现Python版本信息，证明 Python 安装成功了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpi1g3dlj31ky0ciacn.jpg" alt="运行python.png"></p>
-<p>注意：终端里输入<code>python</code>得到的是macOS系统预装的Python 2.7.16 版本，输入<code>python3</code>才会进入我们安装的版本。</p>
-<p>Python2已经是过时的版本，而macOS之所以预装了这个版本，是为了兼容一些历史软件。我们一般使用Python3。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpcw31i7j31ky0l2tcr.jpg" alt="macOS 预装了 Python2"></p>
-<p>这样我们输入<code>python3</code>后就进入 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (&quot;玉在椟中求善价，钗于奁内待时飞。&quot;)</span><br></pre></td></tr></table></figure>
-
-<p>这样我们的Python环境就搭建完成了，第一个 Python 程序也成功运行了，是不是很简单。</p>
+<h4 id="下载："><a href="#下载：" class="headerlink" title="下载："></a>下载：</h4><p><a href="https://shikamaru-go.gitee.io/resource/hamilton.pdf">Hamilton.pdf</a></p>
 ]]></content>
       <categories>
-        <category>Python</category>
+        <category>音乐</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>学习</tag>
-        <tag>编程</tag>
+        <tag>音乐</tag>
+        <tag>收藏</tag>
+        <tag>音乐剧</tag>
+        <tag>艺术</tag>
       </tags>
   </entry>
   <entry>
@@ -377,7 +333,7 @@
     <url>/2021/python00/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
 
-<h2 id="初识Python"><a href="#初识Python" class="headerlink" title="初识Python"></a>初识Python</h2><br/>
+<br/>
 <div align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkhtk5rq3cj30dw04474e.jpg"
@@ -543,11 +499,56 @@
       </tags>
   </entry>
   <entry>
+    <title>Day01 - 本地安装Python</title>
+    <url>/2021/python01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+<p>因为Python是跨平台的，也就是说它可以运行在Windows、Mac和各种Linux/Unix系统上。在Windows上写的Python程序，放到Linux上也是能够运行的。要开始学习Python编程，首先就得把Python安装到你的电脑里。安装后，你会得到Python解释器（就是负责运行Python程序的），一个命令行交互环境，还有一个简单的集成开发环境。这里我们安装的是 3.9.0 版本的Python。</p>
+<a id="more"></a>
+
+<p>建议大家直接去官网下载最新版本的安装包，官网地址：<a href="https://www.python.org/">https://www.python.org/</a>。也可以用我提供给大家的安装包，安装包的位置：tools/necessary。</p>
+<hr>
+<br/>
+
+
+<h3 id="一-Windows-系统下的安装配置"><a href="#一-Windows-系统下的安装配置" class="headerlink" title="一. Windows 系统下的安装配置"></a>一. Windows 系统下的安装配置</h3><p>windows 系统对应的安装包名字为python-3.9.0.exe，下载完后，双击进入下图安装页面，记得勾上Add Python 3.9 to PATH，然后点 「Install Now」 即可完成安装。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2136918-2bf6591f0a12e80b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Python安装.png"></p>
+<h4 id="验证是否安装成功"><a href="#验证是否安装成功" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开命令提示符（即cmd.exe），敲入 python ，出现Python版本信息，证明 Python 安装成功了。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2136918-817c22f802e8cfce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="运行python.png"></p>
+<p>命令提示符最后一行 <code>&gt;&gt;&gt;</code> 表示我们已经在 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (100 / 3.1415926)</span><br></pre></td></tr></table></figure>
+<hr>
+<br/>
+
+
+<h3 id="二-macOS下的安装配置"><a href="#二-macOS下的安装配置" class="headerlink" title="二. macOS下的安装配置"></a>二. macOS下的安装配置</h3><p>Mac系统安装Python就更简单了，安装包名字为python-3.9.0-macosx10.9.pkg，双击安装即可。</p>
+<p>这里还有另外一种方法，如果你安装了Homebrew，直接通过命令<code>brew install python3</code>安装即可。（如果你没有读懂这句话，说明你不需要它）</p>
+<h4 id="验证是否安装成功-1"><a href="#验证是否安装成功-1" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开终端.app（或者iTerm），敲入 <code>python3</code> ，出现Python版本信息，证明 Python 安装成功了。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpi1g3dlj31ky0ciacn.jpg" alt="运行python.png"></p>
+<p>注意：终端里输入<code>python</code>得到的是macOS系统预装的Python 2.7.16 版本，输入<code>python3</code>才会进入我们安装的版本。</p>
+<p>Python2已经是过时的版本，而macOS之所以预装了这个版本，是为了兼容一些历史软件。我们一般使用Python3。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpcw31i7j31ky0l2tcr.jpg" alt="macOS 预装了 Python2"></p>
+<p>这样我们输入<code>python3</code>后就进入 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (&quot;玉在椟中求善价，钗于奁内待时飞。&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>这样我们的Python环境就搭建完成了，第一个 Python 程序也成功运行了，是不是很简单。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Day02 - Python 基础之基础</title>
     <url>/2021/python02/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
 
-<h2 id="Day-2-Python-基础之基础"><a href="#Day-2-Python-基础之基础" class="headerlink" title="Day 2   Python 基础之基础"></a>Day 2   Python 基础之基础</h2><h3 id="一-Python书写规范"><a href="#一-Python书写规范" class="headerlink" title="一. Python书写规范"></a>一. Python书写规范</h3><h4 id="大小写敏感"><a href="#大小写敏感" class="headerlink" title="大小写敏感"></a>大小写敏感</h4><p>首先要注意的是 Python 语言是大小写敏感的，如果写错了大小写，程序会报错。</p>
+
+<h3 id="一-Python书写规范"><a href="#一-Python书写规范" class="headerlink" title="一. Python书写规范"></a>一. Python书写规范</h3><h4 id="大小写敏感"><a href="#大小写敏感" class="headerlink" title="大小写敏感"></a>大小写敏感</h4><p>首先要注意的是 Python 语言是大小写敏感的，如果写错了大小写，程序会报错。</p>
 <h4 id="每行一个语句"><a href="#每行一个语句" class="headerlink" title="每行一个语句"></a>每行一个语句</h4><p>Python 鼓励每一行使用一句独立语句从而使得代码更加可读。<br>不同于C、Java等其他语言使用分号（；）区分多条语句，Python中利用换行区分多条语句。<br>举个例子：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span></span><br><span class="line">print(i)</span><br></pre></td></tr></table></figure>
 <p>上面的两条语句必须写在两行里，若写成下面这样，程序是无法识别的：</p>
@@ -739,13 +740,299 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="number">5</span>==<span class="number">6</span>)            <span class="comment"># ==， 相等</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">8.0</span>!=<span class="number">8.0</span>)        <span class="comment"># !=, 不等</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">3</span>&lt;<span class="number">3</span>, <span class="number">3</span>&lt;=<span class="number">3</span>)       <span class="comment"># &lt;, 小于; &lt;=, 小于等于</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">4</span>&gt;<span class="number">5</span>, <span class="number">4</span>&gt;=<span class="number">0</span>)       <span class="comment"># &gt;, 大于; &gt;=, 大于等于</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">5</span> <span class="keyword">in</span> [<span class="number">1</span>,<span class="number">3</span>,<span class="number">5</span>])    <span class="comment"># 5是list [1,3,5]的一个元素</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p><strong>Attention</strong></p>
-<p>这里对计算机小白来说有一道鸿沟需要跨越，计算机编程语境里的<code>==</code>约等于数学概念里的<code>=</code>表示<code>相等</code>，计算机中的<code>=</code>是赋值，计算机中的<code>=</code>是赋值，计算机中的<code>=</code>是赋值。</p>
+<p>这里对计算机小白来说有一道鸿沟需要跨越，编程语言中的<code>=</code>是赋值，表示把右边的值赋予左边的变量。而数学概念里的<code>=</code>在编程语言中用<code>==</code>表示。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">a &#x3D; 1       # 把整数1赋值给变量a，此时a&#x3D;&#x3D;1</span><br><span class="line">a &#x3D; a + 1   # 把a+1也就是2赋值给变量a，此时a&#x3D;&#x3D;2</span><br></pre></td></tr></table></figure>
 
 </blockquote>
 <h3 id="逻辑运算"><a href="#逻辑运算" class="headerlink" title="逻辑运算"></a>逻辑运算</h3><p>True/False之间的运算</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="number">1</span>+<span class="number">1</span>==<span class="number">2</span> <span class="keyword">and</span> <span class="number">10</span>==<span class="number">2</span>*<span class="number">5</span>)       <span class="comment"># and, “与”运算，两者都为真才是真</span></span><br><span class="line"></span><br><span class="line">print(<span class="number">1</span>+<span class="number">1</span>!=<span class="number">2</span> <span class="keyword">or</span> <span class="number">3</span>&gt;=<span class="number">3</span>)           <span class="comment"># or, &quot;或&quot;运算， 其中之一为真即为真</span></span><br><span class="line"></span><br><span class="line">print(<span class="keyword">not</span> <span class="number">1</span>+<span class="number">1</span>==<span class="number">2</span>)               <span class="comment"># not, “非”运算， 取反</span></span><br></pre></td></tr></table></figure>
 <p>需要说明一下，Python不同于其他编程语言的一点，在Python中是没有<code>&amp;&amp;</code>及<code>||</code>这两个运算符的，取而代之的是英文<code>and</code>和<code>or</code>。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day04 - Python 流程控制</title>
+    <url>/2021/python04/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<p>在编程的世界中，流程控制决定了程序中语句执行的先后顺序，是程序员编程的基础，本节给大家介绍 Python 流程控制相关语法。</p>
+<h3 id="if-语句"><a href="#if-语句" class="headerlink" title="if 语句"></a>if 语句</h3><p>if 语句用来进行条件判断。计算机之所以能做很多自动化任务，因为它可以自己做条件判断。</p>
+<p>语法：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> &lt;条件判断<span class="number">1</span>&gt;:</span><br><span class="line">    &lt;执行<span class="number">1</span>&gt;</span><br><span class="line"><span class="keyword">elif</span> &lt;条件判断<span class="number">2</span>&gt;:</span><br><span class="line">    &lt;执行<span class="number">2</span>&gt;</span><br><span class="line"><span class="keyword">elif</span> &lt;条件判断<span class="number">3</span>&gt;:</span><br><span class="line">    &lt;执行<span class="number">3</span>&gt;</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    &lt;执行<span class="number">4</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>关键字 <code>&#39;elif&#39;</code> 是 <code>&#39;else if&#39;</code> 的缩写，上述结构中可以有0到多个 elif 部分，可以有0或1个else。</p>
+<p>示例：BMI计算器</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">height = <span class="built_in">input</span>(<span class="string">&quot;请输入你的身高（米）：&quot;</span>)</span><br><span class="line">weight = <span class="built_in">input</span>(<span class="string">&quot;请输入你的体重（千克）：&quot;</span>)</span><br><span class="line"></span><br><span class="line">bmi = <span class="built_in">float</span>(weight) / (<span class="built_in">float</span>(height) * <span class="built_in">float</span>(height))</span><br><span class="line">print(<span class="string">&quot;你的BMI指数：&quot;</span> + <span class="built_in">str</span>(bmi))</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> bmi &lt; <span class="number">18.5</span>:</span><br><span class="line">    print(<span class="string">&quot;过轻&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">18.5</span> &lt;= bmi &lt; <span class="number">25</span>:</span><br><span class="line">    print(<span class="string">&quot;正常&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">25</span> &lt;= bmi &lt; <span class="number">28</span>:</span><br><span class="line">    print(<span class="string">&quot;过重&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">28</span> &lt;= bmi &lt; <span class="number">32</span>:</span><br><span class="line">    print(<span class="string">&quot;肥胖&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> <span class="number">32</span> &lt;= bmi:</span><br><span class="line">    print(<span class="string">&quot;严重肥胖&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><p>试想，要计算1+2+3+…+10000，怎么样让计算机去完成这样的工作呢？</p>
+<p>答案是，循环语句。</p>
+<p>Python的循环有两种，一种是for…in循环，依次把list或tuple中的每个元素迭代出来，看例子：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">names = [<span class="string">&#x27;Michael&#x27;</span>, <span class="string">&#x27;Bob&#x27;</span>, <span class="string">&#x27;Tracy&#x27;</span>]</span><br><span class="line"><span class="keyword">for</span> name <span class="keyword">in</span> names:</span><br><span class="line">    print(name)</span><br></pre></td></tr></table></figure>
+<p>执行这段代码，会依次打印<code>names</code>的每一个元素：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Michael</span><br><span class="line">Bob</span><br><span class="line">Tracy</span><br></pre></td></tr></table></figure>
+<p>所以<code>for x in ...</code>循环就是把每个元素代入变量<code>x</code>，然后执行缩进块的语句。</p>
+<p>回到计算1+2+3+…+10000的问题，以下代码即可实现：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sum</span> = <span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">10001</span>):</span><br><span class="line">    <span class="built_in">sum</span> = <span class="built_in">sum</span> + x</span><br><span class="line">print(<span class="built_in">sum</span>)</span><br></pre></td></tr></table></figure>
+<p>Python3 <code>range() </code>函数返回的是一个可迭代对象（类型是对象），<code> list()</code> 函数可以把<code>range()</code>返回的可迭代对象转为一个列表。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">0</span>, <span class="number">5</span>))</span><br><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h3><p>第二种循环是while循环，只要条件满足，就不断循环，条件不满足时退出循环。其基本形式为：</p>
+<p>语法：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> 判断条件：</span><br><span class="line">    执行语句……</span><br></pre></td></tr></table></figure>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">count = <span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> (count &lt; <span class="number">9</span>):</span><br><span class="line">   print( <span class="string">&#x27;The count is:&#x27;</span>, count)</span><br><span class="line">   count = count + <span class="number">1</span></span><br><span class="line"> </span><br><span class="line">print(<span class="string">&quot;Good bye!&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="break-用法"><a href="#break-用法" class="headerlink" title="break 用法"></a>break 用法</h3><p>break 语句可以跳出 for 和 while 循环。</p>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> letter <span class="keyword">in</span> <span class="string">&#x27;Alexander Hamilton&#x27;</span>:     </span><br><span class="line">   <span class="keyword">if</span> letter == <span class="string">&#x27;i&#x27;</span>:        <span class="comment"># 字母为 i 时结束循环</span></span><br><span class="line">      <span class="keyword">break</span></span><br><span class="line">   <span class="built_in">print</span> (<span class="string">&#x27;当前字母 :&#x27;</span>, letter)</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="continue-用法"><a href="#continue-用法" class="headerlink" title="continue 用法"></a>continue 用法</h3><p>continue 语句被用来结束当前一轮循环，进行下一轮循环。</p>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> letter <span class="keyword">in</span> <span class="string">&#x27;Alexander Hamilton&#x27;</span>:     </span><br><span class="line">   <span class="keyword">if</span> letter == <span class="string">&#x27;i&#x27;</span>:        <span class="comment"># 字母为 i 时直接进入下一轮循环</span></span><br><span class="line">      <span class="keyword">continue</span></span><br><span class="line">   <span class="built_in">print</span> (<span class="string">&#x27;当前字母 :&#x27;</span>, letter)</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="pass-语句"><a href="#pass-语句" class="headerlink" title="pass 语句"></a>pass 语句</h3><p>Python pass 是空语句，是为了保持程序结构的完整性。它用于那些语法上必须要有什么语句，但程序什么也不做的场合。</p>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这通常用于创建最小结构的类:</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyEmptyClass</span>:</span></span><br><span class="line">  <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>本节给大家介绍了 Python 语法中的流程控制相关语法，方便后期在代码逻辑中进行条件控制。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 05 - Python 数据结构之 list 与 tuple</title>
+    <url>/2021/python05/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<p>[TOC]</p>
+<h2 id="list和tuple"><a href="#list和tuple" class="headerlink" title="list和tuple"></a>list和tuple</h2><p>sequence(序列)是一组有顺序的元素的集合。</p>
+<p>序列有两种：tuple（元组） 和 list (列表)，tuple和list的主要区别在于，tuple的各个元素一旦建立便不可再变更，而list的各个元素可以随意变更。 </p>
+<p>序列可以包含一个或多个元素，也可以没有任何元素。</p>
+<h2 id="1-序列通用操作"><a href="#1-序列通用操作" class="headerlink" title="1. 序列通用操作"></a>1. 序列通用操作</h2><h3 id="1-1-index-索引"><a href="#1-1-index-索引" class="headerlink" title="1.1 index (索引)"></a>1.1 index (索引)</h3><p>序列中所有元素都有编号，这些编号是从 0 开始，依次递增，这个编号就是索引，索引用来访问序列中每一个位置的元素，索引是<strong>从<code>0</code>开始</strong>的：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates = [<span class="string">&#x27;Michael&#x27;</span>, <span class="string">&#x27;Bob&#x27;</span>, <span class="string">&#x27;Tracy&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates[<span class="number">0</span>]</span><br><span class="line"><span class="string">&#x27;Michael&#x27;</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates[<span class="number">1</span>]</span><br><span class="line"><span class="string">&#x27;Bob&#x27;</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates[<span class="number">2</span>]</span><br><span class="line"><span class="string">&#x27;Tracy&#x27;</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates[<span class="number">3</span>]</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File <span class="string">&quot;&lt;stdin&gt;&quot;</span>, line <span class="number">1</span>, <span class="keyword">in</span> &lt;module&gt;</span><br><span class="line">IndexError: <span class="built_in">list</span> index out of <span class="built_in">range</span></span><br></pre></td></tr></table></figure>
+<p>当索引超出了范围时，Python会报一个<code>IndexError</code>错误，所以，要确保索引不要越界。</p>
+<p>如果要取最后一个元素，除了计算索引位置外，还可以用<code>-1</code>做索引，直接获取最后一个元素：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; classmates[-1]</span><br><span class="line">&#39;Tracy&#39;</span><br></pre></td></tr></table></figure>
+<p>以此类推，可以获取倒数第2个、倒数第3个：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; classmates[-2]</span><br><span class="line">&#39;Bob&#39;</span><br><span class="line">&gt;&gt;&gt; classmates[-3]</span><br><span class="line">&#39;Michael&#39;</span><br><span class="line">&gt;&gt;&gt; classmates[-4]</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">IndexError: list index out of range</span><br></pre></td></tr></table></figure>
+<p>当然，倒数第4个就越界了。</p>
+<h3 id="1-2-分片"><a href="#1-2-分片" class="headerlink" title="1.2 分片"></a>1.2 分片</h3><p>分片是通过冒号操作来访问一定范围内的元素，例如：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>num=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>]</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num[<span class="number">3</span>:<span class="number">10</span>]    // 表示从第<span class="number">4</span>（含）个到第<span class="number">10</span>（不含）个元素</span><br><span class="line">[<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">10</span>]</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num[<span class="number">0</span>:<span class="number">3</span>]    // 取前<span class="number">3</span>个数据</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></table></figure>
+<p>由上所知，分片操作的的实现需要提供两个索引作为边界，是一个左闭右开的区间，也就是第 1 个索引包含在分片内，而第2个索引不包含在这个分片内。</p>
+<h3 id="1-3-序列相加"><a href="#1-3-序列相加" class="headerlink" title="1.3 序列相加"></a>1.3 序列相加</h3><p>通过加号<code>+</code>可以将两个序列连接起来：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">&#x27;hello&#x27;</span>+<span class="string">&#x27; world !&#x27;</span></span><br><span class="line">  <span class="string">&#x27;hello world !&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]+[<span class="string">&#x27;zhangsan&#x27;</span>,<span class="string">&#x27;lisi&#x27;</span>,<span class="string">&#x27;wangwu&#x27;</span>]</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="string">&#x27;zhangsan&#x27;</span>, <span class="string">&#x27;lisi&#x27;</span>, <span class="string">&#x27;wangwu&#x27;</span>]</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="1-4-in-运算符"><a href="#1-4-in-运算符" class="headerlink" title="1.4 in 运算符"></a>1.4 in 运算符</h3><p><code>in</code>运算符用于检查一个元素是否在一个序列中，是则返回 true，否则返回 false，例如：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">str</span> = <span class="string">&#x27;believe&#x27;</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">&#x27;lie&#x27;</span> <span class="keyword">in</span> <span class="built_in">str</span></span><br><span class="line"><span class="literal">True</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">&#x27;x&#x27;</span> <span class="keyword">in</span> <span class="built_in">str</span></span><br><span class="line"><span class="literal">False</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="1-5-序列长度、最大值和最小值"><a href="#1-5-序列长度、最大值和最小值" class="headerlink" title="1.5 序列长度、最大值和最小值"></a>1.5 序列长度、最大值和最小值</h3><p>内建函数 len、max、min 分别用于获取序列长度、最大值和最小值。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">len</span>([<span class="number">11</span>,<span class="number">34</span>,<span class="number">23</span>])</span><br><span class="line"><span class="number">3</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">max</span>([<span class="number">11</span>,<span class="number">34</span>,<span class="number">23</span>])</span><br><span class="line"><span class="number">34</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">min</span>([<span class="number">11</span>,<span class="number">34</span>,<span class="number">23</span>])</span><br><span class="line"><span class="number">11</span></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="2-list-列表"><a href="#2-list-列表" class="headerlink" title="2. list (列表)"></a>2. list (列表)</h2><p>列表是最常用的 Python 数据类型，它是一种有序的集合，可以随时添加和删除其中的元素。list用方括号<code>[ ]</code>表示。</p>
+<p>比如，列出班里所有同学的名字，就可以用一个list表示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates = [<span class="string">&#x27;Michael&#x27;</span>, <span class="string">&#x27;Bob&#x27;</span>, <span class="string">&#x27;Tracy&#x27;</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates</span><br><span class="line">[<span class="string">&#x27;Michael&#x27;</span>, <span class="string">&#x27;Bob&#x27;</span>, <span class="string">&#x27;Tracy&#x27;</span>]</span><br></pre></td></tr></table></figure>
+<p>变量<code>classmates</code>就是一个list。</p>
+<p>要把某个元素替换成别的元素，可以直接赋值给对应的索引位置：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates[<span class="number">1</span>] = <span class="string">&#x27;Sarah&#x27;</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates</span><br><span class="line">[<span class="string">&#x27;Michael&#x27;</span>, <span class="string">&#x27;Sarah&#x27;</span>, <span class="string">&#x27;Tracy&#x27;</span>]</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="2-1-常用的列表方法"><a href="#2-1-常用的列表方法" class="headerlink" title="2.1 常用的列表方法"></a>2.1 常用的列表方法</h3><p>列表提供了几个详细的方法，这些方法用于检查或者修改列表中的内容</p>
+<h4 id="2-1-1-append"><a href="#2-1-1-append" class="headerlink" title="2.1.1 append"></a>2.1.1 append</h4><p>append 方法用于在列表的末尾追加新的元素</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>l = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>l.append(<span class="number">5</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>l</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates.append(<span class="string">&#x27;Adam&#x27;</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>classmates</span><br><span class="line">[<span class="string">&#x27;Michael&#x27;</span>, <span class="string">&#x27;Bob&#x27;</span>, <span class="string">&#x27;Tracy&#x27;</span>, <span class="string">&#x27;Adam&#x27;</span>]</span><br></pre></td></tr></table></figure>
+<h4 id="2-1-2-count"><a href="#2-1-2-count" class="headerlink" title="2.1.2 count"></a>2.1.2 count</h4><p>count 方法用于统计某个元素在列表中出现的次数</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; numList &#x3D; [1, 2, 3, 4, 5, 5, 5, 5, 6]</span><br><span class="line">&gt;&gt;&gt; num.count(5)    &#x2F;&#x2F; 统计numList列表中5出现的次数</span><br><span class="line">4</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; name&#x3D;[&#39;a&#39;,&#39;a&#39;,&#39;abf&#39;,&#39;ark&#39;,&#39;nhk&#39;]</span><br><span class="line">&gt;&gt;&gt; name.count(&#39;a&#39;)     &#x2F;&#x2F; 统计name中字母a出现的次数</span><br><span class="line">2</span><br></pre></td></tr></table></figure>
+<h4 id="2-1-3-insert"><a href="#2-1-3-insert" class="headerlink" title="2.1.3 insert"></a>2.1.3 insert</h4><p>insert 方法用于把元素插入到指定的位置，比如索引为<code>1</code>的位置：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; classmates.insert(1, &#39;Jack&#39;)</span><br><span class="line">&gt;&gt;&gt; classmates</span><br><span class="line">[&#39;Michael&#39;, &#39;Jack&#39;, &#39;Bob&#39;, &#39;Tracy&#39;, &#39;Adam&#39;]</span><br></pre></td></tr></table></figure>
+<h4 id="2-1-4-pop"><a href="#2-1-4-pop" class="headerlink" title="2.1.4 pop"></a>2.1.4 pop</h4><p>要删除list末尾的元素，用<code>pop()</code>方法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; classmates.pop()</span><br><span class="line">&#39;Adam&#39;</span><br><span class="line">&gt;&gt;&gt; classmates</span><br><span class="line">[&#39;Michael&#39;, &#39;Jack&#39;, &#39;Bob&#39;, &#39;Tracy&#39;]</span><br></pre></td></tr></table></figure>
+<p>要删除指定位置的元素，用<code>pop(i)</code>方法，其中<code>i</code>是索引位置：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; classmates.pop(1)</span><br><span class="line">&#39;Jack&#39;</span><br><span class="line">&gt;&gt;&gt; classmates</span><br><span class="line">[&#39;Michael&#39;, &#39;Bob&#39;, &#39;Tracy&#39;]</span><br></pre></td></tr></table></figure>
+<h4 id="2-1-5-reverse"><a href="#2-1-5-reverse" class="headerlink" title="2.1.5 reverse"></a>2.1.5 reverse</h4><p>reverse 方法是将列表中的元素进行反转操作</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; x &#x3D; [1, 2, 3]</span><br><span class="line">&gt;&gt;&gt; x.reverse()    &#x2F;&#x2F; 元素反向存储</span><br><span class="line">x</span><br><span class="line">[3, 2, 1]</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="3-tuple-元组"><a href="#3-tuple-元组" class="headerlink" title="3. tuple (元组)"></a>3. tuple (元组)</h2><p>tuple和list非常类似，但是tuple一旦初始化就不能修改，元组用<code>( )</code>表示。比如同样是列出同学的名字：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; classmates &#x3D; (&#39;Michael&#39;, &#39;Bob&#39;, &#39;Tracy&#39;)</span><br></pre></td></tr></table></figure>
+<p>现在，classmates这个tuple不能变了，它也没有append()，insert()这样的方法。你可以正常地使用<code>classmates[0]</code>，<code>classmates[-1]</code>，但不能赋值成另外的元素。</p>
+<p>不可变的tuple有什么意义？因为tuple不可变，所以代码更安全。写代码时，能用tuple就尽量用tuple。</p>
+<h4 id="3-1-字符串是元组"><a href="#3-1-字符串是元组" class="headerlink" title="3.1 字符串是元组"></a>3.1 字符串是元组</h4><p>字符串是一种特殊的元组，因此可以执行元组的相关操作。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; str &#x3D; &#39;abcdef&#39;</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; print(str[2:4])</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day06 - Python 数据结构之 dict 与 set</title>
+    <url>/2021/python06/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<p>[TOC]</p>
+<h2 id="dict-字典-和-set-集合"><a href="#dict-字典-和-set-集合" class="headerlink" title="dict(字典) 和 set(集合)"></a>dict(字典) 和 set(集合)</h2><h3 id="dict-字典"><a href="#dict-字典" class="headerlink" title="dict 字典"></a>dict 字典</h3><p>dict全称dictionary，在其他语言中也称为map，使用键-值（key-value）存储，具有极快的查找速度。词典和list列表类似的地方，是包含有多个元素，每个元素以逗号分隔。但词典的元素包含有两部分，键和值，常见的是以字符串来表示键，值可以是任意对象。键和值两者一一对应。</p>
+<p>举个例子，用dict实现一个<code>“名字”-“成绩”</code>的对照表，直接根据名字查找成绩：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d = &#123;<span class="string">&#x27;Michael&#x27;</span>: <span class="number">95</span>, <span class="string">&#x27;Bob&#x27;</span>: <span class="number">75</span>, <span class="string">&#x27;Tracy&#x27;</span>: <span class="number">85</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Michael&#x27;</span>]</span><br><span class="line"><span class="number">95</span></span><br></pre></td></tr></table></figure>
+
+
+<p>把数据放入dict的方法，除了初始化时指定外，还可以后续通过key放入：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Adam&#x27;</span>] = <span class="number">67</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Adam&#x27;</span>]</span><br><span class="line"><span class="number">67</span></span><br></pre></td></tr></table></figure>
+<p>由于一个key只能对应一个value，所以，多次对一个key放入value，后面的值会把前面的值覆盖：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>] = <span class="number">90</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>]</span><br><span class="line"><span class="number">90</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>] = <span class="number">88</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>]</span><br><span class="line"><span class="number">88</span></span><br></pre></td></tr></table></figure>
+<p>如果key不存在，dict就会报错：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; d[&#39;Thomas&#39;]</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">KeyError: &#39;Thomas&#39;</span><br></pre></td></tr></table></figure>
+<p>要避免key不存在的错误，有两种办法，一是通过<code>in</code>判断key是否存在：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">&#x27;Thomas&#x27;</span> <span class="keyword">in</span> d</span><br><span class="line"><span class="literal">False</span></span><br></pre></td></tr></table></figure>
+<p>二是通过dict提供的<code>get()</code>方法，如果key不存在，可以返回<code>None</code>，或者自己指定的value：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d.get(<span class="string">&#x27;Thomas&#x27;</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d.get(<span class="string">&#x27;Thomas&#x27;</span>, -<span class="number">1</span>)</span><br><span class="line">-<span class="number">1</span></span><br></pre></td></tr></table></figure>
+<p>注意：返回<code>None</code>的时候Python的交互环境不显示结果。</p>
+<p>要删除一个key，用<code>pop(key)</code>方法，对应的value也会从dict中删除：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d.pop(<span class="string">&#x27;Bob&#x27;</span>)</span><br><span class="line"><span class="number">75</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d</span><br><span class="line">&#123;<span class="string">&#x27;Michael&#x27;</span>: <span class="number">95</span>, <span class="string">&#x27;Tracy&#x27;</span>: <span class="number">85</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>请务必注意，dict内部存放的顺序和key放入的顺序是没有关系的，即dict是无序的。你不能通过下标引用元素，只能通过键来引用。</p>
+<h4 id="dict元素的循环调用"><a href="#dict元素的循环调用" class="headerlink" title="dict元素的循环调用"></a>dict元素的循环调用</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dic = &#123;<span class="string">&#x27;lilei&#x27;</span>: <span class="number">90</span>, <span class="string">&#x27;lily&#x27;</span>: <span class="number">100</span>, <span class="string">&#x27;sam&#x27;</span>: <span class="number">57</span>, <span class="string">&#x27;tom&#x27;</span>: <span class="number">90</span>&#125;</span><br><span class="line"><span class="keyword">for</span> key <span class="keyword">in</span> dic:</span><br><span class="line">    <span class="built_in">print</span> dic[key]    <span class="comment"># 通过print的结果，我们可以再次确认，dic中的元素是没有顺序的。</span></span><br></pre></td></tr></table></figure>
+<p>dict可以用在需要高速查找的很多地方，在Python代码中几乎无处不在，正确使用dict非常重要，需要牢记的第一条就是dict的key必须是<strong>不可变对象</strong>。</p>
+<p>这是因为dict根据key来计算value的存储位置，如果每次计算相同的key得出的结果不同，那dict内部就完全混乱了。这个通过key计算位置的算法称为哈希算法（Hash）。</p>
+<p>要保证hash的正确性，作为key的对象就不能变。在Python中，字符串、整数等都是不可变的，因此，可以放心地作为key。</p>
+<h4 id="dict的常用方法"><a href="#dict的常用方法" class="headerlink" title="dict的常用方法"></a>dict的常用方法</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">dic.keys()      # 返回dic所有的键</span><br><span class="line"></span><br><span class="line">dic.values()     # 返回dic所有的值</span><br><span class="line"></span><br><span class="line">print dic.items()     # 返回dic所有的元素（键值对）</span><br><span class="line"></span><br><span class="line">dic.clear()        # 清空dic，dict变为&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<p>另外有一个很常用的用法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">del dic[&#39;tom&#39;]       # 删除 dic 的‘tom’元素</span><br></pre></td></tr></table></figure>
+<p>del是Python中保留的关键字，用于删除对象。</p>
+<p>与表类似，你可以用len()查询词典中的元素总数。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; print(len(dic))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="set-集合"><a href="#set-集合" class="headerlink" title="set 集合"></a>set 集合</h3><p>set和list类似，但不能有重复的元素。此外，set是无序的。set用<code>&#123; &#125;</code>表示。</p>
+<p>要创建一个set，可以提供一个list作为输入集合：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s = <span class="built_in">set</span>([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>注意，传入的参数<code>[1, 2, 3]</code>是一个list，而显示的<code>&#123;1, 2, 3&#125;</code>只是告诉你这个set内部有1，2，3这3个元素，显示的顺序也不表示set内部存储的顺序。</p>
+<p>重复元素在set中自动被过滤：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s = <span class="built_in">set</span>([<span class="number">1</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">3</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>通过<code>add(key)</code>方法可以添加元素到set中，可以重复添加，但不会有效果：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s.add(<span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s.add(<span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>通过<code>remove(key)</code>方法可以删除元素：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s.remove(<span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>set可以看成数学意义上的无序和无重复元素的集合，因此，两个set可以做数学意义上的交集、并集等操作：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s1 = <span class="built_in">set</span>([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s2 = <span class="built_in">set</span>([<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s1 &amp; s2</span><br><span class="line">&#123;<span class="number">2</span>, <span class="number">3</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s1 | s2</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>使用key-value存储结构的dict在Python中非常有用，选择不可变对象作为key很重要，最常用的key是字符串。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 07 - Python 函数</title>
+    <url>/2021/python07/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<h3 id="定义函数"><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h3><p>在Python中，定义一个函数要使用<code>def</code>语句，依次写出函数名、括号、括号中的参数和冒号<code>:</code>，然后，在缩进块中编写函数体，函数的返回值用<code>return</code>语句返回。</p>
+<h4 id="简单示例"><a href="#简单示例" class="headerlink" title="简单示例"></a>简单示例</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#定义一个函数</span><br><span class="line">def hello() :</span><br><span class="line">   print(&quot;Hello World!&quot;)</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">hello()</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="带参数和返回值的函数"><a href="#带参数和返回值的函数" class="headerlink" title="带参数和返回值的函数"></a>带参数和返回值的函数</h4><p>我们以自定义一个求绝对值的<code>my_abs</code>函数为例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">def my_abs(x):</span><br><span class="line">    if x &gt;&#x3D; 0:</span><br><span class="line">        return x</span><br><span class="line">    else:</span><br><span class="line">        return -x</span><br></pre></td></tr></table></figure>
+<p>请自行测试并调用<code>my_abs</code>看看返回结果是否正确。</p>
+<p>请注意，函数体内部的语句在执行时，一旦执行到<code>return</code>时，函数就执行完毕，并将结果返回。</p>
+<p>return并不是必须的，当没有return, 或者return后面没有返回值时，函数将自动返回None。None是Python中的一个特别的数据类型，用来表示什么都没有，相当于C中的NULL。None多用于关键字参数传递的默认值。</p>
+<h4 id="返回多个值"><a href="#返回多个值" class="headerlink" title="返回多个值"></a>返回多个值</h4><p>函数可以返回多个值吗？答案是肯定的。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#定义多个返回值的函数</span><br><span class="line">def more(x, y):</span><br><span class="line">    nx &#x3D; x + 2</span><br><span class="line">    ny &#x3D; y - 2</span><br><span class="line">    return nx, ny</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">x, y &#x3D; more(10, 10)</span><br><span class="line">print(x, y)</span><br></pre></td></tr></table></figure>
+<p>但其实这只是一种假象，Python函数返回的仍然是单一值：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; r &#x3D; more(10, 10)</span><br><span class="line">&gt;&gt;&gt; print(r)</span><br><span class="line">(12, 8)</span><br></pre></td></tr></table></figure>
+<p>原来返回值是一个tuple！但是，在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，但写起来更方便。</p>
+<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>定义函数时，需要确定函数名和参数个数；</p>
+<p>函数体内部可以用<code>return</code>随时返回函数结果；</p>
+<p>函数执行完毕也没有<code>return</code>语句时，自动<code>return None</code>。</p>
+<p>函数可以同时返回多个值，但其实就是一个tuple。</p>
+<h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>$$<br>请定义一个函数quadratic(a, b, c)，接收3个参数，返回一元二次方程 ax^2+bx+c=0的两个解。<br>提示：</p>
+<p>一元二次方程的求根公式为：</p>
+<p>x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}。<br>$$</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 08 - Python 模块</title>
+    <url>/2021/python08-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<p>先给大家解释一下模块、包、库之间的概念：</p>
+<p>在Python中，一个.py文件就构成一个模块module，用来封装一组功能；包package是将一类模块归集到一起，比模块的概念更大一些；库就是由其它程序员封装好的功能组，一般比包的概念更大一些。</p>
+<h3 id="引入模块"><a href="#引入模块" class="headerlink" title="引入模块"></a>引入模块</h3><p>我们先写一个first.py文件，内容如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">def laugh():</span><br><span class="line">    print &#39;HaHaHaHa&#39;</span><br></pre></td></tr></table></figure>
+<p>再写一个second.py，并引入first中的程序：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import first</span><br><span class="line"></span><br><span class="line">for i in range(10):</span><br><span class="line">    first.laugh()</span><br></pre></td></tr></table></figure>
+<p>在second.py中，我们使用了first.py中定义的laugh()函数。</p>
+<p>引入模块后，可以通过模块.对象的方式来调用引入模块中的某个对象。上面例子中，first为引入的模块，laugh()是我们所引入的对象。</p>
+<p>Python中还有其它的引入方式,</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">import a as b            # 引入模块a，并将模块a重命名为b</span><br><span class="line"></span><br><span class="line">from a import function1  # 从模块a中引入function1对象。调用a中对象时，我们不用再说明模块，即直接使用function1，而不是a.function1。</span><br><span class="line"></span><br><span class="line">from a import *          # 从模块a中引入所有对象。调用a中对象时，我们不用再说明模块，即直接使用对象，而不是a.对象。</span><br></pre></td></tr></table></figure>
+<p>这些引用方式，可以方便后面的程序书写。</p>
+<h3 id="作用域"><a href="#作用域" class="headerlink" title="作用域"></a>作用域</h3><p>在一个模块中，我们可能会定义很多函数和变量，但有的函数和变量我们希望给别人使用，有的函数和变量我们希望仅仅在模块内部使用。在Python中，是通过<code>_</code>前缀来实现的。</p>
+<p>正常的函数和变量名是公开的（public），可以被直接引用，比如：<code>abc</code>，<code>x123</code>，<code>PI</code>等；</p>
+<p>类似<code>__xxx__</code>这样的变量是特殊变量，可以被直接引用，但是有特殊用途，比如上面的<code>__author__</code>，<code>__name__</code>就是特殊变量，<code>hello</code>模块定义的文档注释也可以用特殊变量<code>__doc__</code>访问，我们自己的变量一般不要用这种变量名；</p>
+<p>类似<code>_xxx</code>和<code>__xxx</code>这样的函数或变量就是非公开的（private），不应该被直接引用，比如<code>_abc</code>，<code>__abc</code>等；</p>
+<p>之所以我们说，private函数和变量“不应该”被直接引用，而不是“不能”被直接引用，是因为Python并没有一种方法可以完全限制访问private函数或变量，但是，从编程习惯上不应该引用private函数或变量。</p>
+<p>private函数或变量不应该被别人引用，那它们有什么用呢？请看例子：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">def _private_1(name):</span><br><span class="line">    return &#39;Hello, %s&#39; % name</span><br><span class="line"></span><br><span class="line">def _private_2(name):</span><br><span class="line">    return &#39;Hi, %s&#39; % name</span><br><span class="line"></span><br><span class="line">def greeting(name):</span><br><span class="line">    if len(name) &gt; 3:</span><br><span class="line">        return _private_1(name)</span><br><span class="line">    else:</span><br><span class="line">        return _private_2(name)</span><br></pre></td></tr></table></figure>
+<p>我们在模块里公开<code>greeting()</code>函数，而把内部逻辑用private函数隐藏起来了，这样，调用<code>greeting()</code>函数不用关心内部的private函数细节，这也是一种非常有用的代码封装和抽象的方法，即：</p>
+<p>外部不需要引用的函数全部定义成private，只有外部需要引用的函数才定义为public。</p>
+<h3 id="安装第三方模块"><a href="#安装第三方模块" class="headerlink" title="安装第三方模块"></a>安装第三方模块</h3><p>在Python中，安装第三方模块，是通过包管理工具pip完成的。</p>
+<p>注意：Mac或Linux上有可能并存Python 3.x和Python 2.x，因此对应的pip命令是<code>pip3</code>。</p>
+<p>例如，我们要安装一个第三方库——Pillow，这是Python下非常强大的处理图像的工具库。安装Pillow的命令是：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pip install Pillow</span><br></pre></td></tr></table></figure>
+<p>macOS需要执行下面的命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pip3 install Pillow</span><br></pre></td></tr></table></figure>
+<p>耐心等待下载并安装后，就可以使用Pillow了。</p>
+<h4 id="使用Anaconda"><a href="#使用Anaconda" class="headerlink" title="使用Anaconda"></a>使用Anaconda</h4><p>如果开发中需要用到很多第三方库，例如，上面提到的Pillow，以及MySQL驱动程序，Web框架Flask，科学计算Numpy等。用pip一个一个安装费时费力，还需要考虑兼容性。可以直接使用<a href="https://www.anaconda.com/">Anaconda</a>，这是一个基于Python的数据处理和科学计算平台，它已经内置了许多非常有用的第三方库，我们装上Anaconda，就相当于把数十个第三方模块自动安装好了，非常简单易用，缺点是占用磁盘空间大。</p>
+<p>可以从<a href="https://www.anaconda.com/download/">Anaconda官网</a>下载GUI安装包，安装包有500~600M，所以需要耐心等待下载。下载后直接安装，Anaconda会把系统Path中的python指向自己自带的Python，并且，Anaconda安装的第三方模块会安装在Anaconda自己的路径下，不影响系统已安装的Python目录。</p>
 ]]></content>
       <categories>
         <category>Python</category>
