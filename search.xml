@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Something True</title>
+    <url>/2020/about/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><blockquote>
+<p>现居北京。</p>
+</blockquote>
+<blockquote>
+<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点 React。</p>
+</blockquote>
+<a id="more"></a>
+
+<blockquote>
+<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
+</blockquote>
+<blockquote>
+<p>电影发烧友。</p>
+</blockquote>
+<blockquote>
+<p>爱听 Hiphop 和 R&amp;B。</p>
+</blockquote>
+<blockquote>
+<p>喜欢一切美好的事物。</p>
+</blockquote>
+<br/>
+
+<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
+<br/>
+
+
+<!-- ![avatar.jpg](https://i.loli.net/2019/12/02/Hw5WJIMKzi1YrU8.jpg) -->
+
+<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gnhogd2xtej30k10k1abb.jpg" alt="avatar" width="300" style="border-radius:50%"/>]]></content>
+  </entry>
+  <entry>
     <title>2019年我最喜欢的电影（一）</title>
     <url>/2020/favFilms2019-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
@@ -90,7 +123,7 @@
     <title>2019 年度精选歌单</title>
     <url>/2020/music2019/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="2019-年度精选歌单"><a href="#2019-年度精选歌单" class="headerlink" title="2019 年度精选歌单"></a>2019 年度精选歌单</h3>
-    <div id="aplayer-aogqRMwV" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-AUpkOSZj" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="3159878612" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -104,39 +137,6 @@
         <tag>音乐</tag>
         <tag>收藏</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Something True</title>
-    <url>/2020/about/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><blockquote>
-<p>现居北京。</p>
-</blockquote>
-<blockquote>
-<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点 React。</p>
-</blockquote>
-<a id="more"></a>
-
-<blockquote>
-<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
-</blockquote>
-<blockquote>
-<p>电影发烧友。</p>
-</blockquote>
-<blockquote>
-<p>爱听 Hiphop 和 R&amp;B。</p>
-</blockquote>
-<blockquote>
-<p>喜欢一切美好的事物。</p>
-</blockquote>
-<br/>
-
-<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
-<br/>
-
-
-<!-- ![avatar.jpg](https://i.loli.net/2019/12/02/Hw5WJIMKzi1YrU8.jpg) -->
-
-<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gnhogd2xtej30k10k1abb.jpg" alt="avatar" width="300" style="border-radius:50%"/>]]></content>
   </entry>
   <entry>
     <title>音乐剧 Hamilton punchlines</title>
@@ -499,6 +499,50 @@
       </tags>
   </entry>
   <entry>
+    <title>Day 01 - 本地安装Python</title>
+    <url>/2020/python01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+<p>因为Python是跨平台的，也就是说它可以运行在Windows、Mac和各种Linux/Unix系统上。在Windows上写的Python程序，放到Linux上也是能够运行的。要开始学习Python编程，首先就得把Python安装到你的电脑里。安装后，你会得到Python解释器（就是负责运行Python程序的），一个命令行交互环境，还有一个简单的集成开发环境。这里我们安装的是 3.9.0 版本的Python。</p>
+<a id="more"></a>
+
+<p>建议大家直接去官网下载最新版本的安装包，官网地址：<a href="https://www.python.org/">https://www.python.org/</a>。也可以用我提供给大家的安装包，安装包的位置：tools/necessary。</p>
+<hr>
+<br/>
+
+
+<h3 id="一-Windows-系统下的安装配置"><a href="#一-Windows-系统下的安装配置" class="headerlink" title="一. Windows 系统下的安装配置"></a>一. Windows 系统下的安装配置</h3><p>windows 系统对应的安装包名字为python-3.9.0.exe，下载完后，双击进入下图安装页面，记得勾上Add Python 3.9 to PATH，然后点 「Install Now」 即可完成安装。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2136918-2bf6591f0a12e80b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Python安装.png"></p>
+<h4 id="验证是否安装成功"><a href="#验证是否安装成功" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开命令提示符（即cmd.exe），敲入 python ，出现Python版本信息，证明 Python 安装成功了。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2136918-817c22f802e8cfce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="运行python.png"></p>
+<p>命令提示符最后一行 <code>&gt;&gt;&gt;</code> 表示我们已经在 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (100 / 3.1415926)</span><br></pre></td></tr></table></figure>
+<hr>
+<br/>
+
+
+<h3 id="二-macOS下的安装配置"><a href="#二-macOS下的安装配置" class="headerlink" title="二. macOS下的安装配置"></a>二. macOS下的安装配置</h3><p>Mac系统安装Python就更简单了，安装包名字为python-3.9.0-macosx10.9.pkg，双击安装即可。</p>
+<p>这里还有另外一种方法，如果你安装了Homebrew，直接通过命令<code>brew install python3</code>安装即可。（如果你没有读懂这句话，说明你不需要它）</p>
+<h4 id="验证是否安装成功-1"><a href="#验证是否安装成功-1" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开终端.app（或者iTerm），敲入 <code>python3</code> ，出现Python版本信息，证明 Python 安装成功了。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpi1g3dlj31ky0ciacn.jpg" alt="运行python.png"></p>
+<p>注意：终端里输入<code>python</code>得到的是macOS系统预装的Python 2.7.16 版本，输入<code>python3</code>才会进入我们安装的版本。</p>
+<p>Python2已经是过时的版本，而macOS之所以预装了这个版本，是为了兼容一些历史软件。我们一般使用Python3。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpcw31i7j31ky0l2tcr.jpg" alt="macOS 预装了 Python2"></p>
+<p>这样我们输入<code>python3</code>后就进入 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (&quot;玉在椟中求善价，钗于奁内待时飞。&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>这样我们的Python环境就搭建完成了，第一个 Python 程序也成功运行了，是不是很简单。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Day 02 - Python 基础之基础</title>
     <url>/2020/python02/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
@@ -672,50 +716,6 @@
 <p>比如：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&quot;%04d&quot;</span> % <span class="number">5</span>)</span><br><span class="line">print(<span class="string">&quot;%6.3f&quot;</span> % <span class="number">2.3</span>)</span><br></pre></td></tr></table></figure>
 <p>除上面列举的几种数据类型外，Python还提供了List（列表）、Tuple（元组）、Sets（集合）、Dictionary（字典）等多种数据类型，并且允许用户创建自定义数据类型，我们后面会继续讲到。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>学习</tag>
-        <tag>编程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Day 01 - 本地安装Python</title>
-    <url>/2020/python01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
-
-<p>因为Python是跨平台的，也就是说它可以运行在Windows、Mac和各种Linux/Unix系统上。在Windows上写的Python程序，放到Linux上也是能够运行的。要开始学习Python编程，首先就得把Python安装到你的电脑里。安装后，你会得到Python解释器（就是负责运行Python程序的），一个命令行交互环境，还有一个简单的集成开发环境。这里我们安装的是 3.9.0 版本的Python。</p>
-<a id="more"></a>
-
-<p>建议大家直接去官网下载最新版本的安装包，官网地址：<a href="https://www.python.org/">https://www.python.org/</a>。也可以用我提供给大家的安装包，安装包的位置：tools/necessary。</p>
-<hr>
-<br/>
-
-
-<h3 id="一-Windows-系统下的安装配置"><a href="#一-Windows-系统下的安装配置" class="headerlink" title="一. Windows 系统下的安装配置"></a>一. Windows 系统下的安装配置</h3><p>windows 系统对应的安装包名字为python-3.9.0.exe，下载完后，双击进入下图安装页面，记得勾上Add Python 3.9 to PATH，然后点 「Install Now」 即可完成安装。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2136918-2bf6591f0a12e80b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Python安装.png"></p>
-<h4 id="验证是否安装成功"><a href="#验证是否安装成功" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开命令提示符（即cmd.exe），敲入 python ，出现Python版本信息，证明 Python 安装成功了。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2136918-817c22f802e8cfce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="运行python.png"></p>
-<p>命令提示符最后一行 <code>&gt;&gt;&gt;</code> 表示我们已经在 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (100 / 3.1415926)</span><br></pre></td></tr></table></figure>
-<hr>
-<br/>
-
-
-<h3 id="二-macOS下的安装配置"><a href="#二-macOS下的安装配置" class="headerlink" title="二. macOS下的安装配置"></a>二. macOS下的安装配置</h3><p>Mac系统安装Python就更简单了，安装包名字为python-3.9.0-macosx10.9.pkg，双击安装即可。</p>
-<p>这里还有另外一种方法，如果你安装了Homebrew，直接通过命令<code>brew install python3</code>安装即可。（如果你没有读懂这句话，说明你不需要它）</p>
-<h4 id="验证是否安装成功-1"><a href="#验证是否安装成功-1" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开终端.app（或者iTerm），敲入 <code>python3</code> ，出现Python版本信息，证明 Python 安装成功了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpi1g3dlj31ky0ciacn.jpg" alt="运行python.png"></p>
-<p>注意：终端里输入<code>python</code>得到的是macOS系统预装的Python 2.7.16 版本，输入<code>python3</code>才会进入我们安装的版本。</p>
-<p>Python2已经是过时的版本，而macOS之所以预装了这个版本，是为了兼容一些历史软件。我们一般使用Python3。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpcw31i7j31ky0l2tcr.jpg" alt="macOS 预装了 Python2"></p>
-<p>这样我们输入<code>python3</code>后就进入 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (&quot;玉在椟中求善价，钗于奁内待时飞。&quot;)</span><br></pre></td></tr></table></figure>
-
-<p>这样我们的Python环境就搭建完成了，第一个 Python 程序也成功运行了，是不是很简单。</p>
 ]]></content>
       <categories>
         <category>Python</category>
@@ -955,6 +955,44 @@
       </tags>
   </entry>
   <entry>
+    <title>Day 08 - Python 函数</title>
+    <url>/2020/python08/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<h3 id="定义函数"><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h3><p>在Python中，定义一个函数要使用<code>def</code>语句，依次写出函数名、括号、括号中的参数和冒号<code>:</code>，然后，在缩进块中编写函数体，函数的返回值用<code>return</code>语句返回。</p>
+<h4 id="简单示例"><a href="#简单示例" class="headerlink" title="简单示例"></a>简单示例</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#定义一个函数</span><br><span class="line">def hello() :</span><br><span class="line">   print(&quot;Hello World!&quot;)</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">hello()</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="带参数和返回值的函数"><a href="#带参数和返回值的函数" class="headerlink" title="带参数和返回值的函数"></a>带参数和返回值的函数</h4><p>我们以自定义一个求绝对值的<code>my_abs</code>函数为例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">def my_abs(x):</span><br><span class="line">    if x &gt;&#x3D; 0:</span><br><span class="line">        return x</span><br><span class="line">    else:</span><br><span class="line">        return -x</span><br></pre></td></tr></table></figure>
+<p>请自行测试并调用<code>my_abs</code>看看返回结果是否正确。</p>
+<p>请注意，函数体内部的语句在执行时，一旦执行到<code>return</code>时，函数就执行完毕，并将结果返回。</p>
+<p>return并不是必须的，当没有return, 或者return后面没有返回值时，函数将自动返回None。None是Python中的一个特别的数据类型，用来表示什么都没有，相当于C中的NULL。None多用于关键字参数传递的默认值。</p>
+<h4 id="返回多个值"><a href="#返回多个值" class="headerlink" title="返回多个值"></a>返回多个值</h4><p>函数可以返回多个值吗？答案是肯定的。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#定义多个返回值的函数</span><br><span class="line">def more(x, y):</span><br><span class="line">    nx &#x3D; x + 2</span><br><span class="line">    ny &#x3D; y - 2</span><br><span class="line">    return nx, ny</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">x, y &#x3D; more(10, 10)</span><br><span class="line">print(x, y)</span><br></pre></td></tr></table></figure>
+<p>但其实这只是一种假象，Python函数返回的仍然是单一值：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; r &#x3D; more(10, 10)</span><br><span class="line">&gt;&gt;&gt; print(r)</span><br><span class="line">(12, 8)</span><br></pre></td></tr></table></figure>
+<p>原来返回值是一个tuple！但是，在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，但写起来更方便。</p>
+<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>定义函数时，需要确定函数名和参数个数；</p>
+<p>函数体内部可以用<code>return</code>随时返回函数结果；</p>
+<p>函数执行完毕也没有<code>return</code>语句时，自动<code>return None</code>。</p>
+<p>函数可以同时返回多个值，但其实就是一个tuple。</p>
+<h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>$$<br>请定义一个函数quadratic(a, b, c)，接收3个参数，返回一元二次方程 ax^2+bx+c=0的两个解。<br>提示：</p>
+<p>一元二次方程的求根公式为：</p>
+<p>x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}。<br>$$</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>学习</tag>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Day 09 - Python 模块</title>
     <url>/2020/python09/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
@@ -990,44 +1028,6 @@
 <p>耐心等待下载并安装后，就可以使用Pillow了。</p>
 <h4 id="使用Anaconda"><a href="#使用Anaconda" class="headerlink" title="使用Anaconda"></a>使用Anaconda</h4><p>如果开发中需要用到很多第三方库，例如，上面提到的Pillow，以及MySQL驱动程序，Web框架Flask，科学计算Numpy等。用pip一个一个安装费时费力，还需要考虑兼容性。可以直接使用<a href="https://www.anaconda.com/">Anaconda</a>，这是一个基于Python的数据处理和科学计算平台，它已经内置了许多非常有用的第三方库，我们装上Anaconda，就相当于把数十个第三方模块自动安装好了，非常简单易用，缺点是占用磁盘空间大。</p>
 <p>可以从<a href="https://www.anaconda.com/download/">Anaconda官网</a>下载GUI安装包，安装包有500~600M，所以需要耐心等待下载。下载后直接安装，Anaconda会把系统Path中的python指向自己自带的Python，并且，Anaconda安装的第三方模块会安装在Anaconda自己的路径下，不影响系统已安装的Python目录。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>学习</tag>
-        <tag>编程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Day 08 - Python 函数</title>
-    <url>/2020/python08/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
-
-
-
-<h3 id="定义函数"><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h3><p>在Python中，定义一个函数要使用<code>def</code>语句，依次写出函数名、括号、括号中的参数和冒号<code>:</code>，然后，在缩进块中编写函数体，函数的返回值用<code>return</code>语句返回。</p>
-<h4 id="简单示例"><a href="#简单示例" class="headerlink" title="简单示例"></a>简单示例</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#定义一个函数</span><br><span class="line">def hello() :</span><br><span class="line">   print(&quot;Hello World!&quot;)</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">hello()</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="带参数和返回值的函数"><a href="#带参数和返回值的函数" class="headerlink" title="带参数和返回值的函数"></a>带参数和返回值的函数</h4><p>我们以自定义一个求绝对值的<code>my_abs</code>函数为例：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">def my_abs(x):</span><br><span class="line">    if x &gt;&#x3D; 0:</span><br><span class="line">        return x</span><br><span class="line">    else:</span><br><span class="line">        return -x</span><br></pre></td></tr></table></figure>
-<p>请自行测试并调用<code>my_abs</code>看看返回结果是否正确。</p>
-<p>请注意，函数体内部的语句在执行时，一旦执行到<code>return</code>时，函数就执行完毕，并将结果返回。</p>
-<p>return并不是必须的，当没有return, 或者return后面没有返回值时，函数将自动返回None。None是Python中的一个特别的数据类型，用来表示什么都没有，相当于C中的NULL。None多用于关键字参数传递的默认值。</p>
-<h4 id="返回多个值"><a href="#返回多个值" class="headerlink" title="返回多个值"></a>返回多个值</h4><p>函数可以返回多个值吗？答案是肯定的。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#定义多个返回值的函数</span><br><span class="line">def more(x, y):</span><br><span class="line">    nx &#x3D; x + 2</span><br><span class="line">    ny &#x3D; y - 2</span><br><span class="line">    return nx, ny</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">x, y &#x3D; more(10, 10)</span><br><span class="line">print(x, y)</span><br></pre></td></tr></table></figure>
-<p>但其实这只是一种假象，Python函数返回的仍然是单一值：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; r &#x3D; more(10, 10)</span><br><span class="line">&gt;&gt;&gt; print(r)</span><br><span class="line">(12, 8)</span><br></pre></td></tr></table></figure>
-<p>原来返回值是一个tuple！但是，在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，但写起来更方便。</p>
-<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>定义函数时，需要确定函数名和参数个数；</p>
-<p>函数体内部可以用<code>return</code>随时返回函数结果；</p>
-<p>函数执行完毕也没有<code>return</code>语句时，自动<code>return None</code>。</p>
-<p>函数可以同时返回多个值，但其实就是一个tuple。</p>
-<h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>$$<br>请定义一个函数quadratic(a, b, c)，接收3个参数，返回一元二次方程 ax^2+bx+c=0的两个解。<br>提示：</p>
-<p>一元二次方程的求根公式为：</p>
-<p>x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}。<br>$$</p>
 ]]></content>
       <categories>
         <category>Python</category>
