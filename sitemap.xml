@@ -95,6 +95,20 @@
 
   
   <url>
+    <loc>https://shikamaru-go.gitee.io/tags/2019/</loc>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shikamaru-go.gitee.io/tags/%E7%94%B5%E5%BD%B1/</loc>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shikamaru-go.gitee.io/tags/%E6%AD%8C%E5%8D%95/</loc>
     <lastmod>2021-02-12</lastmod>
     <changefreq>daily</changefreq>
@@ -103,13 +117,6 @@
   
   <url>
     <loc>https://shikamaru-go.gitee.io/tags/%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2021-02-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shikamaru-go.gitee.io/tags/2019/</loc>
     <lastmod>2021-02-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -157,14 +164,14 @@
     <priority>0.6</priority>
   </url>
   
+
+  
   <url>
-    <loc>https://shikamaru-go.gitee.io/tags/%E7%94%B5%E5%BD%B1/</loc>
+    <loc>https://shikamaru-go.gitee.io/categories/%E7%94%B5%E5%BD%B1/</loc>
     <lastmod>2021-02-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
-  
-
   
   <url>
     <loc>https://shikamaru-go.gitee.io/categories/%E9%9F%B3%E4%B9%90/</loc>
@@ -175,13 +182,6 @@
   
   <url>
     <loc>https://shikamaru-go.gitee.io/categories/Python/</loc>
-    <lastmod>2021-02-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shikamaru-go.gitee.io/categories/%E7%94%B5%E5%BD%B1/</loc>
     <lastmod>2021-02-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
