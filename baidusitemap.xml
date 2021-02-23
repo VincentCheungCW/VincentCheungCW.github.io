@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://shikamaru-go.gitee.io/2020/tools/</loc>
+    <lastmod>2021-02-23</lastmod>
+  </url>
+  <url>
+    <loc>https://shikamaru-go.gitee.io/2019/frankOcean/</loc>
+    <lastmod>2021-02-23</lastmod>
+  </url>
+  <url>
+    <loc>https://shikamaru-go.gitee.io/2020/favAlbums2019/</loc>
+    <lastmod>2021-02-23</lastmod>
+  </url>
+  <url>
+    <loc>https://shikamaru-go.gitee.io/2019/favFilms2018/</loc>
+    <lastmod>2021-02-23</lastmod>
+  </url>
+  <url>
+    <loc>https://shikamaru-go.gitee.io/2019/favAlbums2018/</loc>
+    <lastmod>2021-02-23</lastmod>
+  </url>
+  <url>
+    <loc>https://shikamaru-go.gitee.io/2020/about/</loc>
+    <lastmod>2021-02-23</lastmod>
+  </url>
+  <url>
     <loc>https://shikamaru-go.gitee.io/2020/python0/</loc>
     <lastmod>2021-02-23</lastmod>
   </url>
@@ -11,10 +35,6 @@
   <url>
     <loc>https://shikamaru-go.gitee.io/2021/intellijIdeaAutoImport/</loc>
     <lastmod>2021-02-23</lastmod>
-  </url>
-  <url>
-    <loc>https://shikamaru-go.gitee.io/2020/about/</loc>
-    <lastmod>2021-02-12</lastmod>
   </url>
   <url>
     <loc>https://shikamaru-go.gitee.io/2020/python15/</loc>
