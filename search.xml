@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Something True</title>
-    <url>/2020/about/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><blockquote>
-<p>现居北京。</p>
-</blockquote>
-<blockquote>
-<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点 React。</p>
-</blockquote>
-<a id="more"></a>
-
-<blockquote>
-<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
-</blockquote>
-<blockquote>
-<p>电影发烧友。</p>
-</blockquote>
-<blockquote>
-<p>爱听 Hiphop 和 R&amp;B。</p>
-</blockquote>
-<blockquote>
-<p>喜欢一切美好的事物。</p>
-</blockquote>
-<br/>
-
-<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
-<br/>
-
-]]></content>
-  </entry>
-  <entry>
     <title>2018年观影总结（一）</title>
     <url>/2020/favFilms2018-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
@@ -144,6 +114,71 @@
       <tags>
         <tag>2019</tag>
         <tag>电影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2018最喜欢的电影镜头</title>
+    <url>/2019/favShots2018/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<h3 id="「罗马」"><a href="#「罗马」" class="headerlink" title="「罗马」"></a><strong>「罗马」</strong></h3><p><strong>海岸浪涌的长镜头</strong></p>
+<div  align="center">    
+    <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpkJTd9ZbTddMptcxKpw98OVVlFTTwnibicyONZPQ408ovKWNjb3LXB6jr3DdBqrXfJcWSNlpHaPZVXg/640?wx_fmt=jpeg"
+    width="400px">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;color: #999;padding: 2px;">
+    罗马
+    </div>
+</div>
+<br/>
+
+
+<h3 id="「江湖儿女」"><a href="#「江湖儿女」" class="headerlink" title="「江湖儿女」"></a><strong>「江湖儿女」</strong></h3><p><strong>小镇黑帮在录像厅看电影</strong></p>
+<div  align="center">    
+    <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpkJTd9ZbTddMptcxKpw98OV63ebDMceKztgwGdVj3OrXrQse3JRiboibsF6va8vv8Nj220uQ0Uc5DIQ/640?wx_fmt=jpeg"
+    width="400px">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;color: #999;padding: 2px;">
+    江湖儿女
+    </div>
+</div>
+<br/>
+
+
+
+<h3 id="「女鼓手」"><a href="#「女鼓手」" class="headerlink" title="「女鼓手」"></a><strong>「女鼓手」</strong></h3><p><strong>失控汽车与书信文字擦出火花（特效剪接）</strong></p>
+<div  align="center">    
+    <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpkJTd9ZbTddMptcxKpw98OVnjBAfJIFEicD7ZAJJmuSp0c3BgBRazmrxYIml1j6XCic3WicfwAvyy27g/640?wx_fmt=jpeg"
+    width="400px">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;color: #999;padding: 2px;">
+    女鼓手
+    </div>
+</div>
+<br/>
+
+
+
+<h3 id="「邪不压正」"><a href="#「邪不压正」" class="headerlink" title="「邪不压正」"></a><strong>「邪不压正」</strong></h3><p><strong>少年李天然连续躲开子弹</strong></p>
+<br/>
+
+
+<h3 id="「地球最后的夜晚」"><a href="#「地球最后的夜晚」" class="headerlink" title="「地球最后的夜晚」"></a><strong>「地球最后的夜晚」</strong></h3><p><strong>雨刷器视角下的汤唯散步</strong></p>
+]]></content>
+      <categories>
+        <category>电影</category>
+      </categories>
+      <tags>
+        <tag>电影</tag>
+        <tag>2018</tag>
       </tags>
   </entry>
   <entry>
@@ -263,71 +298,6 @@
       <tags>
         <tag>2019</tag>
         <tag>电影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2018最喜欢的电影镜头</title>
-    <url>/2019/favShots2018/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
-
-
-
-<h3 id="「罗马」"><a href="#「罗马」" class="headerlink" title="「罗马」"></a><strong>「罗马」</strong></h3><p><strong>海岸浪涌的长镜头</strong></p>
-<div  align="center">    
-    <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpkJTd9ZbTddMptcxKpw98OVVlFTTwnibicyONZPQ408ovKWNjb3LXB6jr3DdBqrXfJcWSNlpHaPZVXg/640?wx_fmt=jpeg"
-    width="400px">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;color: #999;padding: 2px;">
-    罗马
-    </div>
-</div>
-<br/>
-
-
-<h3 id="「江湖儿女」"><a href="#「江湖儿女」" class="headerlink" title="「江湖儿女」"></a><strong>「江湖儿女」</strong></h3><p><strong>小镇黑帮在录像厅看电影</strong></p>
-<div  align="center">    
-    <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpkJTd9ZbTddMptcxKpw98OV63ebDMceKztgwGdVj3OrXrQse3JRiboibsF6va8vv8Nj220uQ0Uc5DIQ/640?wx_fmt=jpeg"
-    width="400px">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;color: #999;padding: 2px;">
-    江湖儿女
-    </div>
-</div>
-<br/>
-
-
-
-<h3 id="「女鼓手」"><a href="#「女鼓手」" class="headerlink" title="「女鼓手」"></a><strong>「女鼓手」</strong></h3><p><strong>失控汽车与书信文字擦出火花（特效剪接）</strong></p>
-<div  align="center">    
-    <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpkJTd9ZbTddMptcxKpw98OVnjBAfJIFEicD7ZAJJmuSp0c3BgBRazmrxYIml1j6XCic3WicfwAvyy27g/640?wx_fmt=jpeg"
-    width="400px">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;color: #999;padding: 2px;">
-    女鼓手
-    </div>
-</div>
-<br/>
-
-
-
-<h3 id="「邪不压正」"><a href="#「邪不压正」" class="headerlink" title="「邪不压正」"></a><strong>「邪不压正」</strong></h3><p><strong>少年李天然连续躲开子弹</strong></p>
-<br/>
-
-
-<h3 id="「地球最后的夜晚」"><a href="#「地球最后的夜晚」" class="headerlink" title="「地球最后的夜晚」"></a><strong>「地球最后的夜晚」</strong></h3><p><strong>雨刷器视角下的汤唯散步</strong></p>
-]]></content>
-      <categories>
-        <category>电影</category>
-      </categories>
-      <tags>
-        <tag>电影</tag>
-        <tag>2018</tag>
       </tags>
   </entry>
   <entry>
@@ -585,7 +555,7 @@
     <title>2019 年度精选歌单</title>
     <url>/2020/music2019/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="2019-年度精选歌单"><a href="#2019-年度精选歌单" class="headerlink" title="2019 年度精选歌单"></a>2019 年度精选歌单</h3>
-    <div id="aplayer-NdbrCNax" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-cCPBfasS" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="3159878612" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -607,8 +577,7 @@
 
 
 
-<p>「<strong>MAGDALENE</strong>」</p>
-<div  align="center">    
+<h3 id="「MAGDALENE」"><a href="#「MAGDALENE」" class="headerlink" title="「MAGDALENE」"></a>「MAGDALENE」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLApHpoMun2kIka6mia1ibXzrOPicjd9r4CP0IzN7CtkpdX6lt9EZOib1g7g/640?wx_fmt=jpeg"
     width="400px">
@@ -622,8 +591,9 @@
 
 <p>歌手：FKA twigs</p>
 <p>风格：电子/流行/R&amp;B</p>
-<p>「**Norman Fucking Rockwell!**」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「Norman-Fucking-Rockwell-」"><a href="#「Norman-Fucking-Rockwell-」" class="headerlink" title="「Norman Fucking Rockwell!」"></a>「Norman Fucking Rockwell!」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLU4F3G4UiaQEP4rCmNNMDyjszAaZ8jQXHEuseENXGMnC65QUJRj6yneA/640?wx_fmt=jpeg"
     width="400px">
@@ -637,8 +607,9 @@
 
 <p>歌手：Lana Del Rey</p>
 <p>风格：流行/R&amp;B</p>
-<p>「<strong>All My Heroes Are Cornballs</strong>」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「All-My-Heroes-Are-Cornballs」"><a href="#「All-My-Heroes-Are-Cornballs」" class="headerlink" title="「All My Heroes Are Cornballs」"></a>「All My Heroes Are Cornballs」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLfSDyK3oAYTbGmNlYibWXuckbM9ricFdVyZXlXKXhCJwNKNKMyPpH029g/640?wx_fmt=jpeg"
     width="400px">
@@ -653,8 +624,9 @@
 
 <p>歌手：JPEGMAFIA</p>
 <p>风格：嘻哈/实验电子/脉冲</p>
-<p>「<strong>Jesus Is King</strong>」+「<strong>Jesus Is Born</strong>」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「Jesus-Is-King」-「Jesus-Is-Born」"><a href="#「Jesus-Is-King」-「Jesus-Is-Born」" class="headerlink" title="「Jesus Is King」+「Jesus Is Born」"></a>「Jesus Is King」+「Jesus Is Born」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_png/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLSWPpJJvldVic4aYt8zzux2FAhX9PwAAnFvOYlhrYAJWtj2Tnk5vmQBQ/640?wx_fmt=png"
     width="400px">
@@ -678,8 +650,9 @@
 
 <p>歌手：Kanye West</p>
 <p>风格：嘻哈/福音</p>
-<p>「<strong>IGOR</strong>」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「IGOR」"><a href="#「IGOR」" class="headerlink" title="「IGOR」"></a>「IGOR」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLaq7zyZkTDd2GbTdQbKvjBrJsLCkJgAWycdmCTEcL0CSenPWm7iaB8Vw/640?wx_fmt=jpeg"
     width="400px">
@@ -692,8 +665,9 @@
 
 <p>歌手：Tyler, the creater</p>
 <p>风格：嘻哈/新灵歌/电子/另类</p>
-<p>「**WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?**」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「WHEN-WE-ALL-FALL-ASLEEP-WHERE-DO-WE-GO-」"><a href="#「WHEN-WE-ALL-FALL-ASLEEP-WHERE-DO-WE-GO-」" class="headerlink" title="「WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?」"></a>「WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLZDXs2SicIJCrbOCkcy1CZTTe0AguaDiaphPKM2mnTaw1vQCyaqicoa1Rg/640?wx_fmt=jpeg"
     width="400px">
@@ -707,8 +681,9 @@
 
 <p>歌手：Billie Eilish</p>
 <p>风格：独立流行/R&amp;B</p>
-<p>「<strong>无病呻吟有情抒情</strong>」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「无病呻吟有情抒情」"><a href="#「无病呻吟有情抒情」" class="headerlink" title="「无病呻吟有情抒情」"></a>「无病呻吟有情抒情」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLcwsnDKACczOoPwFB3Dy0YoPsZ0qL7IJiaT4chIhyeRWQZ4NotyEZtzA/640?wx_fmt=jpeg"
     width="400px">
@@ -722,8 +697,9 @@
 
 <p>歌手：Leo王</p>
 <p>风格：嘻哈/R&amp;B</p>
-<p>「<strong>ZUU</strong>」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「ZUU」"><a href="#「ZUU」" class="headerlink" title="「ZUU」"></a>「ZUU」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLZygG89UQdPNq8ibVjBy63iaaVfvgyslXQ2syiaicLy7XUyuz1ibwdTiaCnRg/640?wx_fmt=jpeg"
     width="400px">
@@ -737,8 +713,9 @@
 
 <p>歌手：Denzel Curry</p>
 <p>风格：嘻哈 </p>
-<p>「<strong>True 2 Myself</strong>」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「True-2-Myself」"><a href="#「True-2-Myself」" class="headerlink" title="「True 2 Myself」"></a>「True 2 Myself」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLheliaktx5sIe0I8q4lsWeVsibo9xV0LD5c2lqQ5Hic8eHrd2xFommYjvA/640?wx_fmt=jpeg"
     width="400px">
@@ -752,8 +729,9 @@
 
 <p>歌手：Lil Tjay</p>
 <p>风格：嘻哈</p>
-<p>「<strong>PUNK</strong>」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「PUNK」"><a href="#「PUNK」" class="headerlink" title="「PUNK」"></a>「PUNK」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_png/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmL6qDYvUhDtzd9CfUxAoNicIXfrNN1LroJwyXOxskmbKKJfmAFVOWGNiag/640?wx_fmt=png"
     width="400px">
@@ -767,8 +745,9 @@
 
 <p>歌手：CHAI</p>
 <p>风格：朋克</p>
-<p>「<strong>1123</strong>」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「1123」"><a href="#「1123」" class="headerlink" title="「1123」"></a>「1123」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmL4NRh5SGLiathJaib11jlPLqW2cZghcn0eGzooTf8ONtMShFVtmRfUPdg/640?wx_fmt=jpeg"
     width="400px">
@@ -782,8 +761,9 @@
 
 <p>歌手：BJ The Chicago Kid</p>
 <p>风格：R&amp;B/放克</p>
-<p>「<strong>BUBBA</strong>」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「BUBBA」"><a href="#「BUBBA」" class="headerlink" title="「BUBBA」"></a>「BUBBA」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLCoibrXXzOTe7fOLTERbUYpJ9Zb2gmIaCuj02JvMTY3peMiaiczLKc603A/640?wx_fmt=jpeg"
     width="400px">
@@ -797,8 +777,9 @@
 
 <p>歌手：Kaytranada</p>
 <p>风格：嘻哈/流行/R&amp;B</p>
-<p>「<strong>The Big Day</strong>」</p>
-<div  align="center">    
+<br/>
+
+<h3 id="「The-Big-Day」"><a href="#「The-Big-Day」" class="headerlink" title="「The Big Day」"></a>「The Big Day」</h3><div  align="center">    
     <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="https://mmbiz.qpic.cn/mmbiz_jpg/XWgndBBVJpno36hf4iahAn2O9OD9ZeLmLLHFxC8N37reysp1dlM3SIwicibbRwe3cUSjGMwZeYIISVtZY22AleoqA/640?wx_fmt=jpeg"
     width="400px">
@@ -829,37 +810,46 @@
 
 
 
-<h3 id="法海Frank-Ocean"><a href="#法海Frank-Ocean" class="headerlink" title="法海Frank Ocean"></a>法海Frank Ocean</h3><p>Frank Ocean是一位歌手、词曲作者及Rapper，前LA嘻哈大团Odd Future成员，中文粉丝亲切地称他法海。</p>
+<h3 id="Frank-Ocean"><a href="#Frank-Ocean" class="headerlink" title="Frank Ocean"></a>Frank Ocean</h3><p>Frank Ocean是一位歌手、词曲作者及Rapper，前LA嘻哈大团Odd Future成员，中文粉丝亲切地称他法海。</p>
 <p>在与Calvin Harris、Migos合作的最新单曲Slide中法海提到：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">I might</span><br><span class="line">Empty my bank account</span><br><span class="line">And buy that boy with a pipe</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>I might <br/><br>  Empty my bank account <br/><br>  And buy that boy with a pipe</p>
+</blockquote>
+<br/>
 
-    <div id="aplayer-QLiTQfnv" class="aplayer aplayer-tag-marker meting-tag-marker"
+
+    <div id="aplayer-rHEdCnYJ" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="461544911" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
-<p>Boy with a pipe是毕加索24岁时的作品，画中主人公是一位忧郁的男孩，他身穿蓝色服装，头戴花冠，手里拿着一支烟斗，画面的背景是两大束色彩艳丽的鲜花。创作背景为一段青春恋情。</p>
+<br/>
+
+<p><code>boy with a pipe</code>是毕加索24岁时的作品，画中主人公是一位忧郁的男孩，他身穿蓝色服装，头戴花冠，手里拿着一支烟斗，画面的背景是两大束色彩艳丽的鲜花。创作背景为一段青春恋情。</p>
 <p>可以联系到法海自己的情感经历。</p>
 <p>2012年，Frank公布了自己和一位男孩的爱情故事。我不知道现在会发生什么，但是没关系。我已不再有秘密需要掩藏…我感觉已获自由之身。他写道。</p>
-<p>甫一公开，在历来反同思想严重的黑人音乐界引起极大轰动。但是，更大的轰动来自他随后发布的专辑channel ORANGE。</p>
-<h3 id="pb-R-amp-B"><a href="#pb-R-amp-B" class="headerlink" title="pb R&amp;B"></a>pb R&amp;B</h3><p>同Alternative R&amp;B即另类R&amp;B。</p>
+<p>甫一公开，在历来反同思想严重的黑人音乐界引起极大轰动。但是，更大的轰动来自他随后发布的专辑<code>channel ORANGE</code>。</p>
+<h3 id="pb-R-amp-B"><a href="#pb-R-amp-B" class="headerlink" title="pb R&amp;B"></a>pb R&amp;B</h3><p>义同Alternative R&amp;B，即另类R&amp;B。</p>
 <blockquote>
 <p>Alternative R&amp;B (also referred to as pbR&amp;B, indie R&amp;B, experimental R&amp;B, and hipster R&amp;B) is a term used by music journalists to describe a stylistic alternative to contemporary R&amp;B. （维基百科）</p>
 </blockquote>
 <p>2000年之前，是舞曲R&amp;B时代，典型代表如Ne-Yo、Usher等等，一度将R&amp;B带入千篇一律的死胡同。</p>
 <p>2010年之后一些年轻音乐人试图探索新的方向，进行大胆改进。</p>
-<p>其中的一支，典型如Frank Ocean（法海）、Miguel（米狗）和The Weeknd（盆栽），或许可以再加上唱的比说的好听的Drake，成功拨乱反正，开辟出pb R&amp;B。</p>
+<p>其中的一支，代表者如Frank Ocean（法海）、Miguel（米狗）和The Weeknd（盆栽），或许可以再加上唱的比说的好听的Drake，成功拨乱反正，开辟出pb R&amp;B。</p>
 <p>2012是一个重要的年份，这一年诞生了三张足以对音乐界产生冲击的专辑。分别是：法海的<code>Channel Orange</code>、米狗的<code>Kaleidoscope Dream</code>和盆栽的<code>Trilogy</code>。这里提一下，盆栽真正大红是电影<code>五十度黑</code>和专辑<code>Beauty Behind the Madness</code>之后，他前面的几张Mixtape其实更值得听。</p>
 <p>另一支，发展出Neo Soul，典型如John Legend。略过不提。</p>
 <p>简单来说，pb R&amp;B特点是弱化旋律、突出氛围感和迷幻感。或者说，舞曲R&amp;B让你的身体动起来，而pb R&amp;B让你的意识和灵魂动起来。</p>
 <p>伴随着Beyoncé、贾老板、Usher等纷纷步入pb R&amp;B领域，舞曲R&amp;B马上退出了历史舞台。</p>
-<h3 id="两张重要的专辑"><a href="#两张重要的专辑" class="headerlink" title="两张重要的专辑"></a>两张重要的专辑</h3><h4 id="Nostalgia-Ultra"><a href="#Nostalgia-Ultra" class="headerlink" title="Nostalgia, Ultra"></a><code>Nostalgia, Ultra</code></h4><p>法海的首张混音带专辑，正是该作成功引起Jay-Z和Kanye West的注意。权威乐评人Robert Christgau（相当于影评界的Pauline Kael）给了A的评价。RC是一个有趣而偏执的老头，很有幽默感。他非常不待见英摇、金属。Facepalm。看他的乐评有时候比听歌还有意思。</p>
+<h3 id="两张重要的专辑"><a href="#两张重要的专辑" class="headerlink" title="两张重要的专辑"></a>两张重要的专辑</h3><h4 id="Nostalgia-Ultra"><a href="#Nostalgia-Ultra" class="headerlink" title="Nostalgia, Ultra"></a>Nostalgia, Ultra</h4><p>法海的首张混音带专辑，正是该专辑成功引起Jay-Z和Kanye West的注意。权威乐评人Robert Christgau（相当于影评界的Pauline Kael）给了A的评价。Robert Christgau是一个有趣而偏执的老头，很有幽默感。他非常不待见英摇、金属😂。看他的乐评有时候比听歌还有意思。</p>
 <p><code>Strawberry Swing</code></p>
 <p>这是一首翻唱，原唱Coldplay。绝佳的改编。硬是把一首性冷淡的摇滚改成了情感充沛的R&amp;B。</p>
 <p><code>Swim Good</code></p>
 <p>专辑最有代表性的一首。</p>
 <p><code>American Wedding</code></p>
-<p>重新演绎老鹰乐队的加州旅馆。这是非法的，老鹰乐队说。</p>
-<h4 id="channel-ORANGE"><a href="#channel-ORANGE" class="headerlink" title="channel ORANGE"></a><code>channel ORANGE</code></h4><p>2012年无可争议的综评最高的专辑。力压Kendrick Lamar的<code>Good Kid, M.A.A.D. City</code>，Beyoncé听完之后泪流满面的专辑。</p>
+<p>重新演绎老鹰乐队的加州旅馆。</p>
+<br/>
+
+
+<h4 id="channel-ORANGE"><a href="#channel-ORANGE" class="headerlink" title="channel ORANGE"></a>channel ORANGE</h4><p>2012年无可争议的综评最高的专辑。力压Kendrick Lamar的<code>Good Kid, M.A.A.D. City</code>，Beyoncé听完之后泪流满面的专辑。</p>
 <p>专辑封面橙色的意义：法海患有联觉(大脑会将不同文字联系到不同色彩)，他对不同时段的记忆在他脑海里就像是不同颜色的电视频道，而橙色是他初恋的那个夏天在他的记忆的颜色。</p>
 <p><code>Thinkin Bout You</code></p>
 <p>歌词开头写道：在你来拜访之前，龙卷风先光顾了我的房子，抱歉让你瞧见一团糟，这里通常不怎么下雨，南卡拉罗纳就像亚利桑那，我不会含泪，但我会大哭，每当我想起你的时候。</p>
@@ -871,9 +861,21 @@
 <h3 id="意识流"><a href="#意识流" class="headerlink" title="意识流"></a>意识流</h3><p>刚接触pb R&amp;B的时候，不知道用什么词汇精准地概括这种风格。另类？氛围？城市？迷幻？这些词好像都只抓住了其一部分特征。后来突然想到，意识流。</p>
 <p>于是与Virginia Woolf产生了关系。</p>
 <p>有人说，在阅读了<code>到灯塔去</code>之后去阅读任何一本普通的小说，会使你觉得自己是离开了白天的光芒而投身于木偶和纸板做成的世界中去。这是说，在Virginia Woolf笔下，外界的各种事件，在整部小说中只占极小的篇幅，而人物的意识中对这些事件的反映，包括联想以及关于联想的联想，占据了小说的主要内容。</p>
+<div  align="center">    
+    <img style="border-radius: 0.3125em;box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://img3.doubanio.com/view/subject/l/public/s3524200.jpg"
+    width="400px">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;color: #999;padding: 2px;">
+    to the lighthouse
+    </div>
+</div>
+<br/>
+
 <p>意识流的手法注重内心独白和心理描写，甚至为此不惜打乱语法，读者一旦浸入书中人物的意识的流动制造出的氛围，便很难离身。</p>
 <p>同法海一样，Virginia Woolf是个内心非常极其丰富的人，或者说，私人化，敏感，碎碎念。她的小说中极简主义的故事和极繁主义的人物意识描绘对比明显。</p>
-<h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>当我们谈论pb R&amp;B的时候，我们不应该忽略两个人。Drake，这位文青Rapper，他的首张专辑就尝试了pb R&amp;B并将其带入主流音乐圈。Kanye West，最伟大的在所有的时间，他的专辑808s &amp; Heartbreak为现在的Hiphop和pb R&amp;B奠定了基础，并且持续地影响着黑人音乐新的潮流。</p>
+<h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>当我们谈论pb R&amp;B的时候，我们不应该忽略两个人。Drake，这位文青Rapper，他的首张专辑就尝试了pb R&amp;B并将其带入主流音乐圈；Kanye West，最伟大的，在所有的时间，他的专辑<code>808s &amp; Heartbreak</code>早早地为pb R&amp;B奠定了基础，并且持续地影响着黑人音乐新的潮流。</p>
 ]]></content>
       <categories>
         <category>音乐</category>
@@ -1076,32 +1078,34 @@
       </tags>
   </entry>
   <entry>
-    <title>Intellij IDEA 取消自动 import * 通配符导入</title>
-    <url>/2021/intellijIdeaAutoImport/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+    <title>Something True</title>
+    <url>/2020/about/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><blockquote>
+<p>现居北京。</p>
+</blockquote>
+<blockquote>
+<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点 React。</p>
+</blockquote>
+<a id="more"></a>
 
-
-
-<p>Intellij IDEA 中使用import导包时，若导入的同一个类中的变量和方法达到一定阈值后（默认是5个），会自动使用 <code>import *</code> 代替。</p>
-<p>如果想保持单条导入该怎么办呢？</p>
-<p>改一下Intellij IDEA的设置就可以了！</p>
+<blockquote>
+<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
+</blockquote>
+<blockquote>
+<p>电影发烧友。</p>
+</blockquote>
+<blockquote>
+<p>爱听 Hiphop 和 R&amp;B。</p>
+</blockquote>
+<blockquote>
+<p>喜欢一切美好的事物。</p>
+</blockquote>
 <br/>
 
-<p>Setting –&gt; Editor –&gt; Code Style –&gt; Java –&gt; Imports，</p>
-<p>在<strong>【Class count to use import with ‘*‘:】</strong>后填入一个较大的数值例如999，</p>
-<p>在<strong>【Names count to use static import with ‘*‘:】</strong>后同样填入999，</p>
-<p>具体数值自行填写，够大即可，截图如下：</p>
-<p><a href="https://imgchr.com/i/yLEman"><img src="https://s3.ax1x.com/2021/02/23/yLEman.png" alt="yLEman.png"></a></p>
+<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
+<br/>
+
 ]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Intellij IDEA</tag>
-        <tag>Java</tag>
-        <tag>编程</tag>
-        <tag>生产力</tag>
-      </tags>
   </entry>
   <entry>
     <title>Sublime Text 3 常用的快捷键</title>
@@ -1491,9 +1495,37 @@
         <category>生产力</category>
       </categories>
       <tags>
-        <tag>生产力</tag>
         <tag>效率</tag>
+        <tag>生产力</tag>
         <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Intellij IDEA 取消自动 import * 通配符导入</title>
+    <url>/2021/intellijIdeaAutoImport/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<p>Intellij IDEA 中使用import导包时，若导入的同一个类中的变量和方法达到一定阈值后（默认是5个），会自动使用 <code>import *</code> 代替。</p>
+<p>如果想保持单条导入该怎么办呢？</p>
+<p>改一下Intellij IDEA的设置就可以了！</p>
+<br/>
+
+<p>Setting –&gt; Editor –&gt; Code Style –&gt; Java –&gt; Imports，</p>
+<p>在<strong>【Class count to use import with ‘*‘:】</strong>后填入一个较大的数值例如999，</p>
+<p>在<strong>【Names count to use static import with ‘*‘:】</strong>后同样填入999，</p>
+<p>具体数值自行填写，够大即可，截图如下：</p>
+<p><a href="https://imgchr.com/i/yLEman"><img src="https://s3.ax1x.com/2021/02/23/yLEman.png" alt="yLEman.png"></a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>生产力</tag>
+        <tag>Intellij IDEA</tag>
+        <tag>Java</tag>
+        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1614,9 +1646,158 @@
         <category>生产力</category>
       </categories>
       <tags>
-        <tag>生产力</tag>
         <tag>效率</tag>
+        <tag>生产力</tag>
         <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 01 - 本地安装Python</title>
+    <url>/2020/python01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+<p>因为Python是跨平台的，也就是说它可以运行在Windows、Mac和各种Linux/Unix系统上。在Windows上写的Python程序，放到Linux上也是能够运行的。要开始学习Python编程，首先就得把Python安装到你的电脑里。安装后，你会得到Python解释器（就是负责运行Python程序的），一个命令行交互环境，还有一个简单的集成开发环境。这里我们安装的是 3.9.0 版本的Python。</p>
+<a id="more"></a>
+
+<p>建议大家直接去官网下载最新版本的安装包，官网地址：<a href="https://www.python.org/">https://www.python.org/</a>。也可以用我提供给大家的安装包，安装包的位置：tools/necessary。</p>
+<hr>
+<br/>
+
+
+<h3 id="一-Windows-系统下的安装配置"><a href="#一-Windows-系统下的安装配置" class="headerlink" title="一. Windows 系统下的安装配置"></a>一. Windows 系统下的安装配置</h3><p>windows 系统对应的安装包名字为python-3.9.0.exe，下载完后，双击进入下图安装页面，记得勾上Add Python 3.9 to PATH，然后点 「Install Now」 即可完成安装。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2136918-2bf6591f0a12e80b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Python安装.png"></p>
+<h4 id="验证是否安装成功"><a href="#验证是否安装成功" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开命令提示符（即cmd.exe），敲入 python ，出现Python版本信息，证明 Python 安装成功了。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2136918-817c22f802e8cfce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="运行python.png"></p>
+<p>命令提示符最后一行 <code>&gt;&gt;&gt;</code> 表示我们已经在 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (100 / 3.1415926)</span><br></pre></td></tr></table></figure>
+<hr>
+<br/>
+
+
+<h3 id="二-macOS下的安装配置"><a href="#二-macOS下的安装配置" class="headerlink" title="二. macOS下的安装配置"></a>二. macOS下的安装配置</h3><p>Mac系统安装Python就更简单了，安装包名字为python-3.9.0-macosx10.9.pkg，双击安装即可。</p>
+<p>这里还有另外一种方法，如果你安装了Homebrew，直接通过命令<code>brew install python3</code>安装即可。（如果你没有读懂这句话，说明你不需要它）</p>
+<h4 id="验证是否安装成功-1"><a href="#验证是否安装成功-1" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开终端.app（或者iTerm），敲入 <code>python3</code> ，出现Python版本信息，证明 Python 安装成功了。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpi1g3dlj31ky0ciacn.jpg" alt="运行python.png"></p>
+<p>注意：终端里输入<code>python</code>得到的是macOS系统预装的Python 2.7.16 版本，输入<code>python3</code>才会进入我们安装的版本。</p>
+<p>Python2已经是过时的版本，而macOS之所以预装了这个版本，是为了兼容一些历史软件。我们一般使用Python3。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpcw31i7j31ky0l2tcr.jpg" alt="macOS 预装了 Python2"></p>
+<p>这样我们输入<code>python3</code>后就进入 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (&quot;玉在椟中求善价，钗于奁内待时飞。&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>这样我们的Python环境就搭建完成了，第一个 Python 程序也成功运行了，是不是很简单。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>python</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Day 02 - Python 基础之基础</title>
+    <url>/2020/python02/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+<h3 id="一-Python书写规范"><a href="#一-Python书写规范" class="headerlink" title="一. Python书写规范"></a>一. Python书写规范</h3><h4 id="大小写敏感"><a href="#大小写敏感" class="headerlink" title="大小写敏感"></a>大小写敏感</h4><p>首先要注意的是 Python 语言是大小写敏感的，如果写错了大小写，程序会报错。</p>
+<h4 id="每行一个语句"><a href="#每行一个语句" class="headerlink" title="每行一个语句"></a>每行一个语句</h4><p>Python 鼓励每一行使用一句独立语句从而使得代码更加可读。<br>不同于C、Java等其他语言使用分号（；）区分多条语句，Python中利用换行区分多条语句。<br>举个例子：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span></span><br><span class="line">print(i)</span><br></pre></td></tr></table></figure>
+<p>上面的两条语句必须写在两行里，若写成下面这样，程序是无法识别的：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span>  print(i)</span><br></pre></td></tr></table></figure>
+<p>当然写在一行里用分号分隔也可以，但Python中一般不建议出现分号。实际上，我<em>从未</em>在 Python 程序中见过一个分号。</p>
+<h4 id="缩进"><a href="#缩进" class="headerlink" title="缩进"></a>缩进</h4><p>放置在一起的语句<em>必须</em>拥有相同的缩进。每一组这样的语句被称为 <em>块（block）</em>。我们将会在后文章节的案例中了解块这一概念是多么重要。</p>
+<p>现在只需要记住一件事：错误的缩进可能会导致错误。下面是一个例子：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span></span><br><span class="line"><span class="comment"># 下面行首有一个空格，运行的话会报错</span></span><br><span class="line">print(<span class="string">&#x27;Value is&#x27;</span>, i)</span><br><span class="line">print(<span class="string">&#x27;I repeat, the value is&#x27;</span>, i)</span><br></pre></td></tr></table></figure>
+<p>当你运行这一程序时，你将得到如下错误：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">  File <span class="string">&quot;whitespace.py&quot;</span>, line <span class="number">3</span></span><br><span class="line">    print(<span class="string">&#x27;Value is&#x27;</span>, i)</span><br><span class="line">    ^</span><br><span class="line">IndentationError: unexpected indent</span><br><span class="line"><span class="comment"># 缩进错误：意外缩进</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>如何缩进</strong></p>
+<p>使用四个空格来缩进，这是来自 Python 语言官方的建议。好的编辑器会<strong>自动为你完成这一工作</strong>。请确保你在缩进中使用数量一致的空格，否则你的程序将不会运行，或引发不期望的行为。</p>
+</blockquote>
+<h4 id="Python-标识符"><a href="#Python-标识符" class="headerlink" title="Python 标识符"></a>Python 标识符</h4><p>标识符是语言中允许作为名字的有效字符串集合。</p>
+<p>合法的 Python 标识符，需要遵守如下规定：</p>
+<ul>
+<li>第一个字符必须是字母或下划线（_）</li>
+<li>剩下的字符可以是字母和数字或下划线</li>
+<li>大小写敏感</li>
+<li>不能是 Python 的关键字，例如 def、class 就不能作为标识符</li>
+</ul>
+<p>以下划线开头的标识符是有特殊意义的。以单下划线开头 <code>_foo</code> 的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用 <code>from xxx import *</code> 而导入。</p>
+<p>以双下划线开头的 <code>__foo</code> 代表类的私有成员，以双下划线开头和结尾的 <code>__foo__</code> 代表 Python 里特殊方法专用的标识，如 <code>__init__()</code> 代表类的构造函数。</p>
+<h4 id="多行语句"><a href="#多行语句" class="headerlink" title="多行语句"></a>多行语句</h4><p>Python 语句中一般以新行作为为语句的结束符。但是我们可以使用斜杠（ \）将一行的语句分为多行显示，如下所示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">total = item_one + \</span><br><span class="line">        item_two + \</span><br><span class="line">        item_three</span><br></pre></td></tr></table></figure>
+<p>等价于：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">total = item_one + item_two + item_three</span><br></pre></td></tr></table></figure>
+
+<p>语句中包含[], {} 或 () 括号就不需要使用多行连接符。如下实例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">days = [<span class="string">&#x27;Monday&#x27;</span>, <span class="string">&#x27;Tuesday&#x27;</span>, <span class="string">&#x27;Wednesday&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;Thursday&#x27;</span>, <span class="string">&#x27;Friday&#x27;</span>]</span><br></pre></td></tr></table></figure>
+
+<h4 id="注释（comment）"><a href="#注释（comment）" class="headerlink" title="注释（comment）"></a>注释（comment）</h4><p><em>注释</em> 是一行以 <code>#</code> 号开头的文字，其主要用作写给程序读者看的说明性文字。</p>
+<p>举个例子：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;hello world&#x27;</span>)  <span class="comment"># 使用 print 函数输出字符串</span></span><br></pre></td></tr></table></figure>
+<p>或者：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 使用 print 函数输出字符串</span></span><br><span class="line">print(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>你应该在你的程序中尽可能多地写注释，这样做对你的程序的读者来说非常有用，他们可以很容易地理解你的每条语句的用意。这个人可以是六个月后的你！</p>
+<hr>
+<br/>
+
+<h3 id="二-输入和输出"><a href="#二-输入和输出" class="headerlink" title="二. 输入和输出"></a>二. 输入和输出</h3><h4 id="输出-print"><a href="#输出-print" class="headerlink" title="输出: print()"></a>输出: print()</h4><p>我们在前面已经学习了，用<code>print()</code>在括号中加上字符串，就可以向屏幕上输出指定的文字。<code>print()</code>函数也可以接受多个字符串，用逗号隔开，就可以连成一串输出：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;好风频借力，&#x27;</span>, <span class="string">&#x27;送我上青云。&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><code>print()</code>会依次打印每个字符串，遇到逗号“,”会输出一个空格。</p>
+<p>如果想一次输出多行，怎么办呢？可以这样：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;好风频借力，\n送我上青云。&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><code>\n</code>是转义字符，表示换行。常用的转义字符还有：</p>
+<table>
+<thead>
+<tr>
+<th>转义字符</th>
+<th>意义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>\\</code></td>
+<td>代表一个反斜线字符<code>\</code></td>
+</tr>
+<tr>
+<td><code>\&#39;</code></td>
+<td>代表一个单引号字符<code>&#39;</code></td>
+</tr>
+<tr>
+<td><code>\&quot;</code></td>
+<td>代表一个双引号字符<code>&quot;</code></td>
+</tr>
+</tbody></table>
+<h4 id="输入-input"><a href="#输入-input" class="headerlink" title="输入: input()"></a>输入: input()</h4><p>现在，你已经可以用<code>print()</code>输出你想要的结果了。但是，如果要让用户从电脑输入一些字符怎么办？Python提供了一个<code>input()</code>方法，可以让用户输入字符串，并存放到一个变量里。比如输入用户的名字：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">name = <span class="built_in">input</span>(<span class="string">&#x27;请输入用户名:&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>程序运行到<code>input()</code>时会停下来等待用户输入，这时，你可以输入任意字符，然后按回车后完成输入。输入完成后，不会有任何提示，Python交互式命令行又回到<code>&gt;&gt;&gt;</code>状态了。那我们刚才输入的内容到哪去了？答案是存放到<code>name</code>变量里了。我们可以打印出<code>name</code>查看变量内容：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;Hello&#x27;</span>, name)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<br/>
+
+
+<h3 id="三-如何编写和运行-Python-程序"><a href="#三-如何编写和运行-Python-程序" class="headerlink" title="三. 如何编写和运行 Python 程序"></a>三. 如何编写和运行 Python 程序</h3><h4 id="使用文本编辑器"><a href="#使用文本编辑器" class="headerlink" title="使用文本编辑器"></a>使用文本编辑器</h4><p>编写和运行 Python 程序的标准步骤如下：</p>
+<ol>
+<li>打开你的编辑器（例如Sublime Text）</li>
+<li>输入案例中给出的代码</li>
+<li>以给定的文件名将其保存成文件</li>
+<li>在命令行中通过命令 <code>python xxx.py</code> 来运行程序。（macOS使用命令<code>python3 xxx.py</code>）</li>
+</ol>
+<h4 id="使用集成开发环境（IDE）"><a href="#使用集成开发环境（IDE）" class="headerlink" title="使用集成开发环境（IDE）"></a>使用集成开发环境（IDE）</h4><ol>
+<li>在Pycharm中编写代码</li>
+<li>检查没有语法错误后点击鼠标右键 -&gt; Run，运行程序（有语法错误的话相应代码会标红）</li>
+</ol>
+<p>推荐使用Pycharm编写Python代码，会令你的开发工作轻松许多。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>python</tag>
+        <tag>学习</tag>
       </tags>
   </entry>
   <entry>
@@ -1779,155 +1960,6 @@
 <li>规范的代码 – Python 采用强制缩进的方式使得代码具有极佳的可读性。</li>
 </ul>
 <p>总的来说，Python的哲学就是简单优雅，尽量写容易看明白的代码，尽量写少的代码。如果一个资深程序员向你炫耀他写的晦涩难懂、动不动就几万行的代码，你可以尽情地嘲笑他。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>python</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Day 01 - 本地安装Python</title>
-    <url>/2020/python01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
-
-<p>因为Python是跨平台的，也就是说它可以运行在Windows、Mac和各种Linux/Unix系统上。在Windows上写的Python程序，放到Linux上也是能够运行的。要开始学习Python编程，首先就得把Python安装到你的电脑里。安装后，你会得到Python解释器（就是负责运行Python程序的），一个命令行交互环境，还有一个简单的集成开发环境。这里我们安装的是 3.9.0 版本的Python。</p>
-<a id="more"></a>
-
-<p>建议大家直接去官网下载最新版本的安装包，官网地址：<a href="https://www.python.org/">https://www.python.org/</a>。也可以用我提供给大家的安装包，安装包的位置：tools/necessary。</p>
-<hr>
-<br/>
-
-
-<h3 id="一-Windows-系统下的安装配置"><a href="#一-Windows-系统下的安装配置" class="headerlink" title="一. Windows 系统下的安装配置"></a>一. Windows 系统下的安装配置</h3><p>windows 系统对应的安装包名字为python-3.9.0.exe，下载完后，双击进入下图安装页面，记得勾上Add Python 3.9 to PATH，然后点 「Install Now」 即可完成安装。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2136918-2bf6591f0a12e80b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Python安装.png"></p>
-<h4 id="验证是否安装成功"><a href="#验证是否安装成功" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开命令提示符（即cmd.exe），敲入 python ，出现Python版本信息，证明 Python 安装成功了。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2136918-817c22f802e8cfce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="运行python.png"></p>
-<p>命令提示符最后一行 <code>&gt;&gt;&gt;</code> 表示我们已经在 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (100 / 3.1415926)</span><br></pre></td></tr></table></figure>
-<hr>
-<br/>
-
-
-<h3 id="二-macOS下的安装配置"><a href="#二-macOS下的安装配置" class="headerlink" title="二. macOS下的安装配置"></a>二. macOS下的安装配置</h3><p>Mac系统安装Python就更简单了，安装包名字为python-3.9.0-macosx10.9.pkg，双击安装即可。</p>
-<p>这里还有另外一种方法，如果你安装了Homebrew，直接通过命令<code>brew install python3</code>安装即可。（如果你没有读懂这句话，说明你不需要它）</p>
-<h4 id="验证是否安装成功-1"><a href="#验证是否安装成功-1" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h4><p>安装完成后，打开终端.app（或者iTerm），敲入 <code>python3</code> ，出现Python版本信息，证明 Python 安装成功了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpi1g3dlj31ky0ciacn.jpg" alt="运行python.png"></p>
-<p>注意：终端里输入<code>python</code>得到的是macOS系统预装的Python 2.7.16 版本，输入<code>python3</code>才会进入我们安装的版本。</p>
-<p>Python2已经是过时的版本，而macOS之所以预装了这个版本，是为了兼容一些历史软件。我们一般使用Python3。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnkpcw31i7j31ky0l2tcr.jpg" alt="macOS 预装了 Python2"></p>
-<p>这样我们输入<code>python3</code>后就进入 Python 交互环境中了，可以输入任何 Python 代码，回车后会立刻得到执行结果，试着输入下面代码，然后按回车看看吧。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">print (&quot;玉在椟中求善价，钗于奁内待时飞。&quot;)</span><br></pre></td></tr></table></figure>
-
-<p>这样我们的Python环境就搭建完成了，第一个 Python 程序也成功运行了，是不是很简单。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>python</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Day 02 - Python 基础之基础</title>
-    <url>/2020/python02/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
-
-
-<h3 id="一-Python书写规范"><a href="#一-Python书写规范" class="headerlink" title="一. Python书写规范"></a>一. Python书写规范</h3><h4 id="大小写敏感"><a href="#大小写敏感" class="headerlink" title="大小写敏感"></a>大小写敏感</h4><p>首先要注意的是 Python 语言是大小写敏感的，如果写错了大小写，程序会报错。</p>
-<h4 id="每行一个语句"><a href="#每行一个语句" class="headerlink" title="每行一个语句"></a>每行一个语句</h4><p>Python 鼓励每一行使用一句独立语句从而使得代码更加可读。<br>不同于C、Java等其他语言使用分号（；）区分多条语句，Python中利用换行区分多条语句。<br>举个例子：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span></span><br><span class="line">print(i)</span><br></pre></td></tr></table></figure>
-<p>上面的两条语句必须写在两行里，若写成下面这样，程序是无法识别的：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span>  print(i)</span><br></pre></td></tr></table></figure>
-<p>当然写在一行里用分号分隔也可以，但Python中一般不建议出现分号。实际上，我<em>从未</em>在 Python 程序中见过一个分号。</p>
-<h4 id="缩进"><a href="#缩进" class="headerlink" title="缩进"></a>缩进</h4><p>放置在一起的语句<em>必须</em>拥有相同的缩进。每一组这样的语句被称为 <em>块（block）</em>。我们将会在后文章节的案例中了解块这一概念是多么重要。</p>
-<p>现在只需要记住一件事：错误的缩进可能会导致错误。下面是一个例子：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">i = <span class="number">5</span></span><br><span class="line"><span class="comment"># 下面行首有一个空格，运行的话会报错</span></span><br><span class="line">print(<span class="string">&#x27;Value is&#x27;</span>, i)</span><br><span class="line">print(<span class="string">&#x27;I repeat, the value is&#x27;</span>, i)</span><br></pre></td></tr></table></figure>
-<p>当你运行这一程序时，你将得到如下错误：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">  File <span class="string">&quot;whitespace.py&quot;</span>, line <span class="number">3</span></span><br><span class="line">    print(<span class="string">&#x27;Value is&#x27;</span>, i)</span><br><span class="line">    ^</span><br><span class="line">IndentationError: unexpected indent</span><br><span class="line"><span class="comment"># 缩进错误：意外缩进</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>如何缩进</strong></p>
-<p>使用四个空格来缩进，这是来自 Python 语言官方的建议。好的编辑器会<strong>自动为你完成这一工作</strong>。请确保你在缩进中使用数量一致的空格，否则你的程序将不会运行，或引发不期望的行为。</p>
-</blockquote>
-<h4 id="Python-标识符"><a href="#Python-标识符" class="headerlink" title="Python 标识符"></a>Python 标识符</h4><p>标识符是语言中允许作为名字的有效字符串集合。</p>
-<p>合法的 Python 标识符，需要遵守如下规定：</p>
-<ul>
-<li>第一个字符必须是字母或下划线（_）</li>
-<li>剩下的字符可以是字母和数字或下划线</li>
-<li>大小写敏感</li>
-<li>不能是 Python 的关键字，例如 def、class 就不能作为标识符</li>
-</ul>
-<p>以下划线开头的标识符是有特殊意义的。以单下划线开头 <code>_foo</code> 的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用 <code>from xxx import *</code> 而导入。</p>
-<p>以双下划线开头的 <code>__foo</code> 代表类的私有成员，以双下划线开头和结尾的 <code>__foo__</code> 代表 Python 里特殊方法专用的标识，如 <code>__init__()</code> 代表类的构造函数。</p>
-<h4 id="多行语句"><a href="#多行语句" class="headerlink" title="多行语句"></a>多行语句</h4><p>Python 语句中一般以新行作为为语句的结束符。但是我们可以使用斜杠（ \）将一行的语句分为多行显示，如下所示：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">total = item_one + \</span><br><span class="line">        item_two + \</span><br><span class="line">        item_three</span><br></pre></td></tr></table></figure>
-<p>等价于：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">total = item_one + item_two + item_three</span><br></pre></td></tr></table></figure>
-
-<p>语句中包含[], {} 或 () 括号就不需要使用多行连接符。如下实例：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">days = [<span class="string">&#x27;Monday&#x27;</span>, <span class="string">&#x27;Tuesday&#x27;</span>, <span class="string">&#x27;Wednesday&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;Thursday&#x27;</span>, <span class="string">&#x27;Friday&#x27;</span>]</span><br></pre></td></tr></table></figure>
-
-<h4 id="注释（comment）"><a href="#注释（comment）" class="headerlink" title="注释（comment）"></a>注释（comment）</h4><p><em>注释</em> 是一行以 <code>#</code> 号开头的文字，其主要用作写给程序读者看的说明性文字。</p>
-<p>举个例子：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;hello world&#x27;</span>)  <span class="comment"># 使用 print 函数输出字符串</span></span><br></pre></td></tr></table></figure>
-<p>或者：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 使用 print 函数输出字符串</span></span><br><span class="line">print(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>你应该在你的程序中尽可能多地写注释，这样做对你的程序的读者来说非常有用，他们可以很容易地理解你的每条语句的用意。这个人可以是六个月后的你！</p>
-<hr>
-<br/>
-
-<h3 id="二-输入和输出"><a href="#二-输入和输出" class="headerlink" title="二. 输入和输出"></a>二. 输入和输出</h3><h4 id="输出-print"><a href="#输出-print" class="headerlink" title="输出: print()"></a>输出: print()</h4><p>我们在前面已经学习了，用<code>print()</code>在括号中加上字符串，就可以向屏幕上输出指定的文字。<code>print()</code>函数也可以接受多个字符串，用逗号隔开，就可以连成一串输出：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;好风频借力，&#x27;</span>, <span class="string">&#x27;送我上青云。&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p><code>print()</code>会依次打印每个字符串，遇到逗号“,”会输出一个空格。</p>
-<p>如果想一次输出多行，怎么办呢？可以这样：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;好风频借力，\n送我上青云。&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p><code>\n</code>是转义字符，表示换行。常用的转义字符还有：</p>
-<table>
-<thead>
-<tr>
-<th>转义字符</th>
-<th>意义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>\\</code></td>
-<td>代表一个反斜线字符<code>\</code></td>
-</tr>
-<tr>
-<td><code>\&#39;</code></td>
-<td>代表一个单引号字符<code>&#39;</code></td>
-</tr>
-<tr>
-<td><code>\&quot;</code></td>
-<td>代表一个双引号字符<code>&quot;</code></td>
-</tr>
-</tbody></table>
-<h4 id="输入-input"><a href="#输入-input" class="headerlink" title="输入: input()"></a>输入: input()</h4><p>现在，你已经可以用<code>print()</code>输出你想要的结果了。但是，如果要让用户从电脑输入一些字符怎么办？Python提供了一个<code>input()</code>方法，可以让用户输入字符串，并存放到一个变量里。比如输入用户的名字：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">name = <span class="built_in">input</span>(<span class="string">&#x27;请输入用户名:&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>程序运行到<code>input()</code>时会停下来等待用户输入，这时，你可以输入任意字符，然后按回车后完成输入。输入完成后，不会有任何提示，Python交互式命令行又回到<code>&gt;&gt;&gt;</code>状态了。那我们刚才输入的内容到哪去了？答案是存放到<code>name</code>变量里了。我们可以打印出<code>name</code>查看变量内容：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&#x27;Hello&#x27;</span>, name)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<hr>
-<br/>
-
-
-<h3 id="三-如何编写和运行-Python-程序"><a href="#三-如何编写和运行-Python-程序" class="headerlink" title="三. 如何编写和运行 Python 程序"></a>三. 如何编写和运行 Python 程序</h3><h4 id="使用文本编辑器"><a href="#使用文本编辑器" class="headerlink" title="使用文本编辑器"></a>使用文本编辑器</h4><p>编写和运行 Python 程序的标准步骤如下：</p>
-<ol>
-<li>打开你的编辑器（例如Sublime Text）</li>
-<li>输入案例中给出的代码</li>
-<li>以给定的文件名将其保存成文件</li>
-<li>在命令行中通过命令 <code>python xxx.py</code> 来运行程序。（macOS使用命令<code>python3 xxx.py</code>）</li>
-</ol>
-<h4 id="使用集成开发环境（IDE）"><a href="#使用集成开发环境（IDE）" class="headerlink" title="使用集成开发环境（IDE）"></a>使用集成开发环境（IDE）</h4><ol>
-<li>在Pycharm中编写代码</li>
-<li>检查没有语法错误后点击鼠标右键 -&gt; Run，运行程序（有语法错误的话相应代码会标红）</li>
-</ol>
-<p>推荐使用Pycharm编写Python代码，会令你的开发工作轻松许多。</p>
 ]]></content>
       <categories>
         <category>Python</category>
@@ -2184,6 +2216,44 @@
       </tags>
   </entry>
   <entry>
+    <title>Day 08 - Python 函数</title>
+    <url>/2020/python08/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
+
+
+
+<h3 id="定义函数"><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h3><p>在Python中，定义一个函数要使用<code>def</code>语句，依次写出函数名、括号、括号中的参数和冒号<code>:</code>，然后，在缩进块中编写函数体，函数的返回值用<code>return</code>语句返回。</p>
+<h4 id="简单示例"><a href="#简单示例" class="headerlink" title="简单示例"></a>简单示例</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#定义一个函数</span><br><span class="line">def hello() :</span><br><span class="line">   print(&quot;Hello World!&quot;)</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">hello()</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="带参数和返回值的函数"><a href="#带参数和返回值的函数" class="headerlink" title="带参数和返回值的函数"></a>带参数和返回值的函数</h4><p>我们以自定义一个求绝对值的<code>my_abs</code>函数为例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">def my_abs(x):</span><br><span class="line">    if x &gt;&#x3D; 0:</span><br><span class="line">        return x</span><br><span class="line">    else:</span><br><span class="line">        return -x</span><br></pre></td></tr></table></figure>
+<p>请自行测试并调用<code>my_abs</code>看看返回结果是否正确。</p>
+<p>请注意，函数体内部的语句在执行时，一旦执行到<code>return</code>时，函数就执行完毕，并将结果返回。</p>
+<p>return并不是必须的，当没有return, 或者return后面没有返回值时，函数将自动返回None。None是Python中的一个特别的数据类型，用来表示什么都没有，相当于C中的NULL。None多用于关键字参数传递的默认值。</p>
+<h4 id="返回多个值"><a href="#返回多个值" class="headerlink" title="返回多个值"></a>返回多个值</h4><p>函数可以返回多个值吗？答案是肯定的。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#定义多个返回值的函数</span><br><span class="line">def more(x, y):</span><br><span class="line">    nx &#x3D; x + 2</span><br><span class="line">    ny &#x3D; y - 2</span><br><span class="line">    return nx, ny</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">x, y &#x3D; more(10, 10)</span><br><span class="line">print(x, y)</span><br></pre></td></tr></table></figure>
+<p>但其实这只是一种假象，Python函数返回的仍然是单一值：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; r &#x3D; more(10, 10)</span><br><span class="line">&gt;&gt;&gt; print(r)</span><br><span class="line">(12, 8)</span><br></pre></td></tr></table></figure>
+<p>原来返回值是一个tuple！但是，在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，但写起来更方便。</p>
+<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>定义函数时，需要确定函数名和参数个数；</p>
+<p>函数体内部可以用<code>return</code>随时返回函数结果；</p>
+<p>函数执行完毕也没有<code>return</code>语句时，自动<code>return None</code>。</p>
+<p>函数可以同时返回多个值，但其实就是一个tuple。</p>
+<h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>$$<br>请定义一个函数quadratic(a, b, c)，接收3个参数，返回一元二次方程 ax^2+bx+c=0的两个解。<br>提示：</p>
+<p>一元二次方程的求根公式为：</p>
+<p>x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}。<br>$$</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>python</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Day 07 - Python 数据结构之 dict 与 set</title>
     <url>/2020/python07/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
@@ -2235,44 +2305,6 @@
 
 
 <h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>使用key-value存储结构的dict在Python中非常有用，选择不可变对象作为key很重要，最常用的key是字符串。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>python</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Day 08 - Python 函数</title>
-    <url>/2020/python08/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
-
-
-
-<h3 id="定义函数"><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h3><p>在Python中，定义一个函数要使用<code>def</code>语句，依次写出函数名、括号、括号中的参数和冒号<code>:</code>，然后，在缩进块中编写函数体，函数的返回值用<code>return</code>语句返回。</p>
-<h4 id="简单示例"><a href="#简单示例" class="headerlink" title="简单示例"></a>简单示例</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#定义一个函数</span><br><span class="line">def hello() :</span><br><span class="line">   print(&quot;Hello World!&quot;)</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">hello()</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="带参数和返回值的函数"><a href="#带参数和返回值的函数" class="headerlink" title="带参数和返回值的函数"></a>带参数和返回值的函数</h4><p>我们以自定义一个求绝对值的<code>my_abs</code>函数为例：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">def my_abs(x):</span><br><span class="line">    if x &gt;&#x3D; 0:</span><br><span class="line">        return x</span><br><span class="line">    else:</span><br><span class="line">        return -x</span><br></pre></td></tr></table></figure>
-<p>请自行测试并调用<code>my_abs</code>看看返回结果是否正确。</p>
-<p>请注意，函数体内部的语句在执行时，一旦执行到<code>return</code>时，函数就执行完毕，并将结果返回。</p>
-<p>return并不是必须的，当没有return, 或者return后面没有返回值时，函数将自动返回None。None是Python中的一个特别的数据类型，用来表示什么都没有，相当于C中的NULL。None多用于关键字参数传递的默认值。</p>
-<h4 id="返回多个值"><a href="#返回多个值" class="headerlink" title="返回多个值"></a>返回多个值</h4><p>函数可以返回多个值吗？答案是肯定的。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#定义多个返回值的函数</span><br><span class="line">def more(x, y):</span><br><span class="line">    nx &#x3D; x + 2</span><br><span class="line">    ny &#x3D; y - 2</span><br><span class="line">    return nx, ny</span><br><span class="line"></span><br><span class="line">#调用函数</span><br><span class="line">x, y &#x3D; more(10, 10)</span><br><span class="line">print(x, y)</span><br></pre></td></tr></table></figure>
-<p>但其实这只是一种假象，Python函数返回的仍然是单一值：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; r &#x3D; more(10, 10)</span><br><span class="line">&gt;&gt;&gt; print(r)</span><br><span class="line">(12, 8)</span><br></pre></td></tr></table></figure>
-<p>原来返回值是一个tuple！但是，在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，但写起来更方便。</p>
-<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>定义函数时，需要确定函数名和参数个数；</p>
-<p>函数体内部可以用<code>return</code>随时返回函数结果；</p>
-<p>函数执行完毕也没有<code>return</code>语句时，自动<code>return None</code>。</p>
-<p>函数可以同时返回多个值，但其实就是一个tuple。</p>
-<h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>$$<br>请定义一个函数quadratic(a, b, c)，接收3个参数，返回一元二次方程 ax^2+bx+c=0的两个解。<br>提示：</p>
-<p>一元二次方程的求根公式为：</p>
-<p>x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}。<br>$$</p>
 ]]></content>
       <categories>
         <category>Python</category>
