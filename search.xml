@@ -1,37 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Something True</title>
-    <url>/2020/about/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><blockquote>
-<p>现居北京。</p>
-</blockquote>
-<blockquote>
-<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点 React。</p>
-</blockquote>
-<a id="more"></a>
+    <title>Intellij IDEA 取消自动 import * 通配符导入</title>
+    <url>/2021/intellijIdeaAutoImport/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
 
-<blockquote>
-<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
-</blockquote>
-<blockquote>
-<p>电影发烧友。</p>
-</blockquote>
-<blockquote>
-<p>爱听 Hiphop 和 R&amp;B。</p>
-</blockquote>
-<blockquote>
-<p>喜欢一切美好的事物。</p>
-</blockquote>
+
+
+<p>Intellij IDEA 中使用import导包时，若导入的同一个类中的变量和方法达到一定阈值后（默认是5个），会自动使用 <code>import *</code> 代替。</p>
+<p>如果想保持单条导入该怎么办呢？</p>
+<p>改一下Intellij IDEA的设置就可以了！</p>
 <br/>
 
-<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
-<br/>
-
-
-<!-- ![avatar.jpg](https://i.loli.net/2019/12/02/Hw5WJIMKzi1YrU8.jpg) -->
-
-<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gnhogd2xtej30k10k1abb.jpg" alt="avatar" width="300" style="border-radius:50%"/>]]></content>
+<p>Setting –&gt; Editor –&gt; Code Style –&gt; Java –&gt; Imports，</p>
+<p>在<strong>【Class count to use import with ‘*‘:】</strong>后填入一个较大的数值例如999，</p>
+<p>在<strong>【Names count to use static import with ‘*‘:】</strong>后同样填入999，</p>
+<p>具体数值自行填写，够大即可，截图如下：</p>
+<p><a href="https://imgchr.com/i/yLEman"><img src="https://s3.ax1x.com/2021/02/23/yLEman.png" alt="yLEman.png"></a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Intellij IDEA</tag>
+        <tag>Java</tag>
+        <tag>编程</tag>
+        <tag>生产力</tag>
+      </tags>
   </entry>
   <entry>
     <title>2019年我最喜欢的电影（一）</title>
@@ -120,10 +115,43 @@
       </tags>
   </entry>
   <entry>
+    <title>Something True</title>
+    <url>/2020/about/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><blockquote>
+<p>现居北京。</p>
+</blockquote>
+<blockquote>
+<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点 React。</p>
+</blockquote>
+<a id="more"></a>
+
+<blockquote>
+<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
+</blockquote>
+<blockquote>
+<p>电影发烧友。</p>
+</blockquote>
+<blockquote>
+<p>爱听 Hiphop 和 R&amp;B。</p>
+</blockquote>
+<blockquote>
+<p>喜欢一切美好的事物。</p>
+</blockquote>
+<br/>
+
+<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
+<br/>
+
+
+<!-- ![avatar.jpg](https://i.loli.net/2019/12/02/Hw5WJIMKzi1YrU8.jpg) -->
+
+<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gnhogd2xtej30k10k1abb.jpg" alt="avatar" width="300" style="border-radius:50%"/>]]></content>
+  </entry>
+  <entry>
     <title>2019 年度精选歌单</title>
     <url>/2020/music2019/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="2019-年度精选歌单"><a href="#2019-年度精选歌单" class="headerlink" title="2019 年度精选歌单"></a>2019 年度精选歌单</h3>
-    <div id="aplayer-zOlITUdy" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-HMxhYDxT" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="3159878612" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -716,8 +744,8 @@
         <category>生产力</category>
       </categories>
       <tags>
-        <tag>效率</tag>
         <tag>生产力</tag>
+        <tag>效率</tag>
         <tag>工具</tag>
       </tags>
   </entry>
@@ -886,9 +914,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -930,9 +958,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1035,9 +1063,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1114,9 +1142,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1145,9 +1173,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1208,9 +1236,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1280,9 +1308,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1342,9 +1370,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1380,9 +1408,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1426,9 +1454,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1462,9 +1490,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1516,9 +1544,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1595,9 +1623,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1639,9 +1667,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1667,9 +1695,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1749,9 +1777,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1800,9 +1828,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -1893,9 +1921,9 @@
         <category>Python</category>
       </categories>
       <tags>
+        <tag>编程</tag>
         <tag>python</tag>
         <tag>学习</tag>
-        <tag>编程</tag>
       </tags>
   </entry>
 </search>
