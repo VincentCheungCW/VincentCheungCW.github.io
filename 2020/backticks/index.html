@@ -15,7 +15,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    MySQL中到底要不要用反引号 `` |  $HIKAMARU
+    SQL语句中到底要不要用反引号 ` ` |  $HIKAMARU
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -57,7 +57,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  MySQL中到底要不要用反引号 ``
+  SQL语句中到底要不要用反引号 ` `
 </h1>
  
 
@@ -86,13 +86,13 @@
 <p>上面SQL语句中的字段名、表名都加了反引号 ``，即backticks，这有什么特别的作用呢？</p>
 <p>大多数情况下如果去掉SQL语句中的反引号，也完全正确，运行不会有任何异常。</p>
 <p>（注意，这里说的是反引号 `` ，而不是单引号 ‘’，SQL中单引号跟双引号相同，就是代表一个字符串。）</p>
-<p>其实，反引号``并没有什么神秘的，它是为了区分MYSQL的保留字与普通字符而引入的符号。你只在一种情况下才需要它：你的数据库名、表名或者字段名中包含空格或与SQL保留字雷同。</p>
+<p>其实，反引号``并没有什么神秘的，它是为了区分MySQL的保留字与普通字符而引入的符号。你只在一种情况下才需要它：你的数据库名、表名或者字段名中包含空格或与SQL保留字雷同。</p>
 <p>举个例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE desc;  # desc是SQL保留字</span><br><span class="line">CREATE TABLE my table (id INT);  # my table中间有空格</span><br><span class="line">SELECT count FROM some_table;  # count是SQL保留字</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE desc;  # 错误,desc是SQL保留字</span><br><span class="line">SELECT count FROM some_table;  # 错误, count是SQL保留字</span><br><span class="line">CREATE TABLE my table (id INT);  # 错误, my table中间有空格</span><br></pre></td></tr></table></figure>
 <p>上面三个SQL语句运行时都会报错，而下面的运行OK。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE &#96;desc&#96;;</span><br><span class="line">CREATE TABLE &#96;my table&#96; (id INT);</span><br><span class="line">SELECT &#96;count&#96; FROM some_table;</span><br></pre></td></tr></table></figure>
-<p>此外，所有DBMS中仅有MySQL支持反引号，你也无法在PostgreSQL、SQL Server等数据库中使用它。</p>
-<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>只有MySQL中编写SQL时才可以使用反引号，你一般不需要用到它，除非你的库名、表名、字段名中有空格或者与SQL保留字雷同（可能性很小）。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE &#96;desc&#96;;</span><br><span class="line">SELECT &#96;count&#96; FROM some_table;</span><br><span class="line">CREATE TABLE &#96;my table&#96; (id INT);</span><br></pre></td></tr></table></figure>
+<p>此外，所有DBMS中仅有MySQL支持反引号，你无法在PostgreSQL、SQL Server等数据库中使用它。</p>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>只有在MySQL中编写SQL时才可以使用反引号，你一般不需要用到它，除非你的库名、表名、字段名中有空格或者与SQL保留字雷同（可能性很小）。</p>
  
       <!-- reward -->
       
