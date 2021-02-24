@@ -15,7 +15,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    音乐剧Hamilton剧本 |  $HIKAMARU
+    MySQL中到底要不要用反引号 `` |  $HIKAMARU
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -46,7 +46,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-music/音乐剧Hamilton剧本（全）"
+  id="post-tech/MySQL中到底要不要用反引号 ``"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -57,18 +57,18 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  音乐剧Hamilton剧本
+  MySQL中到底要不要用反引号 ``
 </h1>
  
 
     </header>
      
     <div class="article-meta">
-      <a href="/2021/HamiltonPlay/" class="article-date">
-  <time datetime="2021-02-09T15:19:24.000Z" itemprop="datePublished">2021-02-09</time>
+      <a href="/2020/backticks/" class="article-date">
+  <time datetime="2020-09-18T13:33:57.000Z" itemprop="datePublished">2020-09-18</time>
 </a> 
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E9%9F%B3%E4%B9%90/">音乐</a>
+    <a class="article-category-link" href="/categories/MySQL/">MySQL</a>
   </div>
  
     </div>
@@ -81,28 +81,18 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="音乐剧-Hamilton-剧本"><a href="#音乐剧-Hamilton-剧本" class="headerlink" title="音乐剧 Hamilton 剧本"></a>音乐剧 Hamilton 剧本</h2><br/>
-
-<blockquote>
-<p>Hamilton 的剧本，我自己做的标注</p>
-</blockquote>
-<a id="more"></a>
-
-<br/>
-
-<h4 id="在线预览："><a href="#在线预览：" class="headerlink" title="在线预览："></a>在线预览：</h4>
-
-	<div class="row">
-    <embed src="../../../resource/hamilton.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-
-
-<br/>
-
-<h4 id="下载："><a href="#下载：" class="headerlink" title="下载："></a>下载：</h4><p><a href="https://shikamaru-go.gitee.io/resource/hamilton.pdf">Hamilton.pdf</a></p>
+  <p>我们使用MySQL时经常要写类似下面的SQL语句：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT &#96;字段A&#96;, &#96;字段B&#96; FROM &#96;表名&#96; WHERE &#96;字段C&#96; &#x3D; &#39;字段值&#39;;</span><br></pre></td></tr></table></figure>
+<p>上面SQL语句中的字段名、表名都加了反引号 ``，即backticks，这有什么特别的作用呢？</p>
+<p>大多数情况下如果去掉SQL语句中的反引号，也完全正确，运行不会有任何异常。</p>
+<p>（注意，这里说的是反引号 `` ，而不是单引号 ‘’，SQL中单引号跟双引号相同，就是代表一个字符串。）</p>
+<p>其实，反引号``并没有什么神秘的，它是为了区分MYSQL的保留字与普通字符而引入的符号。你只在一种情况下才需要它：你的数据库名、表名或者字段名中包含空格或与SQL保留字雷同。</p>
+<p>举个例子：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE desc;  # desc是SQL保留字</span><br><span class="line">CREATE TABLE my table (id INT);  # my table中间有空格</span><br><span class="line">SELECT count FROM some_table;  # count是SQL保留字</span><br></pre></td></tr></table></figure>
+<p>上面三个SQL语句运行时都会报错，而下面的运行OK。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE &#96;desc&#96;;</span><br><span class="line">CREATE TABLE &#96;my table&#96; (id INT);</span><br><span class="line">SELECT &#96;count&#96; FROM some_table;</span><br></pre></td></tr></table></figure>
+<p>此外，所有DBMS中仅有MySQL支持反引号，你也无法在PostgreSQL、SQL Server等数据库中使用它。</p>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>只有MySQL中编写SQL时才可以使用反引号，你一般不需要用到它，除非你的库名、表名、字段名中有空格或者与SQL保留字雷同（可能性很小）。</p>
  
       <!-- reward -->
       
@@ -173,12 +163,12 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shikamaru-go.gitee.io/2021/HamiltonPlay/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shikamaru-go.gitee.io/2020/backticks/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%94%B6%E8%97%8F/" rel="tag">收藏</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%89%BA%E6%9C%AF/" rel="tag">艺术</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9F%B3%E4%B9%90/" rel="tag">音乐</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9F%B3%E4%B9%90%E5%89%A7/" rel="tag">音乐剧</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MySQL/" rel="tag">MySQL</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%BC%96%E7%A8%8B/" rel="tag">编程</a></li></ul>
 
     </footer>
   </div>
@@ -186,19 +176,19 @@
    
   <nav class="article-nav">
     
-      <a href="/2021/intellijIdeaAutoImport/" class="article-nav-link">
+      <a href="/2020/HamiltonPunchlines/" class="article-nav-link">
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            Intellij IDEA 取消自动 import * 通配符导入
+            音乐剧 Hamilton punchlines
           
         </div>
       </a>
     
     
-      <a href="/2021/varchar/" class="article-nav-link">
+      <a href="/2020/chrome-extensions/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">MySQL 中 varchar 字段的默认值应该设为`NULL` 还是 空字符串`&#39;&#39;`</div>
+        <div class="article-nav-title">效率翻倍，搬砖不累：实测好用的Chrome插件</div>
       </a>
     
   </nav>

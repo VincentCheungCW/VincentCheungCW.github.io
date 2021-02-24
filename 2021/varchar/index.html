@@ -15,7 +15,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    音乐剧Hamilton剧本 |  $HIKAMARU
+    MySQL 中 varchar 字段的默认值应该设为`NULL` 还是 空字符串`&#39;&#39;` |  $HIKAMARU
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -46,7 +46,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-music/音乐剧Hamilton剧本（全）"
+  id="post-tech/MySQL 中 varchar 字段的默认值应该设为NULL 还是 空字符串&#39;&#39;"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -57,18 +57,18 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  音乐剧Hamilton剧本
+  MySQL 中 varchar 字段的默认值应该设为`NULL` 还是 空字符串`&#39;&#39;`
 </h1>
  
 
     </header>
      
     <div class="article-meta">
-      <a href="/2021/HamiltonPlay/" class="article-date">
-  <time datetime="2021-02-09T15:19:24.000Z" itemprop="datePublished">2021-02-09</time>
+      <a href="/2021/varchar/" class="article-date">
+  <time datetime="2021-01-17T13:33:57.000Z" itemprop="datePublished">2021-01-17</time>
 </a> 
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E9%9F%B3%E4%B9%90/">音乐</a>
+    <a class="article-category-link" href="/categories/MySQL/">MySQL</a>
   </div>
  
     </div>
@@ -81,28 +81,42 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="音乐剧-Hamilton-剧本"><a href="#音乐剧-Hamilton-剧本" class="headerlink" title="音乐剧 Hamilton 剧本"></a>音乐剧 Hamilton 剧本</h2><br/>
-
+  <p>我们使用MySQL经常会创建新表或者对原有表添加字段，对于常见的INT类型字段，默认值为0就好，但是对于varchar类型，默认值是设置为<code>&#39;&#39;</code>还是<code>NULL</code>呢？</p>
+<ol>
+<li><h4 id="占用空间问题"><a href="#占用空间问题" class="headerlink" title="占用空间问题"></a>占用空间问题</h4></li>
+</ol>
+<p>MySQL中空字符串<code>&#39;&#39;</code>是不占用空间的。<br>而<code>NULL</code>是占用空间的。官方文档说明:</p>
 <blockquote>
-<p>Hamilton 的剧本，我自己做的标注</p>
+<p>“NULL columns require additional space in the row to record whether their values are NULL. For MyISAM tables, each NULL column takes one bit extra, rounded up to the nearest byte.” </p>
 </blockquote>
-<a id="more"></a>
+<p>表中字段若允许为<code>NULL</code>，会为每行记录分配<code>NULL</code>标志位。可见为了表示某个字段是否为空是需要额外存储空间的。</p>
+<p>此外，对于允许为<code>NULL</code>的字符串字段，你无法一目了然的区分其值到底是<code>NULL</code>，还是字符串 <code>&#39;NULL&#39;</code>。</p>
+<ol start="2">
+<li><h4 id="索引效率"><a href="#索引效率" class="headerlink" title="索引效率"></a>索引效率</h4></li>
+</ol>
+<p>使用<code>NULL</code>会影响索引效率，因为树形索引结构中将<code>NULL</code>也视作一般数据节点。</p>
+<p>其实我们在初学MySQL的时候，都会看到一段话，那就是尽量避免使用<code>NULL</code>：应该指定列为<code>NOT NULL</code>，除非你想存储<code>NULL</code>。在MySQL中，含有空值的列很难进行查询优化。因为它们使得索引、索引的统计信息以及比较运算更加复杂。你应该用0、一个特殊的值或者一个空串代替<code>NULL</code>。</p>
+<ol start="3">
+<li><h4 id="计数的区别"><a href="#计数的区别" class="headerlink" title="计数的区别"></a>计数的区别</h4></li>
+</ol>
+<p>在进行<code>count()</code>统计某列的记录数的时候，如果采用的NULL值，系统会自动忽略掉，但是<code>&#39;&#39;</code>是会计入统计结果的。</p>
+<p>另外，判断<code>NULL</code>用<code>IS NULL</code>或者<code>IS NOT NULL</code>，判断空字符用 <code>==</code>或者<code>&lt;&gt;</code>来进行处理。</p>
+<ol start="4">
+<li><h4 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h4></li>
+</ol>
+<p>在设置默认值的时候，尽量不要用<code>NULL</code>来当默认值，如果字段是<code>INT</code>类型，可默认为0，如果是varchar类型，默认值用空字符串<code>&#39;&#39;</code>会更好一些。带有<code>NULL</code>的默认值是可以走索引的，只是会影响效率。当然，如果确认该字段不会用到索引的话，也是可以设置为<code>NULL</code>的。</p>
+<p>在设置字段的时候，可以依情况给字段设置为<code>NOT NULL</code>，因为<code>NOT NULL</code>这个概念和默认值<code>DEFAULT</code>是不冲突的。我们在设置默认值为<code>&#39;&#39;</code>的时候，虽然避免了<code>NULL</code>的情况，但是可能存在直接给字段赋值为<code>NULL</code>，这样数据库中还是会出现<code>NULL</code>，所以强烈建议都给字段加上<code>NOT NULL</code>。</p>
+<p>like this: </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ALTER TABLE 数据表 modify &#96;字段名&#96; VARCHAR(255) NOT NULL DEFAULT &#39;&#39;;</span><br></pre></td></tr></table></figure>
 
-<br/>
-
-<h4 id="在线预览："><a href="#在线预览：" class="headerlink" title="在线预览："></a>在线预览：</h4>
-
-	<div class="row">
-    <embed src="../../../resource/hamilton.pdf" width="100%" height="550" type="application/pdf">
-	</div>
 
 
 
 
 
-<br/>
 
-<h4 id="下载："><a href="#下载：" class="headerlink" title="下载："></a>下载：</h4><p><a href="https://shikamaru-go.gitee.io/resource/hamilton.pdf">Hamilton.pdf</a></p>
+
+
  
       <!-- reward -->
       
@@ -173,12 +187,12 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shikamaru-go.gitee.io/2021/HamiltonPlay/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shikamaru-go.gitee.io/2021/varchar/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%94%B6%E8%97%8F/" rel="tag">收藏</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%89%BA%E6%9C%AF/" rel="tag">艺术</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9F%B3%E4%B9%90/" rel="tag">音乐</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9F%B3%E4%B9%90%E5%89%A7/" rel="tag">音乐剧</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MySQL/" rel="tag">MySQL</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%BC%96%E7%A8%8B/" rel="tag">编程</a></li></ul>
 
     </footer>
   </div>
@@ -186,19 +200,19 @@
    
   <nav class="article-nav">
     
-      <a href="/2021/intellijIdeaAutoImport/" class="article-nav-link">
+      <a href="/2021/HamiltonPlay/" class="article-nav-link">
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            Intellij IDEA 取消自动 import * 通配符导入
+            音乐剧Hamilton剧本
           
         </div>
       </a>
     
     
-      <a href="/2021/varchar/" class="article-nav-link">
+      <a href="/2020/HamiltonPunchlines/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">MySQL 中 varchar 字段的默认值应该设为`NULL` 还是 空字符串`&#39;&#39;`</div>
+        <div class="article-nav-title">音乐剧 Hamilton punchlines</div>
       </a>
     
   </nav>
