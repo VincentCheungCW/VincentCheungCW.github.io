@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Something True</title>
-    <url>/2020/about/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><blockquote>
-<p>现居北京。</p>
-</blockquote>
-<blockquote>
-<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点 React。</p>
-</blockquote>
-<a id="more"></a>
-
-<blockquote>
-<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
-</blockquote>
-<blockquote>
-<p>电影发烧友。</p>
-</blockquote>
-<blockquote>
-<p>爱听 Hiphop 和 R&amp;B。</p>
-</blockquote>
-<blockquote>
-<p>喜欢一切美好的事物。</p>
-</blockquote>
-<br/>
-
-<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
-<br/>
-
-]]></content>
-  </entry>
-  <entry>
     <title>2018年观影总结（一）</title>
     <url>/2020/favFilms2018-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
@@ -348,6 +318,36 @@
       </tags>
   </entry>
   <entry>
+    <title>Something True</title>
+    <url>/2020/about/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><blockquote>
+<p>现居北京。</p>
+</blockquote>
+<blockquote>
+<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点 React。</p>
+</blockquote>
+<a id="more"></a>
+
+<blockquote>
+<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
+</blockquote>
+<blockquote>
+<p>电影发烧友。</p>
+</blockquote>
+<blockquote>
+<p>爱听 Hiphop 和 R&amp;B。</p>
+</blockquote>
+<blockquote>
+<p>喜欢一切美好的事物。</p>
+</blockquote>
+<br/>
+
+<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
+<br/>
+
+]]></content>
+  </entry>
+  <entry>
     <title>2018最喜欢的音乐专辑</title>
     <url>/2019/favAlbums2018/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><meta name="referrer" content="no-referrer" />
@@ -555,7 +555,7 @@
     <title>2019 年度精选歌单</title>
     <url>/2020/music2019/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="2019-年度精选歌单"><a href="#2019-年度精选歌单" class="headerlink" title="2019 年度精选歌单"></a>2019 年度精选歌单</h3>
-    <div id="aplayer-vHWZdjzc" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-OpOnHSyb" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="3159878612" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -818,7 +818,7 @@
 <br/>
 
 
-    <div id="aplayer-LANzvKBZ" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ZiCbhZUB" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="461544911" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -909,7 +909,7 @@
 <br/>
 
 
-    <div id="aplayer-RQEpARkl" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-KppTruRB" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1806940165" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -922,14 +922,14 @@
 <br/>
 
 
-    <div id="aplayer-bBwVajSi" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-RdoudFjq" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="454730428" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
 <br/>
 
 
-    <div id="aplayer-WPSjgguu" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-xqkRzoxV" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="516320081" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -941,7 +941,7 @@
 <br/>
 
 
-    <div id="aplayer-YuYByUzX" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-idzsruda" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1298432425" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -953,7 +953,7 @@
 <br/>
 
 
-    <div id="aplayer-UhnsfXkh" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-Eeaeytnr" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="A240DEBE4A083CAA236B62F5A131B97E" data-server="kugou" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -966,7 +966,7 @@
 <br/>
 
 
-    <div id="aplayer-sMZIYtcV" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-gDolBZyo" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="484365841" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -978,14 +978,14 @@
 <br/>
 
 
-    <div id="aplayer-LgIkrowA" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-jgQYkFgW" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="475207448" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
 <br/>
 
 
-    <div id="aplayer-rXWqhCtt" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-SSduiYlH" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="485992655" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -997,7 +997,7 @@
 <br/>
 
 
-    <div id="aplayer-WgYQMeoO" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-CYYGvvuz" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="461544911" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -1009,7 +1009,7 @@
 <br/>
 
 
-    <div id="aplayer-EkoazecP" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-krltMBnz" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="461544911" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -1027,7 +1027,7 @@
 <br/>
 
 
-    <div id="aplayer-iXzIaZVQ" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-hHIZfzcf" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="461544911" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
@@ -1039,7 +1039,7 @@
 <br/>
 
 
-    <div id="aplayer-nEMxdZdR" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-AhLooOxy" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1300423691" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555" data-volume="0.4"
     ></div>
 
