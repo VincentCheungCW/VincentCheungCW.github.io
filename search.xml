@@ -814,7 +814,7 @@
 <p>I might <br/><br>  Empty my bank account <br/><br>  And buy that boy with a pipe</p>
 </blockquote>
 <br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-NVhaElbvCRERDFUf"></div><script> var NVhaElbvCRERDFUf_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Slide\",\"artist\":\"Calvin Harris / Frank Ocean / Migos\",\"cover\":\"../../../resource/music/Slide.png\",\"url\":\"../../../resource/music/Slide.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); NVhaElbvCRERDFUf_options.container = document.getElementById("mmedia-NVhaElbvCRERDFUf"); const ap_NVhaElbvCRERDFUf = new APlayer(NVhaElbvCRERDFUf_options); </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-AGbjYgUXTwEufLmC"></div><script> var AGbjYgUXTwEufLmC_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Slide\",\"artist\":\"Calvin Harris / Frank Ocean / Migos\",\"cover\":\"../../../resource/music/Slide.png\",\"url\":\"../../../resource/music/Slide.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); AGbjYgUXTwEufLmC_options.container = document.getElementById("mmedia-AGbjYgUXTwEufLmC"); const ap_AGbjYgUXTwEufLmC = new APlayer(AGbjYgUXTwEufLmC_options); </script>
 
 <br/>
 
@@ -888,95 +888,6 @@
         <tag>音乐</tag>
         <tag>收藏</tag>
         <tag>文学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HipHop制作人那些有趣的Tags</title>
-    <url>/2021/hiphop-tags/</url>
-    <content><![CDATA[<blockquote>
-<p>The best producers know that a certain drum sound can make a listener immediately know who is behind the boards.</p>
-</blockquote>
-<p>说起HipHop音乐圈的专辑制作人，相信很多人对下面的名字并不陌生，比如 RZA, Dr. Dre, No ID, Kanye West, Pharrell Williams, Mike Will Made-It 等等。</p>
-<p>在欧美，一张音乐专辑往往是在制作人主导下诞生的。这一点正如好莱坞电影，大多由制片人主导，导演的话语权反而要靠后。</p>
-<p>HipHop音乐制作人为了声明自己的创作，往往会在beat打上自己独特的标签，既彰显个性，又能做广告，吸引更多的artists合作。</p>
-<p>今天就来聊一聊那些知名制作人的Tags。</p>
-<br/>
-
-
-<h4 id="Pi’erre-Bourne"><a href="#Pi’erre-Bourne" class="headerlink" title="Pi’erre Bourne"></a>Pi’erre Bourne</h4><blockquote>
-<p>“Yo, Pi’erre, you wanna come out here?”</p>
-</blockquote>
-<br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-ylbgBmePLoWltqIG"></div><script> var ylbgBmePLoWltqIG_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"ILoveUIHateU\",\"artist\":\"Playboi Carti\",\"cover\":\"../../../resource/music/ILoveUIHateU.png\",\"url\":\"../../../resource/music/ILoveUIHateU.mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"Magnolia\",\"artist\":\"Playboi Carti\",\"cover\":\"../../../resource/music/Magnolia.png\",\"url\":\"../../../resource/music/Magnolia.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); ylbgBmePLoWltqIG_options.container = document.getElementById("mmedia-ylbgBmePLoWltqIG"); const ap_ylbgBmePLoWltqIG = new APlayer(ylbgBmePLoWltqIG_options); </script>
-
-<br/>
-
-
-<h4 id="Metro-Boomin"><a href="#Metro-Boomin" class="headerlink" title="Metro Boomin"></a>Metro Boomin</h4><blockquote>
-<p>“If young Metro don’t trust you, I’m gonna shoot you”<br>“Metro Boomin want some more, nigga!”</p>
-</blockquote>
-<br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-dALeeSahoyDLDvRv"></div><script> var dALeeSahoyDLDvRv_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Bad and Boujee\",\"artist\":\"Migos / Lil Uzi Vert\",\"cover\":\"../../../resource/music/Bad-and-Boujee.png\",\"url\":\"../../../resource/music/Bad-and-Boujee.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"Ric Flair Drip\",\"artist\":\"Offset & Metro Boomin\",\"cover\":\"../../../resource/music/Ric-Flair-Drip.png\",\"url\":\"../../../resource/music/Ric-Flair-Drip.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); dALeeSahoyDLDvRv_options.container = document.getElementById("mmedia-dALeeSahoyDLDvRv"); const ap_dALeeSahoyDLDvRv = new APlayer(dALeeSahoyDLDvRv_options); </script>
-<br/>
-
-
-<h4 id="Tay-Keith"><a href="#Tay-Keith" class="headerlink" title="Tay Keith"></a>Tay Keith</h4><blockquote>
-<p>“Tay Keith, fuck these niggas up!”</p>
-</blockquote>
-<br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-OCDeoRKNdaOGCeDr"></div><script> var OCDeoRKNdaOGCeDr_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"SICKO MODE\",\"artist\":\"Travis Scott\",\"cover\":\"../../../resource/music/SICKO-MODE.png\",\"url\":\"../../../resource/music/SICKO-MODE.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); OCDeoRKNdaOGCeDr_options.container = document.getElementById("mmedia-OCDeoRKNdaOGCeDr"); const ap_OCDeoRKNdaOGCeDr = new APlayer(OCDeoRKNdaOGCeDr_options); </script>
-
-<br/>
-
-<h4 id="Ronny-J"><a href="#Ronny-J" class="headerlink" title="Ronny J"></a>Ronny J</h4><blockquote>
-<p>“Oh my god, Ronny!”</p>
-</blockquote>
-<br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-NTfiDpiURVGuAwFl"></div><script> var NTfiDpiURVGuAwFl_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"UP LIKE AN INSOMNIAC (FREESTYLE)\",\"artist\":\"XXXTENTACION\",\"cover\":\"../../../resource/music/XXXTENTACION.png\",\"url\":\"../../../resource/music/UP-LIKE-AN-INSOMNIAC-(FREESTYLE).mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"A GHETTO CHRISTMAS CAROL\",\"artist\":\"XXXTENTACION\",\"cover\":\"../../../resource/music/XXXTENTACION.png\",\"url\":\"../../../resource/music/A-GHETTO-CHRISTMAS-CAROL.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); NTfiDpiURVGuAwFl_options.container = document.getElementById("mmedia-NTfiDpiURVGuAwFl"); const ap_NTfiDpiURVGuAwFl = new APlayer(NTfiDpiURVGuAwFl_options); </script>
-
-<br/>
-
-
-<h4 id="LondonOnDaTrack"><a href="#LondonOnDaTrack" class="headerlink" title="LondonOnDaTrack"></a>LondonOnDaTrack</h4><blockquote>
-<p>“We got London on da track!”</p>
-</blockquote>
-<br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-LYQBbLkazBULqCTu"></div><script> var LYQBbLkazBULqCTu_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Do U Love Me\",\"artist\":\"Young Thug\",\"cover\":\"../../../resource/music/Do-U-Love-Me.png\",\"url\":\"../../../resource/music/Do-U-Love-Me.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"Digits\",\"artist\":\"Young Thug\",\"cover\":\"../../../resource/music/Digits.png\",\"url\":\"../../../resource/music/Digits.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); LYQBbLkazBULqCTu_options.container = document.getElementById("mmedia-LYQBbLkazBULqCTu"); const ap_LYQBbLkazBULqCTu = new APlayer(LYQBbLkazBULqCTu_options); </script>
-
-<br/>
-
-<h4 id="DJ-Khaled"><a href="#DJ-Khaled" class="headerlink" title="DJ Khaled"></a>DJ Khaled</h4><blockquote>
-<p>“We The Best Music! Another one!”</p>
-</blockquote>
-<br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-DeKBdIMusSEQBZrQ"></div><script> var DeKBdIMusSEQBZrQ_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"(Intro) I`m so Grateful (feat. Sizzla)\",\"artist\":\"DJ Khaled\",\"cover\":\"../../../resource/music/Im-so-Grateful.png\",\"url\":\"../../../resource/music/Im-so-Grateful.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"I`m the One (feat. Justin Bieber, Quavo, Chance the Rapper)\",\"artist\":\"DJ Khaled\",\"cover\":\"../../../resource/music/Im-so-Grateful.png\",\"url\":\"../../../resource/music/Im-the-One.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); DeKBdIMusSEQBZrQ_options.container = document.getElementById("mmedia-DeKBdIMusSEQBZrQ"); const ap_DeKBdIMusSEQBZrQ = new APlayer(DeKBdIMusSEQBZrQ_options); </script>
-
-<br/>
-
-
-<h4 id="Murda-Beatz"><a href="#Murda-Beatz" class="headerlink" title="Murda Beatz"></a>Murda Beatz</h4><blockquote>
-<p>“Murda on the beat, so it’s not nice!”</p>
-</blockquote>
-<br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-jVwOizPFXGoNUUXw"></div><script> var jVwOizPFXGoNUUXw_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Portland (feat. Quavo & Travis Scott)\",\"artist\":\"Drake\",\"cover\":\"../../../resource/music/Portland.png\",\"url\":\"../../../resource/music/Portland.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"FEFE (feat. Nicki Minaj and Murda Beatz)\",\"artist\":\"6ix9ine\",\"cover\":\"../../../resource/music/FEFE.png\",\"url\":\"../../../resource/music/Fefe.mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"MAMA (feat. Nicki Minaj and Kanye West)\",\"artist\":\"6ix9ine\",\"cover\":\"../../../resource/music/FEFE.png\",\"url\":\"../../../resource/music/Mama.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); jVwOizPFXGoNUUXw_options.container = document.getElementById("mmedia-jVwOizPFXGoNUUXw"); const ap_jVwOizPFXGoNUUXw = new APlayer(jVwOizPFXGoNUUXw_options); </script>
-
-<br/>
-
-
-<h4 id="Mustard"><a href="#Mustard" class="headerlink" title="Mustard"></a>Mustard</h4><blockquote>
-<p>“Mustard on the beat, ho!”</p>
-</blockquote>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-DdgUIXjVwqlcXWci"></div><script> var DdgUIXjVwqlcXWci_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Breakfast In Bed\",\"artist\":\"Ella Mai\",\"cover\":\"../../../resource/music/ella-mai.png\",\"url\":\"../../../resource/music/Breakfast-In-Bed.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"My Way\",\"artist\":\"Ella Mai\",\"cover\":\"../../../resource/music/ella-mai.png\",\"url\":\"../../../resource/music/My-Way.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); DdgUIXjVwqlcXWci_options.container = document.getElementById("mmedia-DdgUIXjVwqlcXWci"); const ap_DdgUIXjVwqlcXWci = new APlayer(DdgUIXjVwqlcXWci_options); </script>
-
-<br/>
-]]></content>
-      <categories>
-        <category>音乐</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
-        <tag>收藏</tag>
-        <tag>2020</tag>
       </tags>
   </entry>
   <entry>
@@ -1131,6 +1042,95 @@
         <tag>收藏</tag>
         <tag>音乐剧</tag>
         <tag>艺术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HipHop制作人那些有趣的Tags</title>
+    <url>/2021/hiphop-tags/</url>
+    <content><![CDATA[<blockquote>
+<p>The best producers know that a certain drum sound can make a listener immediately know who is behind the boards.</p>
+</blockquote>
+<p>说起HipHop音乐圈的专辑制作人，相信很多人对下面的名字并不陌生，比如 RZA, Dr. Dre, No ID, Kanye West, Pharrell Williams, Mike Will Made-It 等等。</p>
+<p>在欧美，一张音乐专辑往往是在制作人主导下诞生的。这一点正如好莱坞电影，大多由制片人主导，导演的话语权反而要靠后。</p>
+<p>HipHop音乐制作人为了声明自己的创作，往往会在beat打上自己独特的标签，既彰显个性，又能做广告，吸引更多的artists合作。</p>
+<p>今天就来聊一聊那些知名制作人的Tags。</p>
+<br/>
+
+
+<h4 id="Pi’erre-Bourne"><a href="#Pi’erre-Bourne" class="headerlink" title="Pi’erre Bourne"></a>Pi’erre Bourne</h4><blockquote>
+<p>“Yo, Pi’erre, you wanna come out here?”</p>
+</blockquote>
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-RLVeHmACbSazxAtb"></div><script> var RLVeHmACbSazxAtb_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"ILoveUIHateU\",\"artist\":\"Playboi Carti\",\"cover\":\"../../../resource/music/ILoveUIHateU.png\",\"url\":\"../../../resource/music/ILoveUIHateU.mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"Magnolia\",\"artist\":\"Playboi Carti\",\"cover\":\"../../../resource/music/Magnolia.png\",\"url\":\"../../../resource/music/Magnolia.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); RLVeHmACbSazxAtb_options.container = document.getElementById("mmedia-RLVeHmACbSazxAtb"); const ap_RLVeHmACbSazxAtb = new APlayer(RLVeHmACbSazxAtb_options); </script>
+
+<br/>
+
+
+<h4 id="Metro-Boomin"><a href="#Metro-Boomin" class="headerlink" title="Metro Boomin"></a>Metro Boomin</h4><blockquote>
+<p>“If young Metro don’t trust you, I’m gonna shoot you”<br>“Metro Boomin want some more, nigga!”</p>
+</blockquote>
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-LuGlepjASNwzFjwt"></div><script> var LuGlepjASNwzFjwt_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Bad and Boujee\",\"artist\":\"Migos / Lil Uzi Vert\",\"cover\":\"../../../resource/music/Bad-and-Boujee.png\",\"url\":\"../../../resource/music/Bad-and-Boujee.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"Ric Flair Drip\",\"artist\":\"Offset & Metro Boomin\",\"cover\":\"../../../resource/music/Ric-Flair-Drip.png\",\"url\":\"../../../resource/music/Ric-Flair-Drip.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); LuGlepjASNwzFjwt_options.container = document.getElementById("mmedia-LuGlepjASNwzFjwt"); const ap_LuGlepjASNwzFjwt = new APlayer(LuGlepjASNwzFjwt_options); </script>
+<br/>
+
+
+<h4 id="Tay-Keith"><a href="#Tay-Keith" class="headerlink" title="Tay Keith"></a>Tay Keith</h4><blockquote>
+<p>“Tay Keith, fuck these niggas up!”</p>
+</blockquote>
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-fKtOKmBXWITsMien"></div><script> var fKtOKmBXWITsMien_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"SICKO MODE\",\"artist\":\"Travis Scott\",\"cover\":\"../../../resource/music/SICKO-MODE.png\",\"url\":\"../../../resource/music/SICKO-MODE.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); fKtOKmBXWITsMien_options.container = document.getElementById("mmedia-fKtOKmBXWITsMien"); const ap_fKtOKmBXWITsMien = new APlayer(fKtOKmBXWITsMien_options); </script>
+
+<br/>
+
+<h4 id="Ronny-J"><a href="#Ronny-J" class="headerlink" title="Ronny J"></a>Ronny J</h4><blockquote>
+<p>“Oh my god, Ronny!”</p>
+</blockquote>
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-qRwOwjzSCLIBJjTd"></div><script> var qRwOwjzSCLIBJjTd_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"UP LIKE AN INSOMNIAC (FREESTYLE)\",\"artist\":\"XXXTENTACION\",\"cover\":\"../../../resource/music/XXXTENTACION.png\",\"url\":\"../../../resource/music/UP-LIKE-AN-INSOMNIAC-(FREESTYLE).mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"A GHETTO CHRISTMAS CAROL\",\"artist\":\"XXXTENTACION\",\"cover\":\"../../../resource/music/XXXTENTACION.png\",\"url\":\"../../../resource/music/A-GHETTO-CHRISTMAS-CAROL.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); qRwOwjzSCLIBJjTd_options.container = document.getElementById("mmedia-qRwOwjzSCLIBJjTd"); const ap_qRwOwjzSCLIBJjTd = new APlayer(qRwOwjzSCLIBJjTd_options); </script>
+
+<br/>
+
+
+<h4 id="LondonOnDaTrack"><a href="#LondonOnDaTrack" class="headerlink" title="LondonOnDaTrack"></a>LondonOnDaTrack</h4><blockquote>
+<p>“We got London on da track!”</p>
+</blockquote>
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-udhePPSKLWMKhikv"></div><script> var udhePPSKLWMKhikv_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Do U Love Me\",\"artist\":\"Young Thug\",\"cover\":\"../../../resource/music/Do-U-Love-Me.png\",\"url\":\"../../../resource/music/Do-U-Love-Me.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"Digits\",\"artist\":\"Young Thug\",\"cover\":\"../../../resource/music/Digits.png\",\"url\":\"../../../resource/music/Digits.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); udhePPSKLWMKhikv_options.container = document.getElementById("mmedia-udhePPSKLWMKhikv"); const ap_udhePPSKLWMKhikv = new APlayer(udhePPSKLWMKhikv_options); </script>
+
+<br/>
+
+<h4 id="DJ-Khaled"><a href="#DJ-Khaled" class="headerlink" title="DJ Khaled"></a>DJ Khaled</h4><blockquote>
+<p>“We The Best Music! Another one!”</p>
+</blockquote>
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-awRHJLZMOSgUuTtz"></div><script> var awRHJLZMOSgUuTtz_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"(Intro) I`m so Grateful (feat. Sizzla)\",\"artist\":\"DJ Khaled\",\"cover\":\"../../../resource/music/Im-so-Grateful.png\",\"url\":\"../../../resource/music/Im-so-Grateful.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"I`m the One (feat. Justin Bieber, Quavo, Chance the Rapper)\",\"artist\":\"DJ Khaled\",\"cover\":\"../../../resource/music/Im-so-Grateful.png\",\"url\":\"../../../resource/music/Im-the-One.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); awRHJLZMOSgUuTtz_options.container = document.getElementById("mmedia-awRHJLZMOSgUuTtz"); const ap_awRHJLZMOSgUuTtz = new APlayer(awRHJLZMOSgUuTtz_options); </script>
+
+<br/>
+
+
+<h4 id="Murda-Beatz"><a href="#Murda-Beatz" class="headerlink" title="Murda Beatz"></a>Murda Beatz</h4><blockquote>
+<p>“Murda on the beat, so it’s not nice!”</p>
+</blockquote>
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-CqsskrAuKJQsmLMR"></div><script> var CqsskrAuKJQsmLMR_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Portland (feat. Quavo & Travis Scott)\",\"artist\":\"Drake\",\"cover\":\"../../../resource/music/Portland.png\",\"url\":\"../../../resource/music/Portland.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"FEFE (feat. Nicki Minaj and Murda Beatz)\",\"artist\":\"6ix9ine\",\"cover\":\"../../../resource/music/FEFE.png\",\"url\":\"../../../resource/music/Fefe.mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"MAMA (feat. Nicki Minaj and Kanye West)\",\"artist\":\"6ix9ine\",\"cover\":\"../../../resource/music/FEFE.png\",\"url\":\"../../../resource/music/Mama.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); CqsskrAuKJQsmLMR_options.container = document.getElementById("mmedia-CqsskrAuKJQsmLMR"); const ap_CqsskrAuKJQsmLMR = new APlayer(CqsskrAuKJQsmLMR_options); </script>
+
+<br/>
+
+
+<h4 id="Mustard"><a href="#Mustard" class="headerlink" title="Mustard"></a>Mustard</h4><blockquote>
+<p>“Mustard on the beat, ho!”</p>
+</blockquote>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-XgDBZSDVMjHQPtoc"></div><script> var XgDBZSDVMjHQPtoc_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Breakfast In Bed\",\"artist\":\"Ella Mai\",\"cover\":\"../../../resource/music/ella-mai.png\",\"url\":\"../../../resource/music/Breakfast-In-Bed.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"My Way\",\"artist\":\"Ella Mai\",\"cover\":\"../../../resource/music/ella-mai.png\",\"url\":\"../../../resource/music/My-Way.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); XgDBZSDVMjHQPtoc_options.container = document.getElementById("mmedia-XgDBZSDVMjHQPtoc"); const ap_XgDBZSDVMjHQPtoc = new APlayer(XgDBZSDVMjHQPtoc_options); </script>
+
+<br/>
+]]></content>
+      <categories>
+        <category>音乐</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>收藏</tag>
+        <tag>2020</tag>
       </tags>
   </entry>
   <entry>
