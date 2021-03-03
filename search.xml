@@ -1,38 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Something True</title>
-    <url>/2020/about/</url>
-    <content><![CDATA[<blockquote>
-<p>现居北京。</p>
-</blockquote>
-<blockquote>
-<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点 React。</p>
-</blockquote>
-<a id="more"></a>
-
-<blockquote>
-<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
-</blockquote>
-<blockquote>
-<p>电影发烧友。</p>
-</blockquote>
-<blockquote>
-<p>爱听 Hiphop 和 R&amp;B。</p>
-</blockquote>
-<blockquote>
-<p>喜欢一切美好的事物。</p>
-</blockquote>
-<br/>
-
-<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
-<br/>
-
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1go72tbs41pj20mc0mc4on.jpg" alt="avatar" width="300" style="border-radius:50%"/>
-
-]]></content>
-  </entry>
-  <entry>
     <title>2018年观影总结（一）</title>
     <url>/2020/favFilms2018-1/</url>
     <content><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -134,6 +102,38 @@
         <tag>2019</tag>
         <tag>电影</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Something True</title>
+    <url>/2020/about/</url>
+    <content><![CDATA[<blockquote>
+<p>现居北京。</p>
+</blockquote>
+<blockquote>
+<p>后端开发工程师，主修 Java ，辅修 Python、Go ，会点 React。</p>
+</blockquote>
+<a id="more"></a>
+
+<blockquote>
+<p>电脑DIY入门级爱好者，组装过 Hackintosh。</p>
+</blockquote>
+<blockquote>
+<p>电影发烧友。</p>
+</blockquote>
+<blockquote>
+<p>爱听 Hiphop 和 R&amp;B。</p>
+</blockquote>
+<blockquote>
+<p>喜欢一切美好的事物。</p>
+</blockquote>
+<br/>
+
+<p>豆瓣： <a href="https://www.douban.com/people/59143830/">蒋鹿丸</a><br>GitHub： <a href="https://github.com/VincentCheungCW">VincentCheungCW</a></p>
+<br/>
+
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1go72tbs41pj20mc0mc4on.jpg" alt="avatar" width="300" style="border-radius:50%"/>
+
+]]></content>
   </entry>
   <entry>
     <title>2018年观影总结（二）</title>
@@ -1063,7 +1063,7 @@
 <p>I might <br/><br>  Empty my bank account <br/><br>  And buy that boy with a pipe</p>
 </blockquote>
 <br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-kVmFlFZyjhqgwuDx"></div><script> var kVmFlFZyjhqgwuDx_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Slide\",\"artist\":\"Calvin Harris / Frank Ocean / Migos\",\"cover\":\"../../../resource/music/Slide.png\",\"url\":\"../../../resource/music/Slide.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); kVmFlFZyjhqgwuDx_options.container = document.getElementById("mmedia-kVmFlFZyjhqgwuDx"); const ap_kVmFlFZyjhqgwuDx = new APlayer(kVmFlFZyjhqgwuDx_options); </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-VPyiomOhNfMyVJUo"></div><script> var VPyiomOhNfMyVJUo_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Slide\",\"artist\":\"Calvin Harris / Frank Ocean / Migos\",\"cover\":\"../../../resource/music/Slide.png\",\"url\":\"../../../resource/music/Slide.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); VPyiomOhNfMyVJUo_options.container = document.getElementById("mmedia-VPyiomOhNfMyVJUo"); const ap_VPyiomOhNfMyVJUo = new APlayer(VPyiomOhNfMyVJUo_options); </script>
 
 <br/>
 
@@ -1156,7 +1156,7 @@
 <p>“Yo, Pi’erre, you wanna come out here?”</p>
 </blockquote>
 <br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-eIYyKbodsXZlgFYH"></div><script> var eIYyKbodsXZlgFYH_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"ILoveUIHateU\",\"artist\":\"Playboi Carti\",\"cover\":\"../../../resource/music/beat-tags/ILoveUIHateU.png\",\"url\":\"../../../resource/music/beat-tags/ILoveUIHateU.mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"Magnolia\",\"artist\":\"Playboi Carti\",\"cover\":\"../../../resource/music/beat-tags/Magnolia.png\",\"url\":\"../../../resource/music/beat-tags/Magnolia.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); eIYyKbodsXZlgFYH_options.container = document.getElementById("mmedia-eIYyKbodsXZlgFYH"); const ap_eIYyKbodsXZlgFYH = new APlayer(eIYyKbodsXZlgFYH_options); </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-VyjPWwJYQbetLJeu"></div><script> var VyjPWwJYQbetLJeu_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"ILoveUIHateU\",\"artist\":\"Playboi Carti\",\"cover\":\"../../../resource/music/beat-tags/ILoveUIHateU.png\",\"url\":\"../../../resource/music/beat-tags/ILoveUIHateU.mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"Magnolia\",\"artist\":\"Playboi Carti\",\"cover\":\"../../../resource/music/beat-tags/Magnolia.png\",\"url\":\"../../../resource/music/beat-tags/Magnolia.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); VyjPWwJYQbetLJeu_options.container = document.getElementById("mmedia-VyjPWwJYQbetLJeu"); const ap_VyjPWwJYQbetLJeu = new APlayer(VyjPWwJYQbetLJeu_options); </script>
 
 <br/>
 
@@ -1165,7 +1165,7 @@
 <p>“If young Metro don’t trust you, I’m gonna shoot you”<br>“Metro Boomin want some more, nigga!”</p>
 </blockquote>
 <br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-vdwPKjFmEGUKeDKo"></div><script> var vdwPKjFmEGUKeDKo_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Bad and Boujee\",\"artist\":\"Migos / Lil Uzi Vert\",\"cover\":\"../../../resource/music/beat-tags/Bad-and-Boujee.png\",\"url\":\"../../../resource/music/beat-tags/Bad-and-Boujee.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"Ric Flair Drip\",\"artist\":\"Offset & Metro Boomin\",\"cover\":\"../../../resource/music/beat-tags/Ric-Flair-Drip.png\",\"url\":\"../../../resource/music/beat-tags/Ric-Flair-Drip.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); vdwPKjFmEGUKeDKo_options.container = document.getElementById("mmedia-vdwPKjFmEGUKeDKo"); const ap_vdwPKjFmEGUKeDKo = new APlayer(vdwPKjFmEGUKeDKo_options); </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-VStrArbkKYWfUSOG"></div><script> var VStrArbkKYWfUSOG_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Bad and Boujee\",\"artist\":\"Migos / Lil Uzi Vert\",\"cover\":\"../../../resource/music/beat-tags/Bad-and-Boujee.png\",\"url\":\"../../../resource/music/beat-tags/Bad-and-Boujee.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"Ric Flair Drip\",\"artist\":\"Offset & Metro Boomin\",\"cover\":\"../../../resource/music/beat-tags/Ric-Flair-Drip.png\",\"url\":\"../../../resource/music/beat-tags/Ric-Flair-Drip.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); VStrArbkKYWfUSOG_options.container = document.getElementById("mmedia-VStrArbkKYWfUSOG"); const ap_VStrArbkKYWfUSOG = new APlayer(VStrArbkKYWfUSOG_options); </script>
 <br/>
 
 
@@ -1173,7 +1173,7 @@
 <p>“Tay Keith, fuck these niggas up!”</p>
 </blockquote>
 <br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-aCWSVhVIlrjystlN"></div><script> var aCWSVhVIlrjystlN_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"SICKO MODE\",\"artist\":\"Travis Scott\",\"cover\":\"../../../resource/music/beat-tags/SICKO-MODE.png\",\"url\":\"../../../resource/music/beat-tags/SICKO-MODE.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); aCWSVhVIlrjystlN_options.container = document.getElementById("mmedia-aCWSVhVIlrjystlN"); const ap_aCWSVhVIlrjystlN = new APlayer(aCWSVhVIlrjystlN_options); </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-kZuAzHiPKwRvCkRP"></div><script> var kZuAzHiPKwRvCkRP_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"SICKO MODE\",\"artist\":\"Travis Scott\",\"cover\":\"../../../resource/music/beat-tags/SICKO-MODE.png\",\"url\":\"../../../resource/music/beat-tags/SICKO-MODE.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); kZuAzHiPKwRvCkRP_options.container = document.getElementById("mmedia-kZuAzHiPKwRvCkRP"); const ap_kZuAzHiPKwRvCkRP = new APlayer(kZuAzHiPKwRvCkRP_options); </script>
 
 <br/>
 
@@ -1181,7 +1181,7 @@
 <p>“Oh my god, Ronny!”</p>
 </blockquote>
 <br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-YUGASRZZIuFgZrsP"></div><script> var YUGASRZZIuFgZrsP_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"UP LIKE AN INSOMNIAC (FREESTYLE)\",\"artist\":\"XXXTENTACION\",\"cover\":\"../../../resource/music/beat-tags/XXXTENTACION.png\",\"url\":\"../../../resource/music/beat-tags/UP-LIKE-AN-INSOMNIAC-(FREESTYLE).mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"A GHETTO CHRISTMAS CAROL\",\"artist\":\"XXXTENTACION\",\"cover\":\"../../../resource/music/beat-tags/XXXTENTACION.png\",\"url\":\"../../../resource/music/beat-tags/A-GHETTO-CHRISTMAS-CAROL.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); YUGASRZZIuFgZrsP_options.container = document.getElementById("mmedia-YUGASRZZIuFgZrsP"); const ap_YUGASRZZIuFgZrsP = new APlayer(YUGASRZZIuFgZrsP_options); </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-sWSFEkCnWPTHKBcU"></div><script> var sWSFEkCnWPTHKBcU_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"UP LIKE AN INSOMNIAC (FREESTYLE)\",\"artist\":\"XXXTENTACION\",\"cover\":\"../../../resource/music/beat-tags/XXXTENTACION.png\",\"url\":\"../../../resource/music/beat-tags/UP-LIKE-AN-INSOMNIAC-(FREESTYLE).mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"A GHETTO CHRISTMAS CAROL\",\"artist\":\"XXXTENTACION\",\"cover\":\"../../../resource/music/beat-tags/XXXTENTACION.png\",\"url\":\"../../../resource/music/beat-tags/A-GHETTO-CHRISTMAS-CAROL.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); sWSFEkCnWPTHKBcU_options.container = document.getElementById("mmedia-sWSFEkCnWPTHKBcU"); const ap_sWSFEkCnWPTHKBcU = new APlayer(sWSFEkCnWPTHKBcU_options); </script>
 
 <br/>
 
@@ -1190,7 +1190,7 @@
 <p>“We got London on da track!”</p>
 </blockquote>
 <br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-iXamyPuTvEYXXceZ"></div><script> var iXamyPuTvEYXXceZ_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Do U Love Me\",\"artist\":\"Young Thug\",\"cover\":\"../../../resource/music/beat-tags/Do-U-Love-Me.png\",\"url\":\"../../../resource/music/beat-tags/Do-U-Love-Me.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"Digits\",\"artist\":\"Young Thug\",\"cover\":\"../../../resource/music/beat-tags/Digits.png\",\"url\":\"../../../resource/music/beat-tags/Digits.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); iXamyPuTvEYXXceZ_options.container = document.getElementById("mmedia-iXamyPuTvEYXXceZ"); const ap_iXamyPuTvEYXXceZ = new APlayer(iXamyPuTvEYXXceZ_options); </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-zlzvUfXKCxjJcmaP"></div><script> var zlzvUfXKCxjJcmaP_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Do U Love Me\",\"artist\":\"Young Thug\",\"cover\":\"../../../resource/music/beat-tags/Do-U-Love-Me.png\",\"url\":\"../../../resource/music/beat-tags/Do-U-Love-Me.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"Digits\",\"artist\":\"Young Thug\",\"cover\":\"../../../resource/music/beat-tags/Digits.png\",\"url\":\"../../../resource/music/beat-tags/Digits.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); zlzvUfXKCxjJcmaP_options.container = document.getElementById("mmedia-zlzvUfXKCxjJcmaP"); const ap_zlzvUfXKCxjJcmaP = new APlayer(zlzvUfXKCxjJcmaP_options); </script>
 
 <br/>
 
@@ -1198,7 +1198,7 @@
 <p>“We The Best Music! Another one!”</p>
 </blockquote>
 <br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-jKILeaCmdfnfHBNE"></div><script> var jKILeaCmdfnfHBNE_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"(Intro) I`m so Grateful (feat. Sizzla)\",\"artist\":\"DJ Khaled\",\"cover\":\"../../../resource/music/beat-tags/Im-so-Grateful.png\",\"url\":\"../../../resource/music/beat-tags/Im-so-Grateful.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"I`m the One (feat. Justin Bieber, Quavo, Chance the Rapper)\",\"artist\":\"DJ Khaled\",\"cover\":\"../../../resource/music/beat-tags/Im-so-Grateful.png\",\"url\":\"../../../resource/music/beat-tags/Im-the-One.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); jKILeaCmdfnfHBNE_options.container = document.getElementById("mmedia-jKILeaCmdfnfHBNE"); const ap_jKILeaCmdfnfHBNE = new APlayer(jKILeaCmdfnfHBNE_options); </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-ZdqiOAtafHxbzzwq"></div><script> var ZdqiOAtafHxbzzwq_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"(Intro) I`m so Grateful (feat. Sizzla)\",\"artist\":\"DJ Khaled\",\"cover\":\"../../../resource/music/beat-tags/Im-so-Grateful.png\",\"url\":\"../../../resource/music/beat-tags/Im-so-Grateful.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"I`m the One (feat. Justin Bieber, Quavo, Chance the Rapper)\",\"artist\":\"DJ Khaled\",\"cover\":\"../../../resource/music/beat-tags/Im-so-Grateful.png\",\"url\":\"../../../resource/music/beat-tags/Im-the-One.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); ZdqiOAtafHxbzzwq_options.container = document.getElementById("mmedia-ZdqiOAtafHxbzzwq"); const ap_ZdqiOAtafHxbzzwq = new APlayer(ZdqiOAtafHxbzzwq_options); </script>
 
 <br/>
 
@@ -1207,7 +1207,7 @@
 <p>“Murda on the beat, so it’s not nice!”</p>
 </blockquote>
 <br/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-OlltTZwPiUEVPdZm"></div><script> var OlltTZwPiUEVPdZm_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Portland (feat. Quavo & Travis Scott)\",\"artist\":\"Drake\",\"cover\":\"../../../resource/music/beat-tags/Portland.png\",\"url\":\"../../../resource/music/beat-tags/Portland.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"FEFE (feat. Nicki Minaj and Murda Beatz)\",\"artist\":\"6ix9ine\",\"cover\":\"../../../resource/music/beat-tags/FEFE.png\",\"url\":\"../../../resource/music/beat-tags/Fefe.mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"MAMA (feat. Nicki Minaj and Kanye West)\",\"artist\":\"6ix9ine\",\"cover\":\"../../../resource/music/beat-tags/FEFE.png\",\"url\":\"../../../resource/music/beat-tags/Mama.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); OlltTZwPiUEVPdZm_options.container = document.getElementById("mmedia-OlltTZwPiUEVPdZm"); const ap_OlltTZwPiUEVPdZm = new APlayer(OlltTZwPiUEVPdZm_options); </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-STktKYNGAewZSSif"></div><script> var STktKYNGAewZSSif_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Portland (feat. Quavo & Travis Scott)\",\"artist\":\"Drake\",\"cover\":\"../../../resource/music/beat-tags/Portland.png\",\"url\":\"../../../resource/music/beat-tags/Portland.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"FEFE (feat. Nicki Minaj and Murda Beatz)\",\"artist\":\"6ix9ine\",\"cover\":\"../../../resource/music/beat-tags/FEFE.png\",\"url\":\"../../../resource/music/beat-tags/Fefe.mp3\",\"theme\":\"#ebd0c2\"},{\"name\":\"MAMA (feat. Nicki Minaj and Kanye West)\",\"artist\":\"6ix9ine\",\"cover\":\"../../../resource/music/beat-tags/FEFE.png\",\"url\":\"../../../resource/music/beat-tags/Mama.mp3\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); STktKYNGAewZSSif_options.container = document.getElementById("mmedia-STktKYNGAewZSSif"); const ap_STktKYNGAewZSSif = new APlayer(STktKYNGAewZSSif_options); </script>
 
 <br/>
 
@@ -1215,7 +1215,7 @@
 <h4 id="Mustard"><a href="#Mustard" class="headerlink" title="Mustard"></a>Mustard</h4><blockquote>
 <p>“Mustard on the beat, ho!”</p>
 </blockquote>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-lsSDCzBvgszmudxs"></div><script> var lsSDCzBvgszmudxs_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Breakfast In Bed\",\"artist\":\"Ella Mai\",\"cover\":\"../../../resource/music/beat-tags/ella-mai.png\",\"url\":\"../../../resource/music/beat-tags/Breakfast-In-Bed.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"My Way\",\"artist\":\"Ella Mai\",\"cover\":\"../../../resource/music/beat-tags/ella-mai.png\",\"url\":\"../../../resource/music/beat-tags/My-Way.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); lsSDCzBvgszmudxs_options.container = document.getElementById("mmedia-lsSDCzBvgszmudxs"); const ap_lsSDCzBvgszmudxs = new APlayer(lsSDCzBvgszmudxs_options); </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><div id="mmedia-ReWgztQiePHrGUhs"></div><script> var ReWgztQiePHrGUhs_options = JSON.parse('{\"loop\":\" none\",\"audio\":[{\"name\":\"Breakfast In Bed\",\"artist\":\"Ella Mai\",\"cover\":\"../../../resource/music/beat-tags/ella-mai.png\",\"url\":\"../../../resource/music/beat-tags/Breakfast-In-Bed.m4a\",\"theme\":\"#ebd0c2\"},{\"name\":\"My Way\",\"artist\":\"Ella Mai\",\"cover\":\"../../../resource/music/beat-tags/ella-mai.png\",\"url\":\"../../../resource/music/beat-tags/My-Way.m4a\",\"theme\":\"#ebd0c2\"}],\"volume\":0.5}'); ReWgztQiePHrGUhs_options.container = document.getElementById("mmedia-ReWgztQiePHrGUhs"); const ap_ReWgztQiePHrGUhs = new APlayer(ReWgztQiePHrGUhs_options); </script>
 
 <br/>
 ]]></content>
@@ -2207,6 +2207,85 @@
       </tags>
   </entry>
   <entry>
+    <title>Day 03 - Python 变量与数据类型</title>
+    <url>/2020/python03/</url>
+    <content><![CDATA[<meta name="referrer" content="no-referrer" />
+
+
+
+<h3 id="变量（Variable）"><a href="#变量（Variable）" class="headerlink" title="变量（Variable）"></a>变量（Variable）</h3><p>变量的概念基本上和初中代数的方程变量是一致的，只是在计算机程序中，变量不仅可以是数字，还可以是任意数据类型。</p>
+<p>变量在程序中用一个变量名表示，在 Python 中 变量命名规定，必须是大小写英文，数字和 下划线<code>(_)</code>的组合，并且不能用数字开头。比如：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<p>变量<code>a</code>是一个整数。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t_007 = <span class="string">&#x27;T007&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>变量<code>t_007</code>是一个字符串。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">Answer = <span class="literal">True</span></span><br></pre></td></tr></table></figure>
+<p>变量<code>Answer</code>是一个布尔值<code>True</code>。</p>
+<p>在 Python 中，变量就是变量，它没有类型（或者称为动态类型），我们所说的”类型”是变量所指的内存中对象的类型。</p>
+<h4 id="变量赋值"><a href="#变量赋值" class="headerlink" title="变量赋值"></a>变量赋值</h4><p>在 Python 中，<strong>等号 = 是赋值语句</strong>，可以把任意数据类型赋值给变量，同一个变量可以反复赋值，而且可以是不同类型的值。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">name = <span class="string">&quot;neo&quot;</span></span><br></pre></td></tr></table></figure>
+<p>上述代码声明了一个变量，变量名为：name, 变量 name 的值为”neo”。</p>
+<h4 id="多个变量赋值"><a href="#多个变量赋值" class="headerlink" title="多个变量赋值"></a>多个变量赋值</h4><p>Python 允许你同时为多个变量赋值。例如：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = b = c = <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<p>以上实例，创建一个整型对象，值为 1，三个变量被赋予相同的数值。</p>
+<p>您也可以为多个对象指定多个变量。例如：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a, b, c = <span class="number">1</span>, <span class="number">2</span>, <span class="string">&quot;neo&quot;</span></span><br></pre></td></tr></table></figure>
+<p>以上实例，两个整型对象 1 和 2 的分配给变量 a 和 b，字符串对象 “neo” 分配给变量 c。</p>
+<hr>
+<br/>
+
+<h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><h4 id="数字（Number）"><a href="#数字（Number）" class="headerlink" title="数字（Number）"></a>数字（Number）</h4><p>数字主要分为两种类型——整数（Integer）与浮点数（Float）。</p>
+<p>浮点数也就是小数，之所以称为浮点数，是因为按照科学记数法表示时，一个浮点数的小数点位置是可变的，比如，<code>1.23e9</code>和<code>12.3e8</code>是完全相等的。</p>
+<h4 id="布尔型（Bool）"><a href="#布尔型（Bool）" class="headerlink" title="布尔型（Bool）"></a>布尔型（Bool）</h4><p>一个布尔值只有<code>True</code>、<code>False</code>两种状态，要么是<code>True</code>，要么是<code>False</code>。试试下面的例子：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">3</span> &gt; <span class="number">2</span></span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">1</span> + <span class="number">2</span> == <span class="number">5</span></span><br><span class="line"><span class="literal">False</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="字符串（String）"><a href="#字符串（String）" class="headerlink" title="字符串（String）"></a>字符串（String）</h4><p>简单来说，字符串就是一串词汇。</p>
+<p>严谨一点，字符串是以单引号’’或双引号””括起来的任意文本，请注意，<code>&#39;&#39;</code>或<code>&quot;&quot;</code>本身只是一种表示方式，不是字符串的一部分。单引号和双引号是等价的。</p>
+<p>几乎所有 Python 程序都会使用到字符串，所以，take care。</p>
+<h5 id="r-string"><a href="#r-string" class="headerlink" title="r-string"></a>r-string</h5><p>Python用<code>r&#39;&#39;</code>表示<code>&#39;&#39;</code>内部的字符串为raw string，可以自己试试看有何不同：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">r&#x27;Hamilton said: &quot;In New York you can be a new man.&quot;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">print(<span class="string">&#x27;&#x27;&#x27;Hamilton said: &quot;In New York you can be a new man.&quot;&#x27;&#x27;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">print(<span class="string">&quot;Hamilton said: &quot;</span>In New York you can be a new man.<span class="string">&quot;&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>上面前两种写法都是正确的，第三种不符合语法规范，会报错。</p>
+<h5 id="format方法"><a href="#format方法" class="headerlink" title="format方法"></a>format方法</h5><p>格式化字符串。</p>
+<p>运行下面的语句看看结果吧 ：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">output = <span class="string">&#x27;亲爱的&#123;&#125;你好！你&#123;&#125;月的话费是&#123;&#125;元，余额是&#123;&#125;元。&#x27;</span></span><br><span class="line"></span><br><span class="line">ella = <span class="string">&#x27;Ella&#x27;</span></span><br><span class="line">month = <span class="string">&#x27;11&#x27;</span></span><br><span class="line">bill = <span class="number">120</span></span><br><span class="line">remain = <span class="number">300</span></span><br><span class="line">print(output.<span class="built_in">format</span>(ella, month, bill, remain))</span><br><span class="line"></span><br><span class="line">mike = <span class="string">&#x27;Mike&#x27;</span></span><br><span class="line">bill = <span class="number">150</span></span><br><span class="line">remain = <span class="number">900</span></span><br><span class="line">print(output.<span class="built_in">format</span>(mike, month, bill, remain))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="code"><pre><span class="line">Swaroop was 20 years old when he wrote this book</span><br><span class="line">Why is Swaroop playing with that python?</span><br></pre></td></tr></table></figure>
+<p><strong>它是如何工作的</strong></p>
+<p>一个字符串可以使用某些特定的格式（Specification），随后，<code>format</code> 方法将被调用，使用这一方法中与之相应的参数替换这些格式。</p>
+<p>Python 中 <code>format</code> 方法所做的事情便是将每个参数值替换至格式所在的位置。</p>
+<h5 id="操作符"><a href="#操作符" class="headerlink" title="% 操作符"></a>% 操作符</h5><p>Python中内置的%操作符可用于格式化字符串，控制字符串的呈现格式。</p>
+<p>格式化字符串时，Python使用一个字符串作为模板。模板中有格式符，这些格式符为真实值预留位置，并说明真实数值应该呈现的格式。Python用一个<code>tuple</code>将多个值传递给模板，每个值对应一个格式符。</p>
+<p>比如下面的例子：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&quot;I&#x27;m %s. I&#x27;m %d year old&quot;</span> % (<span class="string">&#x27;Jaden&#x27;</span>, <span class="number">20</span>))</span><br></pre></td></tr></table></figure>
+<p>上面的例子中，</p>
+<p><code>&quot;I&#39;m %s. I&#39;m %d year old&quot;</code> 为我们的模板。%s为第一个格式符，表示一个字符串。%d为第二个格式符，表示一个整数。<code>(&#39;Jaden&#39;, 20)</code>的两个元素’Jaden’和20为替换%s和%d的真实值。在模板和tuple之间，有一个%号分隔，它代表了格式化操作。</p>
+<p>整个<code>&quot;I&#39;m %s. I&#39;m %d year old&quot; % (&#39;Jaden&#39;, 20)</code>实际上构成一个字符串表达式。我们可以像一个正常的字符串那样，将它赋值给某个变量。比如:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="string">&quot;I&#x27;m %s. I&#x27;m %d year old&quot;</span> % (<span class="string">&#x27;Jaden&#x27;</span>, <span class="number">20</span>)</span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure>
+<p> <strong>格式符</strong></p>
+<p>格式符为真实值预留位置，并控制显示的格式。格式符可以包含有一个类型码，用以控制显示的类型，如下:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">%s  字符串</span><br><span class="line"></span><br><span class="line">%d  十进制整数</span><br><span class="line"></span><br><span class="line">%f  浮点数</span><br></pre></td></tr></table></figure>
+
+<p>可以用如下的方式，对格式进行进一步的控制：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">%[(name)][flags][width].[precision]typecode</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>(name)为命名</p>
+<p>flags可以有+,-,’ ‘或0。+表示右对齐。-表示左对齐。’ ‘为一个空格，表示在正数的左侧填充一个空格，从而与负数对齐。0表示使用0填充。</p>
+<p>width表示显示宽度</p>
+<p>precision表示小数点后精度</p>
+<p>比如：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&quot;%04d&quot;</span> % <span class="number">5</span>)</span><br><span class="line">print(<span class="string">&quot;%6.3f&quot;</span> % <span class="number">2.3</span>)</span><br></pre></td></tr></table></figure>
+<p>除上面列举的几种数据类型外，Python还提供了List（列表）、Tuple（元组）、Sets（集合）、Dictionary（字典）等多种数据类型，并且允许用户创建自定义数据类型，我们后面会继续讲到。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>python</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Day 01 - 本地安装Python</title>
     <url>/2020/python01/</url>
     <content><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -2356,85 +2435,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Day 03 - Python 变量与数据类型</title>
-    <url>/2020/python03/</url>
-    <content><![CDATA[<meta name="referrer" content="no-referrer" />
-
-
-
-<h3 id="变量（Variable）"><a href="#变量（Variable）" class="headerlink" title="变量（Variable）"></a>变量（Variable）</h3><p>变量的概念基本上和初中代数的方程变量是一致的，只是在计算机程序中，变量不仅可以是数字，还可以是任意数据类型。</p>
-<p>变量在程序中用一个变量名表示，在 Python 中 变量命名规定，必须是大小写英文，数字和 下划线<code>(_)</code>的组合，并且不能用数字开头。比如：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br></pre></td></tr></table></figure>
-<p>变量<code>a</code>是一个整数。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t_007 = <span class="string">&#x27;T007&#x27;</span></span><br></pre></td></tr></table></figure>
-<p>变量<code>t_007</code>是一个字符串。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">Answer = <span class="literal">True</span></span><br></pre></td></tr></table></figure>
-<p>变量<code>Answer</code>是一个布尔值<code>True</code>。</p>
-<p>在 Python 中，变量就是变量，它没有类型（或者称为动态类型），我们所说的”类型”是变量所指的内存中对象的类型。</p>
-<h4 id="变量赋值"><a href="#变量赋值" class="headerlink" title="变量赋值"></a>变量赋值</h4><p>在 Python 中，<strong>等号 = 是赋值语句</strong>，可以把任意数据类型赋值给变量，同一个变量可以反复赋值，而且可以是不同类型的值。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">name = <span class="string">&quot;neo&quot;</span></span><br></pre></td></tr></table></figure>
-<p>上述代码声明了一个变量，变量名为：name, 变量 name 的值为”neo”。</p>
-<h4 id="多个变量赋值"><a href="#多个变量赋值" class="headerlink" title="多个变量赋值"></a>多个变量赋值</h4><p>Python 允许你同时为多个变量赋值。例如：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = b = c = <span class="number">1</span></span><br></pre></td></tr></table></figure>
-<p>以上实例，创建一个整型对象，值为 1，三个变量被赋予相同的数值。</p>
-<p>您也可以为多个对象指定多个变量。例如：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a, b, c = <span class="number">1</span>, <span class="number">2</span>, <span class="string">&quot;neo&quot;</span></span><br></pre></td></tr></table></figure>
-<p>以上实例，两个整型对象 1 和 2 的分配给变量 a 和 b，字符串对象 “neo” 分配给变量 c。</p>
-<hr>
-<br/>
-
-<h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><h4 id="数字（Number）"><a href="#数字（Number）" class="headerlink" title="数字（Number）"></a>数字（Number）</h4><p>数字主要分为两种类型——整数（Integer）与浮点数（Float）。</p>
-<p>浮点数也就是小数，之所以称为浮点数，是因为按照科学记数法表示时，一个浮点数的小数点位置是可变的，比如，<code>1.23e9</code>和<code>12.3e8</code>是完全相等的。</p>
-<h4 id="布尔型（Bool）"><a href="#布尔型（Bool）" class="headerlink" title="布尔型（Bool）"></a>布尔型（Bool）</h4><p>一个布尔值只有<code>True</code>、<code>False</code>两种状态，要么是<code>True</code>，要么是<code>False</code>。试试下面的例子：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">3</span> &gt; <span class="number">2</span></span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">1</span> + <span class="number">2</span> == <span class="number">5</span></span><br><span class="line"><span class="literal">False</span></span><br></pre></td></tr></table></figure>
-
-
-<h4 id="字符串（String）"><a href="#字符串（String）" class="headerlink" title="字符串（String）"></a>字符串（String）</h4><p>简单来说，字符串就是一串词汇。</p>
-<p>严谨一点，字符串是以单引号’’或双引号””括起来的任意文本，请注意，<code>&#39;&#39;</code>或<code>&quot;&quot;</code>本身只是一种表示方式，不是字符串的一部分。单引号和双引号是等价的。</p>
-<p>几乎所有 Python 程序都会使用到字符串，所以，take care。</p>
-<h5 id="r-string"><a href="#r-string" class="headerlink" title="r-string"></a>r-string</h5><p>Python用<code>r&#39;&#39;</code>表示<code>&#39;&#39;</code>内部的字符串为raw string，可以自己试试看有何不同：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">r&#x27;Hamilton said: &quot;In New York you can be a new man.&quot;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">print(<span class="string">&#x27;&#x27;&#x27;Hamilton said: &quot;In New York you can be a new man.&quot;&#x27;&#x27;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">print(<span class="string">&quot;Hamilton said: &quot;</span>In New York you can be a new man.<span class="string">&quot;&quot;</span>)</span><br></pre></td></tr></table></figure>
-<p>上面前两种写法都是正确的，第三种不符合语法规范，会报错。</p>
-<h5 id="format方法"><a href="#format方法" class="headerlink" title="format方法"></a>format方法</h5><p>格式化字符串。</p>
-<p>运行下面的语句看看结果吧 ：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">output = <span class="string">&#x27;亲爱的&#123;&#125;你好！你&#123;&#125;月的话费是&#123;&#125;元，余额是&#123;&#125;元。&#x27;</span></span><br><span class="line"></span><br><span class="line">ella = <span class="string">&#x27;Ella&#x27;</span></span><br><span class="line">month = <span class="string">&#x27;11&#x27;</span></span><br><span class="line">bill = <span class="number">120</span></span><br><span class="line">remain = <span class="number">300</span></span><br><span class="line">print(output.<span class="built_in">format</span>(ella, month, bill, remain))</span><br><span class="line"></span><br><span class="line">mike = <span class="string">&#x27;Mike&#x27;</span></span><br><span class="line">bill = <span class="number">150</span></span><br><span class="line">remain = <span class="number">900</span></span><br><span class="line">print(output.<span class="built_in">format</span>(mike, month, bill, remain))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>输出：</p>
-<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="code"><pre><span class="line">Swaroop was 20 years old when he wrote this book</span><br><span class="line">Why is Swaroop playing with that python?</span><br></pre></td></tr></table></figure>
-<p><strong>它是如何工作的</strong></p>
-<p>一个字符串可以使用某些特定的格式（Specification），随后，<code>format</code> 方法将被调用，使用这一方法中与之相应的参数替换这些格式。</p>
-<p>Python 中 <code>format</code> 方法所做的事情便是将每个参数值替换至格式所在的位置。</p>
-<h5 id="操作符"><a href="#操作符" class="headerlink" title="% 操作符"></a>% 操作符</h5><p>Python中内置的%操作符可用于格式化字符串，控制字符串的呈现格式。</p>
-<p>格式化字符串时，Python使用一个字符串作为模板。模板中有格式符，这些格式符为真实值预留位置，并说明真实数值应该呈现的格式。Python用一个<code>tuple</code>将多个值传递给模板，每个值对应一个格式符。</p>
-<p>比如下面的例子：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&quot;I&#x27;m %s. I&#x27;m %d year old&quot;</span> % (<span class="string">&#x27;Jaden&#x27;</span>, <span class="number">20</span>))</span><br></pre></td></tr></table></figure>
-<p>上面的例子中，</p>
-<p><code>&quot;I&#39;m %s. I&#39;m %d year old&quot;</code> 为我们的模板。%s为第一个格式符，表示一个字符串。%d为第二个格式符，表示一个整数。<code>(&#39;Jaden&#39;, 20)</code>的两个元素’Jaden’和20为替换%s和%d的真实值。在模板和tuple之间，有一个%号分隔，它代表了格式化操作。</p>
-<p>整个<code>&quot;I&#39;m %s. I&#39;m %d year old&quot; % (&#39;Jaden&#39;, 20)</code>实际上构成一个字符串表达式。我们可以像一个正常的字符串那样，将它赋值给某个变量。比如:</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="string">&quot;I&#x27;m %s. I&#x27;m %d year old&quot;</span> % (<span class="string">&#x27;Jaden&#x27;</span>, <span class="number">20</span>)</span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure>
-<p> <strong>格式符</strong></p>
-<p>格式符为真实值预留位置，并控制显示的格式。格式符可以包含有一个类型码，用以控制显示的类型，如下:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">%s  字符串</span><br><span class="line"></span><br><span class="line">%d  十进制整数</span><br><span class="line"></span><br><span class="line">%f  浮点数</span><br></pre></td></tr></table></figure>
-
-<p>可以用如下的方式，对格式进行进一步的控制：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">%[(name)][flags][width].[precision]typecode</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>(name)为命名</p>
-<p>flags可以有+,-,’ ‘或0。+表示右对齐。-表示左对齐。’ ‘为一个空格，表示在正数的左侧填充一个空格，从而与负数对齐。0表示使用0填充。</p>
-<p>width表示显示宽度</p>
-<p>precision表示小数点后精度</p>
-<p>比如：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">&quot;%04d&quot;</span> % <span class="number">5</span>)</span><br><span class="line">print(<span class="string">&quot;%6.3f&quot;</span> % <span class="number">2.3</span>)</span><br></pre></td></tr></table></figure>
-<p>除上面列举的几种数据类型外，Python还提供了List（列表）、Tuple（元组）、Sets（集合）、Dictionary（字典）等多种数据类型，并且允许用户创建自定义数据类型，我们后面会继续讲到。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>python</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Day 04 - Python 运算符</title>
     <url>/2020/python04/</url>
     <content><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -2529,6 +2529,68 @@
       </tags>
   </entry>
   <entry>
+    <title>Day 07 - Python 数据结构之 dict 与 set</title>
+    <url>/2020/python07/</url>
+    <content><![CDATA[<meta name="referrer" content="no-referrer" />
+
+
+<h2 id="dict-字典-和-set-集合"><a href="#dict-字典-和-set-集合" class="headerlink" title="dict(字典) 和 set(集合)"></a>dict(字典) 和 set(集合)</h2><h3 id="dict-字典"><a href="#dict-字典" class="headerlink" title="dict 字典"></a>dict 字典</h3><p>dict全称dictionary，在其他语言中也称为map，使用键-值（key-value）存储，具有极快的查找速度。词典和list列表类似的地方，是包含有多个元素，每个元素以逗号分隔。但词典的元素包含有两部分，键和值，常见的是以字符串来表示键，值可以是任意对象。键和值两者一一对应。</p>
+<p>举个例子，用dict实现一个<code>“名字”-“成绩”</code>的对照表，直接根据名字查找成绩：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d = &#123;<span class="string">&#x27;Michael&#x27;</span>: <span class="number">95</span>, <span class="string">&#x27;Bob&#x27;</span>: <span class="number">75</span>, <span class="string">&#x27;Tracy&#x27;</span>: <span class="number">85</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Michael&#x27;</span>]</span><br><span class="line"><span class="number">95</span></span><br></pre></td></tr></table></figure>
+
+<p>把数据放入dict的方法，除了初始化时指定外，还可以后续通过key放入：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Adam&#x27;</span>] = <span class="number">67</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Adam&#x27;</span>]</span><br><span class="line"><span class="number">67</span></span><br></pre></td></tr></table></figure>
+<p>由于一个key只能对应一个value，所以，多次对一个key放入value，后面的值会把前面的值覆盖：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>] = <span class="number">90</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>]</span><br><span class="line"><span class="number">90</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>] = <span class="number">88</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>]</span><br><span class="line"><span class="number">88</span></span><br></pre></td></tr></table></figure>
+<p>如果key不存在，dict就会报错：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; d[&#39;Thomas&#39;]</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">KeyError: &#39;Thomas&#39;</span><br></pre></td></tr></table></figure>
+<p>要避免key不存在的错误，有两种办法，一是通过<code>in</code>判断key是否存在：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">&#x27;Thomas&#x27;</span> <span class="keyword">in</span> d</span><br><span class="line"><span class="literal">False</span></span><br></pre></td></tr></table></figure>
+<p>二是通过dict提供的<code>get()</code>方法，如果key不存在，可以返回<code>None</code>，或者自己指定的value：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d.get(<span class="string">&#x27;Thomas&#x27;</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d.get(<span class="string">&#x27;Thomas&#x27;</span>, -<span class="number">1</span>)</span><br><span class="line">-<span class="number">1</span></span><br></pre></td></tr></table></figure>
+<p>注意：返回<code>None</code>的时候Python的交互环境不显示结果。</p>
+<p>要删除一个key，用<code>pop(key)</code>方法，对应的value也会从dict中删除：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d.pop(<span class="string">&#x27;Bob&#x27;</span>)</span><br><span class="line"><span class="number">75</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d</span><br><span class="line">&#123;<span class="string">&#x27;Michael&#x27;</span>: <span class="number">95</span>, <span class="string">&#x27;Tracy&#x27;</span>: <span class="number">85</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>请务必注意，dict内部存放的顺序和key放入的顺序是没有关系的，即dict是无序的。你不能通过下标引用元素，只能通过键来引用。</p>
+<h4 id="dict元素的循环调用"><a href="#dict元素的循环调用" class="headerlink" title="dict元素的循环调用"></a>dict元素的循环调用</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dic = &#123;<span class="string">&#x27;lilei&#x27;</span>: <span class="number">90</span>, <span class="string">&#x27;lily&#x27;</span>: <span class="number">100</span>, <span class="string">&#x27;sam&#x27;</span>: <span class="number">57</span>, <span class="string">&#x27;tom&#x27;</span>: <span class="number">90</span>&#125;</span><br><span class="line"><span class="keyword">for</span> key <span class="keyword">in</span> dic:</span><br><span class="line">    <span class="built_in">print</span> dic[key]    <span class="comment"># 通过print的结果，我们可以再次确认，dic中的元素是没有顺序的。</span></span><br></pre></td></tr></table></figure>
+<p>dict可以用在需要高速查找的很多地方，在Python代码中几乎无处不在，正确使用dict非常重要，需要牢记的第一条就是dict的key必须是<strong>不可变对象</strong>。</p>
+<p>这是因为dict根据key来计算value的存储位置，如果每次计算相同的key得出的结果不同，那dict内部就完全混乱了。这个通过key计算位置的算法称为哈希算法（Hash）。</p>
+<p>要保证hash的正确性，作为key的对象就不能变。在Python中，字符串、整数等都是不可变的，因此，可以放心地作为key。</p>
+<h4 id="dict的常用方法"><a href="#dict的常用方法" class="headerlink" title="dict的常用方法"></a>dict的常用方法</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">dic.keys()      # 返回dic所有的键</span><br><span class="line"></span><br><span class="line">dic.values()     # 返回dic所有的值</span><br><span class="line"></span><br><span class="line">print dic.items()     # 返回dic所有的元素（键值对）</span><br><span class="line"></span><br><span class="line">dic.clear()        # 清空dic，dict变为&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<p>另外有一个很常用的用法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">del dic[&#39;tom&#39;]       # 删除 dic 的‘tom’元素</span><br></pre></td></tr></table></figure>
+<p>del是Python中保留的关键字，用于删除对象。</p>
+<p>与表类似，你可以用len()查询词典中的元素总数。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; print(len(dic))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="set-集合"><a href="#set-集合" class="headerlink" title="set 集合"></a>set 集合</h3><p>set和list类似，但不能有重复的元素。此外，set是无序的。set用<code>&#123; &#125;</code>表示。</p>
+<p>要创建一个set，可以提供一个list作为输入集合：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s = <span class="built_in">set</span>([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>注意，传入的参数<code>[1, 2, 3]</code>是一个list，而显示的<code>&#123;1, 2, 3&#125;</code>只是告诉你这个set内部有1，2，3这3个元素，显示的顺序也不表示set内部存储的顺序。</p>
+<p>重复元素在set中自动被过滤：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s = <span class="built_in">set</span>([<span class="number">1</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">3</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>通过<code>add(key)</code>方法可以添加元素到set中，可以重复添加，但不会有效果：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s.add(<span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s.add(<span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>通过<code>remove(key)</code>方法可以删除元素：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s.remove(<span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>set可以看成数学意义上的无序和无重复元素的集合，因此，两个set可以做数学意义上的交集、并集等操作：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s1 = <span class="built_in">set</span>([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s2 = <span class="built_in">set</span>([<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s1 &amp; s2</span><br><span class="line">&#123;<span class="number">2</span>, <span class="number">3</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s1 | s2</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>使用key-value存储结构的dict在Python中非常有用，选择不可变对象作为key很重要，最常用的key是字符串。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>python</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Day 06 - Python 数据结构之 list 与 tuple</title>
     <url>/2020/python06/</url>
     <content><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -2590,68 +2652,6 @@
 <h4 id="3-1-字符串是元组"><a href="#3-1-字符串是元组" class="headerlink" title="3.1 字符串是元组"></a>3.1 字符串是元组</h4><p>字符串是一种特殊的元组，因此可以执行元组的相关操作。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; str &#x3D; &#39;abcdef&#39;</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; print(str[2:4])</span><br></pre></td></tr></table></figure>
 
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>python</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Day 07 - Python 数据结构之 dict 与 set</title>
-    <url>/2020/python07/</url>
-    <content><![CDATA[<meta name="referrer" content="no-referrer" />
-
-
-<h2 id="dict-字典-和-set-集合"><a href="#dict-字典-和-set-集合" class="headerlink" title="dict(字典) 和 set(集合)"></a>dict(字典) 和 set(集合)</h2><h3 id="dict-字典"><a href="#dict-字典" class="headerlink" title="dict 字典"></a>dict 字典</h3><p>dict全称dictionary，在其他语言中也称为map，使用键-值（key-value）存储，具有极快的查找速度。词典和list列表类似的地方，是包含有多个元素，每个元素以逗号分隔。但词典的元素包含有两部分，键和值，常见的是以字符串来表示键，值可以是任意对象。键和值两者一一对应。</p>
-<p>举个例子，用dict实现一个<code>“名字”-“成绩”</code>的对照表，直接根据名字查找成绩：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d = &#123;<span class="string">&#x27;Michael&#x27;</span>: <span class="number">95</span>, <span class="string">&#x27;Bob&#x27;</span>: <span class="number">75</span>, <span class="string">&#x27;Tracy&#x27;</span>: <span class="number">85</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Michael&#x27;</span>]</span><br><span class="line"><span class="number">95</span></span><br></pre></td></tr></table></figure>
-
-<p>把数据放入dict的方法，除了初始化时指定外，还可以后续通过key放入：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Adam&#x27;</span>] = <span class="number">67</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Adam&#x27;</span>]</span><br><span class="line"><span class="number">67</span></span><br></pre></td></tr></table></figure>
-<p>由于一个key只能对应一个value，所以，多次对一个key放入value，后面的值会把前面的值覆盖：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>] = <span class="number">90</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>]</span><br><span class="line"><span class="number">90</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>] = <span class="number">88</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d[<span class="string">&#x27;Jack&#x27;</span>]</span><br><span class="line"><span class="number">88</span></span><br></pre></td></tr></table></figure>
-<p>如果key不存在，dict就会报错：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; d[&#39;Thomas&#39;]</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">KeyError: &#39;Thomas&#39;</span><br></pre></td></tr></table></figure>
-<p>要避免key不存在的错误，有两种办法，一是通过<code>in</code>判断key是否存在：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">&#x27;Thomas&#x27;</span> <span class="keyword">in</span> d</span><br><span class="line"><span class="literal">False</span></span><br></pre></td></tr></table></figure>
-<p>二是通过dict提供的<code>get()</code>方法，如果key不存在，可以返回<code>None</code>，或者自己指定的value：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d.get(<span class="string">&#x27;Thomas&#x27;</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d.get(<span class="string">&#x27;Thomas&#x27;</span>, -<span class="number">1</span>)</span><br><span class="line">-<span class="number">1</span></span><br></pre></td></tr></table></figure>
-<p>注意：返回<code>None</code>的时候Python的交互环境不显示结果。</p>
-<p>要删除一个key，用<code>pop(key)</code>方法，对应的value也会从dict中删除：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>d.pop(<span class="string">&#x27;Bob&#x27;</span>)</span><br><span class="line"><span class="number">75</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d</span><br><span class="line">&#123;<span class="string">&#x27;Michael&#x27;</span>: <span class="number">95</span>, <span class="string">&#x27;Tracy&#x27;</span>: <span class="number">85</span>&#125;</span><br></pre></td></tr></table></figure>
-<p>请务必注意，dict内部存放的顺序和key放入的顺序是没有关系的，即dict是无序的。你不能通过下标引用元素，只能通过键来引用。</p>
-<h4 id="dict元素的循环调用"><a href="#dict元素的循环调用" class="headerlink" title="dict元素的循环调用"></a>dict元素的循环调用</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dic = &#123;<span class="string">&#x27;lilei&#x27;</span>: <span class="number">90</span>, <span class="string">&#x27;lily&#x27;</span>: <span class="number">100</span>, <span class="string">&#x27;sam&#x27;</span>: <span class="number">57</span>, <span class="string">&#x27;tom&#x27;</span>: <span class="number">90</span>&#125;</span><br><span class="line"><span class="keyword">for</span> key <span class="keyword">in</span> dic:</span><br><span class="line">    <span class="built_in">print</span> dic[key]    <span class="comment"># 通过print的结果，我们可以再次确认，dic中的元素是没有顺序的。</span></span><br></pre></td></tr></table></figure>
-<p>dict可以用在需要高速查找的很多地方，在Python代码中几乎无处不在，正确使用dict非常重要，需要牢记的第一条就是dict的key必须是<strong>不可变对象</strong>。</p>
-<p>这是因为dict根据key来计算value的存储位置，如果每次计算相同的key得出的结果不同，那dict内部就完全混乱了。这个通过key计算位置的算法称为哈希算法（Hash）。</p>
-<p>要保证hash的正确性，作为key的对象就不能变。在Python中，字符串、整数等都是不可变的，因此，可以放心地作为key。</p>
-<h4 id="dict的常用方法"><a href="#dict的常用方法" class="headerlink" title="dict的常用方法"></a>dict的常用方法</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">dic.keys()      # 返回dic所有的键</span><br><span class="line"></span><br><span class="line">dic.values()     # 返回dic所有的值</span><br><span class="line"></span><br><span class="line">print dic.items()     # 返回dic所有的元素（键值对）</span><br><span class="line"></span><br><span class="line">dic.clear()        # 清空dic，dict变为&#123;&#125;</span><br></pre></td></tr></table></figure>
-
-<p>另外有一个很常用的用法：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">del dic[&#39;tom&#39;]       # 删除 dic 的‘tom’元素</span><br></pre></td></tr></table></figure>
-<p>del是Python中保留的关键字，用于删除对象。</p>
-<p>与表类似，你可以用len()查询词典中的元素总数。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; print(len(dic))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-<h3 id="set-集合"><a href="#set-集合" class="headerlink" title="set 集合"></a>set 集合</h3><p>set和list类似，但不能有重复的元素。此外，set是无序的。set用<code>&#123; &#125;</code>表示。</p>
-<p>要创建一个set，可以提供一个list作为输入集合：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s = <span class="built_in">set</span>([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</span><br></pre></td></tr></table></figure>
-<p>注意，传入的参数<code>[1, 2, 3]</code>是一个list，而显示的<code>&#123;1, 2, 3&#125;</code>只是告诉你这个set内部有1，2，3这3个元素，显示的顺序也不表示set内部存储的顺序。</p>
-<p>重复元素在set中自动被过滤：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s = <span class="built_in">set</span>([<span class="number">1</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">3</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</span><br></pre></td></tr></table></figure>
-<p>通过<code>add(key)</code>方法可以添加元素到set中，可以重复添加，但不会有效果：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s.add(<span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s.add(<span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br></pre></td></tr></table></figure>
-<p>通过<code>remove(key)</code>方法可以删除元素：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s.remove(<span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</span><br></pre></td></tr></table></figure>
-<p>set可以看成数学意义上的无序和无重复元素的集合，因此，两个set可以做数学意义上的交集、并集等操作：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s1 = <span class="built_in">set</span>([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s2 = <span class="built_in">set</span>([<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s1 &amp; s2</span><br><span class="line">&#123;<span class="number">2</span>, <span class="number">3</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s1 | s2</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>使用key-value存储结构的dict在Python中非常有用，选择不可变对象作为key很重要，最常用的key是字符串。</p>
 ]]></content>
       <categories>
         <category>Python</category>
